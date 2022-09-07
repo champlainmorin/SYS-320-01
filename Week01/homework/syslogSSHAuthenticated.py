@@ -17,6 +17,10 @@ def ssh_authd_names(filename, searchTerms):
         found.append(sp_results[5])
    
     #print(set(found))
+
+    # prints each of the names of the ssh'd users
+    # but removes any duplicates and extraneous
+    # information
     hosts = set(found)
     for eachHost in hosts:
         print(eachHost)
@@ -27,7 +31,8 @@ def ssh_authd_all(filename, searchTerms):
     is_found = syslogCheck._syslog(filename, searchTerms)
 
     
-   
+    # just prints out all the information
+    # useful for what apps were being ssh'd
     print(set(is_found))
     hosts = set(is_found)
     #print(found)
