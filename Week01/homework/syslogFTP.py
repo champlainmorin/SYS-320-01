@@ -1,4 +1,3 @@
-import sys
 import syslogCheck
 import importlib
 #importlib.reload(syslogSSH)
@@ -15,7 +14,7 @@ def ftp_connection(filename, searchTerms):
         ftp_results = eachFound.split(' ')
 
         #append the split to found list
-        found.append(ftp_results)
+        found.append(ftp_results[3])
 
     #print(set(found))
     returned = set(found)
