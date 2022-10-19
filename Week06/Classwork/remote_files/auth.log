@@ -1,0 +1,352 @@
+Oct 16 03:10:01 modernslicer CRON[4586]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 03:10:01 modernslicer CRON[4586]: pam_unix(cron:session): session closed for user root
+Oct 16 03:17:01 modernslicer CRON[4607]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 03:17:01 modernslicer CRON[4607]: pam_unix(cron:session): session closed for user root
+Oct 16 03:30:01 modernslicer CRON[4625]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 03:30:01 modernslicer CRON[4625]: pam_unix(cron:session): session closed for user root
+Oct 16 03:49:06 modernslicer xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+Oct 16 04:17:01 modernslicer CRON[7607]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 04:17:01 modernslicer CRON[7607]: pam_unix(cron:session): session closed for user root
+Oct 16 04:20:35 modernslicer pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Oct 16 04:20:35 modernslicer pkexec[9099]: morin: Executing command [USER=root] [TTY=unknown] [CWD=/home/morin] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 16 04:25:31 modernslicer xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+Oct 16 05:17:01 modernslicer CRON[11550]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 05:17:01 modernslicer CRON[11550]: pam_unix(cron:session): session closed for user root
+Oct 16 06:17:01 modernslicer CRON[11783]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 06:17:01 modernslicer CRON[11783]: pam_unix(cron:session): session closed for user root
+Oct 16 06:25:01 modernslicer CRON[11805]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 06:25:01 modernslicer CRON[11805]: pam_unix(cron:session): session closed for user root
+Oct 16 06:47:01 modernslicer CRON[11941]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 06:47:01 modernslicer CRON[11941]: pam_unix(cron:session): session closed for user root
+Oct 16 07:17:01 modernslicer CRON[12026]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 07:17:01 modernslicer CRON[12026]: pam_unix(cron:session): session closed for user root
+Oct 16 07:30:01 modernslicer CRON[12055]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 07:30:01 modernslicer CRON[12055]: pam_unix(cron:session): session closed for user root
+Oct 16 08:17:01 modernslicer CRON[12186]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 08:17:01 modernslicer CRON[12186]: pam_unix(cron:session): session closed for user root
+Oct 16 08:30:01 modernslicer CRON[12224]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 08:30:01 modernslicer CRON[12224]: pam_unix(cron:session): session closed for user root
+Oct 16 09:17:01 modernslicer CRON[12341]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 09:17:01 modernslicer CRON[12341]: pam_unix(cron:session): session closed for user root
+Oct 16 09:30:01 modernslicer CRON[12371]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 09:30:01 modernslicer CRON[12371]: pam_unix(cron:session): session closed for user root
+Oct 16 10:17:01 modernslicer CRON[12501]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 10:17:01 modernslicer CRON[12501]: pam_unix(cron:session): session closed for user root
+Oct 16 10:30:01 modernslicer CRON[12526]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 10:30:01 modernslicer CRON[12526]: pam_unix(cron:session): session closed for user root
+Oct 16 11:17:01 modernslicer CRON[12638]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 11:17:01 modernslicer CRON[12638]: pam_unix(cron:session): session closed for user root
+Oct 16 11:30:01 modernslicer CRON[12665]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 11:30:01 modernslicer CRON[12665]: pam_unix(cron:session): session closed for user root
+Oct 16 12:17:01 modernslicer CRON[12785]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 12:17:01 modernslicer CRON[12785]: pam_unix(cron:session): session closed for user root
+Oct 16 12:30:02 modernslicer CRON[12815]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 12:30:02 modernslicer CRON[12815]: pam_unix(cron:session): session closed for user root
+Oct 16 13:17:01 modernslicer CRON[12921]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 13:17:01 modernslicer CRON[12921]: pam_unix(cron:session): session closed for user root
+Oct 16 13:30:01 modernslicer CRON[12952]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 13:30:01 modernslicer CRON[12952]: pam_unix(cron:session): session closed for user root
+Oct 16 14:17:01 modernslicer CRON[13057]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 14:17:01 modernslicer CRON[13057]: pam_unix(cron:session): session closed for user root
+Oct 16 14:30:01 modernslicer CRON[13095]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 14:30:01 modernslicer CRON[13095]: pam_unix(cron:session): session closed for user root
+Oct 16 14:50:37 modernslicer pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Oct 16 14:50:37 modernslicer pkexec[14100]: morin: Executing command [USER=root] [TTY=unknown] [CWD=/home/morin] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 16 15:17:01 modernslicer CRON[14222]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 15:17:01 modernslicer CRON[14222]: pam_unix(cron:session): session closed for user root
+Oct 16 15:30:01 modernslicer CRON[14252]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 15:30:01 modernslicer CRON[14252]: pam_unix(cron:session): session closed for user root
+Oct 16 16:17:01 modernslicer CRON[14373]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 16:17:01 modernslicer CRON[14373]: pam_unix(cron:session): session closed for user root
+Oct 16 16:30:01 modernslicer CRON[14407]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 16:30:01 modernslicer CRON[14407]: pam_unix(cron:session): session closed for user root
+Oct 16 17:17:01 modernslicer CRON[14527]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 17:17:01 modernslicer CRON[14527]: pam_unix(cron:session): session closed for user root
+Oct 16 17:30:01 modernslicer CRON[14566]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 17:30:01 modernslicer CRON[14566]: pam_unix(cron:session): session closed for user root
+Oct 16 17:57:22 modernslicer systemd-logind[1061]: Watching system buttons on /dev/input/event4 (Corsair Corsair Gaming K55 RGB Keyboard)
+Oct 16 17:57:29 modernslicer xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+Oct 16 18:17:01 modernslicer CRON[16942]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 18:17:01 modernslicer CRON[16942]: pam_unix(cron:session): session closed for user root
+Oct 16 18:30:01 modernslicer CRON[17316]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 18:30:01 modernslicer CRON[17316]: pam_unix(cron:session): session closed for user root
+Oct 16 19:17:01 modernslicer CRON[17937]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 19:17:01 modernslicer CRON[17937]: pam_unix(cron:session): session closed for user root
+Oct 16 19:30:01 modernslicer CRON[18295]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 19:30:01 modernslicer CRON[18295]: pam_unix(cron:session): session closed for user root
+Oct 16 19:46:39 modernslicer xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+Oct 16 20:17:01 modernslicer CRON[19040]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 20:17:01 modernslicer CRON[19040]: pam_unix(cron:session): session closed for user root
+Oct 16 20:30:01 modernslicer CRON[19249]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 20:30:01 modernslicer CRON[19249]: pam_unix(cron:session): session closed for user root
+Oct 16 21:17:01 modernslicer CRON[20033]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 21:17:01 modernslicer CRON[20033]: pam_unix(cron:session): session closed for user root
+Oct 16 21:20:03 modernslicer xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+Oct 16 21:30:01 modernslicer CRON[20253]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 21:30:01 modernslicer CRON[20253]: pam_unix(cron:session): session closed for user root
+Oct 16 22:08:18 modernslicer xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+Oct 16 22:16:07 modernslicer xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+Oct 16 22:17:01 modernslicer CRON[21965]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 22:17:01 modernslicer CRON[21965]: pam_unix(cron:session): session closed for user root
+Oct 16 22:24:06 modernslicer xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+Oct 16 22:30:01 modernslicer CRON[23025]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 22:30:01 modernslicer CRON[23025]: pam_unix(cron:session): session closed for user root
+Oct 16 22:30:18 modernslicer xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+Oct 16 22:35:34 modernslicer xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+Oct 16 22:55:54 modernslicer xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+Oct 16 23:03:14 modernslicer xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+Oct 16 23:04:24 modernslicer xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+Oct 16 23:05:34 modernslicer sudo: pam_unix(sudo:auth): conversation failed
+Oct 16 23:05:34 modernslicer sudo: pam_unix(sudo:auth): auth could not identify password for [morin]
+Oct 16 23:05:34 modernslicer sudo: pam_unix(sudo:auth): conversation failed
+Oct 16 23:05:34 modernslicer sudo: pam_unix(sudo:auth): auth could not identify password for [morin]
+Oct 16 23:17:01 modernslicer CRON[26521]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 23:17:01 modernslicer CRON[26521]: pam_unix(cron:session): session closed for user root
+Oct 16 23:30:01 modernslicer CRON[27354]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 23:30:01 modernslicer CRON[27354]: pam_unix(cron:session): session closed for user root
+Oct 17 00:17:01 modernslicer CRON[29795]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 17 00:17:01 modernslicer CRON[29795]: pam_unix(cron:session): session closed for user root
+Oct 17 00:32:36 modernslicer pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Oct 17 00:32:36 modernslicer pkexec[31332]: morin: Executing command [USER=root] [TTY=unknown] [CWD=/home/morin] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 17 00:56:29 modernslicer systemd-logind[1061]: System is rebooting.
+Oct 17 00:56:29 modernslicer sddm-helper: pam_unix(sddm:session): session closed for user morin
+Oct 17 00:56:29 modernslicer systemd-logind[1061]: Session 3 logged out. Waiting for processes to exit.
+Oct 17 18:37:50 modernslicer systemd-logind[1058]: Watching system buttons on /dev/input/event2 (Power Button)
+Oct 17 18:37:50 modernslicer systemd-logind[1058]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 17 18:37:50 modernslicer systemd-logind[1058]: Watching system buttons on /dev/input/event0 (Sleep Button)
+Oct 17 18:37:50 modernslicer systemd-logind[1058]: Watching system buttons on /dev/input/event4 (Corsair Corsair Gaming K55 RGB Keyboard)
+Oct 17 18:37:50 modernslicer systemd-logind[1058]: New seat seat0.
+Oct 17 18:37:51 modernslicer sddm-helper: pam_unix(sddm-greeter:session): session opened for user sddm(uid=127) by (uid=0)
+Oct 17 18:37:51 modernslicer systemd-logind[1058]: New session 1 of user sddm.
+Oct 17 18:37:51 modernslicer systemd: pam_unix(systemd-user:session): session opened for user sddm(uid=127) by (uid=0)
+Oct 17 18:37:56 modernslicer sddm-helper: gkr-pam: unable to locate daemon control file
+Oct 17 18:37:56 modernslicer sddm-helper: gkr-pam: stashed password to try later in open session
+Oct 17 18:37:56 modernslicer sddm-helper: pam_unix(sddm:session): session opened for user morin(uid=1000) by (uid=0)
+Oct 17 18:37:56 modernslicer systemd-logind[1058]: New session 3 of user morin.
+Oct 17 18:37:56 modernslicer sddm-helper: pam_unix(sddm-greeter:session): session closed for user sddm
+Oct 17 18:37:56 modernslicer systemd: pam_unix(systemd-user:session): session opened for user morin(uid=1000) by (uid=0)
+Oct 17 18:37:56 modernslicer systemd-logind[1058]: Session 1 logged out. Waiting for processes to exit.
+Oct 17 18:37:56 modernslicer systemd-logind[1058]: Removed session 1.
+Oct 17 18:37:56 modernslicer sddm-helper: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 17 18:37:57 modernslicer polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.76 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 17 18:38:04 modernslicer pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Oct 17 18:38:04 modernslicer pkexec[3640]: morin: Executing command [USER=root] [TTY=unknown] [CWD=/home/morin] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 17 23:48:44 modernslicer sudo:    morin : TTY=pts/0 ; PWD=/home/morin/Desktop ; USER=root ; COMMAND=/usr/bin/apt install -y libobs-dev libopencv-dev language-pack-en wget git build-essential cmake libsimde-dev
+Oct 17 23:48:44 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 17 23:48:45 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 17 23:49:24 modernslicer sudo:    morin : TTY=pts/0 ; PWD=/home/morin/Desktop ; USER=root ; COMMAND=/usr/bin/apt install -y libobs-dev libopencv-dev language-pack-en wget git build-essential cmake libsimde-dev
+Oct 17 23:49:24 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 17 23:49:24 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 17 23:52:06 modernslicer sudo:    morin : TTY=pts/1 ; PWD=/home/morin/Desktop/obs-backgroundremoval/build ; USER=root ; COMMAND=/usr/bin/apt install cmake
+Oct 17 23:52:06 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 17 23:52:18 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 17 23:53:03 modernslicer pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Oct 17 23:53:03 modernslicer pkexec[5854]: morin: Executing command [USER=root] [TTY=unknown] [CWD=/home/morin] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 18 00:17:01 modernslicer CRON[7937]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 00:17:01 modernslicer CRON[7937]: pam_unix(cron:session): session closed for user root
+Oct 18 01:17:01 modernslicer CRON[11008]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 01:17:01 modernslicer CRON[11008]: pam_unix(cron:session): session closed for user root
+Oct 18 02:17:01 modernslicer CRON[11409]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 02:17:01 modernslicer CRON[11409]: pam_unix(cron:session): session closed for user root
+Oct 18 03:10:01 modernslicer CRON[11754]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 03:10:01 modernslicer CRON[11754]: pam_unix(cron:session): session closed for user root
+Oct 18 03:17:01 modernslicer CRON[11810]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 03:17:01 modernslicer CRON[11810]: pam_unix(cron:session): session closed for user root
+Oct 18 04:17:01 modernslicer CRON[12232]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 04:17:01 modernslicer CRON[12232]: pam_unix(cron:session): session closed for user root
+Oct 18 04:41:03 modernslicer pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 04:41:03 modernslicer pkexec[13337]: morin: Executing command [USER=root] [TTY=unknown] [CWD=/home/morin] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 18 05:17:01 modernslicer CRON[13575]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 05:17:01 modernslicer CRON[13575]: pam_unix(cron:session): session closed for user root
+Oct 18 06:17:01 modernslicer CRON[13932]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 06:17:01 modernslicer CRON[13932]: pam_unix(cron:session): session closed for user root
+Oct 18 06:25:02 modernslicer CRON[14049]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 06:25:02 modernslicer CRON[14049]: pam_unix(cron:session): session closed for user root
+Oct 18 07:17:01 modernslicer CRON[14386]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 07:17:01 modernslicer CRON[14386]: pam_unix(cron:session): session closed for user root
+Oct 18 07:30:01 modernslicer CRON[14471]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 07:30:01 modernslicer CRON[14471]: pam_unix(cron:session): session closed for user root
+Oct 18 08:17:01 modernslicer CRON[14831]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 08:17:01 modernslicer CRON[14831]: pam_unix(cron:session): session closed for user root
+Oct 18 08:30:01 modernslicer CRON[14930]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 08:30:01 modernslicer CRON[14930]: pam_unix(cron:session): session closed for user root
+Oct 18 09:17:01 modernslicer CRON[15289]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 09:17:01 modernslicer CRON[15289]: pam_unix(cron:session): session closed for user root
+Oct 18 09:30:01 modernslicer CRON[15377]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 09:30:01 modernslicer CRON[15377]: pam_unix(cron:session): session closed for user root
+Oct 18 10:17:01 modernslicer CRON[15765]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 10:17:01 modernslicer CRON[15765]: pam_unix(cron:session): session closed for user root
+Oct 18 10:30:01 modernslicer CRON[15867]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 10:30:01 modernslicer CRON[15867]: pam_unix(cron:session): session closed for user root
+Oct 18 10:41:04 modernslicer pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 10:41:04 modernslicer pkexec[16893]: morin: Executing command [USER=root] [TTY=unknown] [CWD=/home/morin] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 18 11:17:01 modernslicer CRON[17157]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 11:17:01 modernslicer CRON[17157]: pam_unix(cron:session): session closed for user root
+Oct 18 11:30:01 modernslicer CRON[17266]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 11:30:01 modernslicer CRON[17266]: pam_unix(cron:session): session closed for user root
+Oct 18 12:17:01 modernslicer CRON[17662]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 12:17:01 modernslicer CRON[17662]: pam_unix(cron:session): session closed for user root
+Oct 18 12:30:01 modernslicer CRON[17767]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 12:30:01 modernslicer CRON[17767]: pam_unix(cron:session): session closed for user root
+Oct 18 13:17:01 modernslicer CRON[18150]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 13:17:01 modernslicer CRON[18150]: pam_unix(cron:session): session closed for user root
+Oct 18 13:30:01 modernslicer CRON[18258]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 13:30:01 modernslicer CRON[18258]: pam_unix(cron:session): session closed for user root
+Oct 18 14:17:01 modernslicer CRON[18625]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 14:17:01 modernslicer CRON[18625]: pam_unix(cron:session): session closed for user root
+Oct 18 14:30:01 modernslicer CRON[18725]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 14:30:01 modernslicer CRON[18725]: pam_unix(cron:session): session closed for user root
+Oct 18 15:17:01 modernslicer CRON[19095]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 15:17:01 modernslicer CRON[19095]: pam_unix(cron:session): session closed for user root
+Oct 18 15:30:01 modernslicer CRON[19198]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 15:30:01 modernslicer CRON[19198]: pam_unix(cron:session): session closed for user root
+Oct 18 16:17:01 modernslicer CRON[19589]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 16:17:01 modernslicer CRON[19589]: pam_unix(cron:session): session closed for user root
+Oct 18 16:30:01 modernslicer CRON[19678]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 16:30:01 modernslicer CRON[19678]: pam_unix(cron:session): session closed for user root
+Oct 18 17:17:01 modernslicer CRON[20016]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 17:17:01 modernslicer CRON[20016]: pam_unix(cron:session): session closed for user root
+Oct 18 17:30:01 modernslicer CRON[20106]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 17:30:01 modernslicer CRON[20106]: pam_unix(cron:session): session closed for user root
+Oct 18 18:17:01 modernslicer CRON[20503]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 18:17:01 modernslicer CRON[20503]: pam_unix(cron:session): session closed for user root
+Oct 18 18:30:01 modernslicer CRON[20606]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 18:30:01 modernslicer CRON[20606]: pam_unix(cron:session): session closed for user root
+Oct 18 19:17:01 modernslicer CRON[20979]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 19:17:01 modernslicer CRON[20979]: pam_unix(cron:session): session closed for user root
+Oct 18 19:30:01 modernslicer CRON[21086]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 19:30:01 modernslicer CRON[21086]: pam_unix(cron:session): session closed for user root
+Oct 18 20:17:01 modernslicer CRON[21464]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 20:17:01 modernslicer CRON[21464]: pam_unix(cron:session): session closed for user root
+Oct 18 20:30:01 modernslicer CRON[21564]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 20:30:01 modernslicer CRON[21564]: pam_unix(cron:session): session closed for user root
+Oct 18 20:43:23 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw allow 22
+Oct 18 20:43:23 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 20:43:24 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 20:44:17 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw deny 22
+Oct 18 20:44:17 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 20:44:17 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 20:49:15 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw allow 22
+Oct 18 20:49:15 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 20:49:15 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 20:56:33 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw reload
+Oct 18 20:56:33 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 20:56:33 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 20:56:42 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw enable
+Oct 18 20:56:42 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 20:56:43 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 20:56:49 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw start
+Oct 18 20:56:49 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 20:56:49 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 20:57:10 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw allow 22
+Oct 18 20:57:10 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 20:57:10 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 20:57:45 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw allow 22/tcp
+Oct 18 20:57:45 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 20:57:45 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 20:57:54 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw allow 22/udp
+Oct 18 20:57:54 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 20:57:54 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 21:04:47 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw disable
+Oct 18 21:04:47 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 21:04:47 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 21:05:12 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw commit
+Oct 18 21:05:12 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 21:05:12 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 21:05:22 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw reload
+Oct 18 21:05:22 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 21:05:22 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 21:05:27 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw start
+Oct 18 21:05:27 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 21:05:27 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 21:05:30 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw enable
+Oct 18 21:05:30 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 21:05:31 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 21:05:33 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw reload
+Oct 18 21:05:33 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 21:05:34 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 21:06:01 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw reset
+Oct 18 21:06:01 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 21:06:04 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 21:06:23 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw allow 22/tcp
+Oct 18 21:06:23 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 21:06:24 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 21:06:31 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw reload
+Oct 18 21:06:31 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 21:06:31 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 21:06:36 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw enable
+Oct 18 21:06:36 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 21:06:36 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 21:06:38 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/sbin/ufw reload
+Oct 18 21:06:38 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 21:06:39 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 21:09:11 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/bin/lsof -i -n -P
+Oct 18 21:09:11 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 21:09:11 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 21:09:45 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/bin/apt install ssh
+Oct 18 21:09:45 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 21:09:53 modernslicer useradd[28261]: new user: name=sshd, UID=129, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin, from=none
+Oct 18 21:09:53 modernslicer usermod[28269]: change user 'sshd' password
+Oct 18 21:09:53 modernslicer chage[28276]: changed password expiry for sshd
+Oct 18 21:09:55 modernslicer sshd[28416]: Server listening on 0.0.0.0 port 22.
+Oct 18 21:09:55 modernslicer sshd[28416]: Server listening on :: port 22.
+Oct 18 21:10:03 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 21:10:32 modernslicer sshd[28636]: Accepted password for morin from 192.168.0.213 port 6425 ssh2
+Oct 18 21:10:32 modernslicer sshd[28636]: pam_unix(sshd:session): session opened for user morin(uid=1000) by (uid=0)
+Oct 18 21:10:32 modernslicer systemd-logind[1058]: New session 42 of user morin.
+Oct 18 21:10:36 modernslicer sshd[28719]: Received disconnect from 192.168.0.213 port 6425:11: disconnected by user
+Oct 18 21:10:36 modernslicer sshd[28719]: Disconnected from user morin 192.168.0.213 port 6425
+Oct 18 21:10:36 modernslicer sshd[28636]: pam_unix(sshd:session): session closed for user morin
+Oct 18 21:10:36 modernslicer systemd-logind[1058]: Session 42 logged out. Waiting for processes to exit.
+Oct 18 21:10:36 modernslicer systemd-logind[1058]: Removed session 42.
+Oct 18 21:10:58 modernslicer sshd[28746]: Accepted password for morin from 192.168.0.213 port 6433 ssh2
+Oct 18 21:10:58 modernslicer sshd[28746]: pam_unix(sshd:session): session opened for user morin(uid=1000) by (uid=0)
+Oct 18 21:10:59 modernslicer systemd-logind[1058]: New session 43 of user morin.
+Oct 18 21:11:04 modernslicer pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 21:11:04 modernslicer pkexec[28892]: morin: Executing command [USER=root] [TTY=unknown] [CWD=/home/morin] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 18 21:11:11 modernslicer sshd[28900]: Accepted password for morin from 192.168.0.213 port 6438 ssh2
+Oct 18 21:11:11 modernslicer sshd[28900]: pam_unix(sshd:session): session opened for user morin(uid=1000) by (uid=0)
+Oct 18 21:11:11 modernslicer systemd-logind[1058]: New session 44 of user morin.
+Oct 18 21:12:23 modernslicer sshd[29071]: Accepted password for morin from 192.168.0.213 port 6454 ssh2
+Oct 18 21:12:23 modernslicer sshd[29071]: pam_unix(sshd:session): session opened for user morin(uid=1000) by (uid=0)
+Oct 18 21:12:24 modernslicer systemd-logind[1058]: New session 45 of user morin.
+Oct 18 21:13:22 modernslicer sshd[29120]: Accepted password for morin from 192.168.0.213 port 6470 ssh2
+Oct 18 21:13:22 modernslicer sshd[29120]: pam_unix(sshd:session): session opened for user morin(uid=1000) by (uid=0)
+Oct 18 21:13:22 modernslicer systemd-logind[1058]: New session 46 of user morin.
+Oct 18 21:14:19 modernslicer sudo:    morin : TTY=pts/4 ; PWD=/home/morin ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Oct 18 21:14:19 modernslicer sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Oct 18 21:14:29 modernslicer sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 21:17:01 modernslicer CRON[29220]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 21:17:01 modernslicer CRON[29220]: pam_unix(cron:session): session closed for user root
+Oct 18 21:17:17 modernslicer sshd[29224]: Accepted password for morin from 192.168.0.213 port 6514 ssh2
+Oct 18 21:17:18 modernslicer sshd[29224]: pam_unix(sshd:session): session opened for user morin(uid=1000) by (uid=0)
+Oct 18 21:17:18 modernslicer systemd-logind[1058]: New session 48 of user morin.
+Oct 18 21:17:21 modernslicer sshd[29224]: pam_unix(sshd:session): session closed for user morin
+Oct 18 21:17:21 modernslicer systemd-logind[1058]: Session 48 logged out. Waiting for processes to exit.
+Oct 18 21:17:21 modernslicer systemd-logind[1058]: Removed session 48.
+Oct 18 21:19:20 modernslicer sshd[29300]: Accepted password for morin from 192.168.0.213 port 6563 ssh2
+Oct 18 21:19:20 modernslicer sshd[29300]: pam_unix(sshd:session): session opened for user morin(uid=1000) by (uid=0)
+Oct 18 21:19:20 modernslicer systemd-logind[1058]: New session 49 of user morin.
+Oct 18 21:19:22 modernslicer sshd[29300]: pam_unix(sshd:session): session closed for user morin
+Oct 18 21:19:22 modernslicer systemd-logind[1058]: Session 49 logged out. Waiting for processes to exit.
+Oct 18 21:19:22 modernslicer systemd-logind[1058]: Removed session 49.
+Oct 18 21:30:01 modernslicer CRON[29511]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 21:30:01 modernslicer CRON[29511]: pam_unix(cron:session): session closed for user root
+Oct 18 21:42:18 modernslicer sshd[29884]: Accepted password for morin from 192.168.0.213 port 6678 ssh2
+Oct 18 21:42:18 modernslicer sshd[29884]: pam_unix(sshd:session): session opened for user morin(uid=1000) by (uid=0)
+Oct 18 21:42:19 modernslicer systemd-logind[1058]: New session 51 of user morin.
+Oct 18 21:43:26 modernslicer sshd[29962]: Accepted password for morin from 192.168.0.213 port 6688 ssh2
+Oct 18 21:43:26 modernslicer sshd[29962]: pam_unix(sshd:session): session opened for user morin(uid=1000) by (uid=0)
+Oct 18 21:43:26 modernslicer systemd-logind[1058]: New session 52 of user morin.
+Oct 18 21:44:26 modernslicer sshd[30030]: Accepted password for morin from 192.168.0.213 port 6697 ssh2
+Oct 18 21:44:26 modernslicer sshd[30030]: pam_unix(sshd:session): session opened for user morin(uid=1000) by (uid=0)
+Oct 18 21:44:26 modernslicer systemd-logind[1058]: New session 53 of user morin.
+Oct 18 21:45:06 modernslicer sshd[30137]: Accepted password for morin from 192.168.0.213 port 6706 ssh2
+Oct 18 21:45:06 modernslicer sshd[30137]: pam_unix(sshd:session): session opened for user morin(uid=1000) by (uid=0)
+Oct 18 21:45:06 modernslicer systemd-logind[1058]: New session 54 of user morin.
+Oct 18 21:46:54 modernslicer sshd[30201]: Accepted password for morin from 192.168.0.213 port 6725 ssh2
+Oct 18 21:46:54 modernslicer sshd[30201]: pam_unix(sshd:session): session opened for user morin(uid=1000) by (uid=0)
+Oct 18 21:46:54 modernslicer systemd-logind[1058]: New session 55 of user morin.
+Oct 18 21:47:41 modernslicer sshd[30254]: Accepted password for morin from 192.168.0.213 port 1040 ssh2
+Oct 18 21:47:41 modernslicer sshd[30254]: pam_unix(sshd:session): session opened for user morin(uid=1000) by (uid=0)
+Oct 18 21:47:41 modernslicer systemd-logind[1058]: New session 56 of user morin.

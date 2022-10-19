@@ -1,0 +1,1368 @@
+### BEGIN ps -ef###
+
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 Oct17 ?        00:00:04 /sbin/init splash
+root           2       0  0 Oct17 ?        00:00:00 [kthreadd]
+root           3       2  0 Oct17 ?        00:00:00 [rcu_gp]
+root           4       2  0 Oct17 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 Oct17 ?        00:00:00 [netns]
+root           7       2  0 Oct17 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           9       2  0 Oct17 ?        00:00:00 [kworker/0:1H-kblockd]
+root          10       2  0 Oct17 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 Oct17 ?        00:00:00 [rcu_tasks_rude_]
+root          12       2  0 Oct17 ?        00:00:00 [rcu_tasks_trace]
+root          13       2  0 Oct17 ?        00:00:00 [ksoftirqd/0]
+root          14       2  0 Oct17 ?        00:00:15 [rcu_sched]
+root          15       2  0 Oct17 ?        00:00:00 [migration/0]
+root          16       2  0 Oct17 ?        00:00:00 [idle_inject/0]
+root          18       2  0 Oct17 ?        00:00:00 [cpuhp/0]
+root          19       2  0 Oct17 ?        00:00:00 [cpuhp/1]
+root          20       2  0 Oct17 ?        00:00:00 [idle_inject/1]
+root          21       2  0 Oct17 ?        00:00:00 [migration/1]
+root          22       2  0 Oct17 ?        00:00:00 [ksoftirqd/1]
+root          24       2  0 Oct17 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          25       2  0 Oct17 ?        00:00:00 [cpuhp/2]
+root          26       2  0 Oct17 ?        00:00:00 [idle_inject/2]
+root          27       2  0 Oct17 ?        00:00:00 [migration/2]
+root          28       2  0 Oct17 ?        00:00:00 [ksoftirqd/2]
+root          30       2  0 Oct17 ?        00:00:00 [kworker/2:0H-events_highpri]
+root          31       2  0 Oct17 ?        00:00:00 [cpuhp/3]
+root          32       2  0 Oct17 ?        00:00:00 [idle_inject/3]
+root          33       2  0 Oct17 ?        00:00:00 [migration/3]
+root          34       2  0 Oct17 ?        00:00:00 [ksoftirqd/3]
+root          36       2  0 Oct17 ?        00:00:00 [kworker/3:0H-events_highpri]
+root          37       2  0 Oct17 ?        00:00:00 [cpuhp/4]
+root          38       2  0 Oct17 ?        00:00:00 [idle_inject/4]
+root          39       2  0 Oct17 ?        00:00:00 [migration/4]
+root          40       2  0 Oct17 ?        00:00:00 [ksoftirqd/4]
+root          42       2  0 Oct17 ?        00:00:00 [kworker/4:0H-events_highpri]
+root          43       2  0 Oct17 ?        00:00:00 [cpuhp/5]
+root          44       2  0 Oct17 ?        00:00:00 [idle_inject/5]
+root          45       2  0 Oct17 ?        00:00:00 [migration/5]
+root          46       2  0 Oct17 ?        00:00:00 [ksoftirqd/5]
+root          48       2  0 Oct17 ?        00:00:00 [kworker/5:0H-events_highpri]
+root          49       2  0 Oct17 ?        00:00:00 [cpuhp/6]
+root          50       2  0 Oct17 ?        00:00:00 [idle_inject/6]
+root          51       2  0 Oct17 ?        00:00:00 [migration/6]
+root          52       2  0 Oct17 ?        00:00:00 [ksoftirqd/6]
+root          54       2  0 Oct17 ?        00:00:00 [kworker/6:0H-events_highpri]
+root          55       2  0 Oct17 ?        00:00:00 [cpuhp/7]
+root          56       2  0 Oct17 ?        00:00:00 [idle_inject/7]
+root          57       2  0 Oct17 ?        00:00:00 [migration/7]
+root          58       2  0 Oct17 ?        00:00:00 [ksoftirqd/7]
+root          60       2  0 Oct17 ?        00:00:00 [kworker/7:0H-events_highpri]
+root          61       2  0 Oct17 ?        00:00:00 [cpuhp/8]
+root          62       2  0 Oct17 ?        00:00:00 [idle_inject/8]
+root          63       2  0 Oct17 ?        00:00:00 [migration/8]
+root          64       2  0 Oct17 ?        00:00:00 [ksoftirqd/8]
+root          66       2  0 Oct17 ?        00:00:00 [kworker/8:0H-events_highpri]
+root          67       2  0 Oct17 ?        00:00:00 [cpuhp/9]
+root          68       2  0 Oct17 ?        00:00:00 [idle_inject/9]
+root          69       2  0 Oct17 ?        00:00:00 [migration/9]
+root          70       2  0 Oct17 ?        00:00:00 [ksoftirqd/9]
+root          73       2  0 Oct17 ?        00:00:00 [cpuhp/10]
+root          74       2  0 Oct17 ?        00:00:00 [idle_inject/10]
+root          75       2  0 Oct17 ?        00:00:00 [migration/10]
+root          76       2  0 Oct17 ?        00:00:00 [ksoftirqd/10]
+root          78       2  0 Oct17 ?        00:00:00 [kworker/10:0H-events_highpri]
+root          79       2  0 Oct17 ?        00:00:00 [cpuhp/11]
+root          80       2  0 Oct17 ?        00:00:00 [idle_inject/11]
+root          81       2  0 Oct17 ?        00:00:00 [migration/11]
+root          82       2  0 Oct17 ?        00:00:00 [ksoftirqd/11]
+root          84       2  0 Oct17 ?        00:00:00 [kworker/11:0H-events_highpri]
+root          85       2  0 Oct17 ?        00:00:00 [cpuhp/12]
+root          86       2  0 Oct17 ?        00:00:00 [idle_inject/12]
+root          87       2  0 Oct17 ?        00:00:00 [migration/12]
+root          88       2  0 Oct17 ?        00:00:00 [ksoftirqd/12]
+root          90       2  0 Oct17 ?        00:00:00 [kworker/12:0H-events_highpri]
+root          91       2  0 Oct17 ?        00:00:00 [cpuhp/13]
+root          92       2  0 Oct17 ?        00:00:00 [idle_inject/13]
+root          93       2  0 Oct17 ?        00:00:00 [migration/13]
+root          94       2  0 Oct17 ?        00:00:00 [ksoftirqd/13]
+root          96       2  0 Oct17 ?        00:00:00 [kworker/13:0H-kblockd]
+root          97       2  0 Oct17 ?        00:00:00 [cpuhp/14]
+root          98       2  0 Oct17 ?        00:00:00 [idle_inject/14]
+root          99       2  0 Oct17 ?        00:00:00 [migration/14]
+root         100       2  0 Oct17 ?        00:00:00 [ksoftirqd/14]
+root         102       2  0 Oct17 ?        00:00:00 [kworker/14:0H-events_highpri]
+root         103       2  0 Oct17 ?        00:00:00 [cpuhp/15]
+root         104       2  0 Oct17 ?        00:00:00 [idle_inject/15]
+root         105       2  0 Oct17 ?        00:00:00 [migration/15]
+root         106       2  0 Oct17 ?        00:00:00 [ksoftirqd/15]
+root         108       2  0 Oct17 ?        00:00:00 [kworker/15:0H-events_highpri]
+root         109       2  0 Oct17 ?        00:00:00 [cpuhp/16]
+root         110       2  0 Oct17 ?        00:00:00 [idle_inject/16]
+root         111       2  0 Oct17 ?        00:00:00 [migration/16]
+root         112       2  0 Oct17 ?        00:00:00 [ksoftirqd/16]
+root         114       2  0 Oct17 ?        00:00:00 [kworker/16:0H-events_highpri]
+root         115       2  0 Oct17 ?        00:00:00 [cpuhp/17]
+root         116       2  0 Oct17 ?        00:00:00 [idle_inject/17]
+root         117       2  0 Oct17 ?        00:00:00 [migration/17]
+root         118       2  0 Oct17 ?        00:00:00 [ksoftirqd/17]
+root         120       2  0 Oct17 ?        00:00:00 [kworker/17:0H-events_highpri]
+root         121       2  0 Oct17 ?        00:00:00 [cpuhp/18]
+root         122       2  0 Oct17 ?        00:00:00 [idle_inject/18]
+root         123       2  0 Oct17 ?        00:00:00 [migration/18]
+root         124       2  0 Oct17 ?        00:00:00 [ksoftirqd/18]
+root         126       2  0 Oct17 ?        00:00:00 [kworker/18:0H-events_highpri]
+root         127       2  0 Oct17 ?        00:00:00 [cpuhp/19]
+root         128       2  0 Oct17 ?        00:00:00 [idle_inject/19]
+root         129       2  0 Oct17 ?        00:00:00 [migration/19]
+root         130       2  0 Oct17 ?        00:00:00 [ksoftirqd/19]
+root         132       2  0 Oct17 ?        00:00:00 [kworker/19:0H-events_highpri]
+root         133       2  0 Oct17 ?        00:00:00 [cpuhp/20]
+root         134       2  0 Oct17 ?        00:00:00 [idle_inject/20]
+root         135       2  0 Oct17 ?        00:00:00 [migration/20]
+root         136       2  0 Oct17 ?        00:00:00 [ksoftirqd/20]
+root         138       2  0 Oct17 ?        00:00:00 [kworker/20:0H-events_highpri]
+root         139       2  0 Oct17 ?        00:00:00 [cpuhp/21]
+root         140       2  0 Oct17 ?        00:00:00 [idle_inject/21]
+root         141       2  0 Oct17 ?        00:00:00 [migration/21]
+root         142       2  0 Oct17 ?        00:00:00 [ksoftirqd/21]
+root         144       2  0 Oct17 ?        00:00:00 [kworker/21:0H-events_highpri]
+root         145       2  0 Oct17 ?        00:00:00 [cpuhp/22]
+root         146       2  0 Oct17 ?        00:00:00 [idle_inject/22]
+root         147       2  0 Oct17 ?        00:00:00 [migration/22]
+root         148       2  0 Oct17 ?        00:00:00 [ksoftirqd/22]
+root         150       2  0 Oct17 ?        00:00:00 [kworker/22:0H-kblockd]
+root         151       2  0 Oct17 ?        00:00:00 [cpuhp/23]
+root         152       2  0 Oct17 ?        00:00:00 [idle_inject/23]
+root         153       2  0 Oct17 ?        00:00:00 [migration/23]
+root         154       2  0 Oct17 ?        00:00:00 [ksoftirqd/23]
+root         156       2  0 Oct17 ?        00:00:00 [kworker/23:0H-events_highpri]
+root         157       2  0 Oct17 ?        00:00:00 [cpuhp/24]
+root         158       2  0 Oct17 ?        00:00:00 [idle_inject/24]
+root         159       2  0 Oct17 ?        00:00:00 [migration/24]
+root         160       2  0 Oct17 ?        00:00:00 [ksoftirqd/24]
+root         162       2  0 Oct17 ?        00:00:00 [kworker/24:0H-events_highpri]
+root         163       2  0 Oct17 ?        00:00:00 [cpuhp/25]
+root         164       2  0 Oct17 ?        00:00:00 [idle_inject/25]
+root         165       2  0 Oct17 ?        00:00:00 [migration/25]
+root         166       2  0 Oct17 ?        00:00:00 [ksoftirqd/25]
+root         168       2  0 Oct17 ?        00:00:00 [kworker/25:0H-events_highpri]
+root         169       2  0 Oct17 ?        00:00:00 [cpuhp/26]
+root         170       2  0 Oct17 ?        00:00:00 [idle_inject/26]
+root         171       2  0 Oct17 ?        00:00:00 [migration/26]
+root         172       2  0 Oct17 ?        00:00:00 [ksoftirqd/26]
+root         174       2  0 Oct17 ?        00:00:00 [kworker/26:0H-events_highpri]
+root         175       2  0 Oct17 ?        00:00:00 [cpuhp/27]
+root         176       2  0 Oct17 ?        00:00:00 [idle_inject/27]
+root         177       2  0 Oct17 ?        00:00:00 [migration/27]
+root         178       2  0 Oct17 ?        00:00:00 [ksoftirqd/27]
+root         180       2  0 Oct17 ?        00:00:00 [kworker/27:0H-events_highpri]
+root         181       2  0 Oct17 ?        00:00:00 [cpuhp/28]
+root         182       2  0 Oct17 ?        00:00:00 [idle_inject/28]
+root         183       2  0 Oct17 ?        00:00:00 [migration/28]
+root         184       2  0 Oct17 ?        00:00:00 [ksoftirqd/28]
+root         186       2  0 Oct17 ?        00:00:00 [kworker/28:0H-kblockd]
+root         187       2  0 Oct17 ?        00:00:00 [cpuhp/29]
+root         188       2  0 Oct17 ?        00:00:00 [idle_inject/29]
+root         189       2  0 Oct17 ?        00:00:00 [migration/29]
+root         190       2  0 Oct17 ?        00:00:00 [ksoftirqd/29]
+root         192       2  0 Oct17 ?        00:00:00 [kworker/29:0H-events_highpri]
+root         193       2  0 Oct17 ?        00:00:00 [cpuhp/30]
+root         194       2  0 Oct17 ?        00:00:00 [idle_inject/30]
+root         195       2  0 Oct17 ?        00:00:00 [migration/30]
+root         196       2  0 Oct17 ?        00:00:00 [ksoftirqd/30]
+root         198       2  0 Oct17 ?        00:00:00 [kworker/30:0H-events_highpri]
+root         199       2  0 Oct17 ?        00:00:00 [cpuhp/31]
+root         200       2  0 Oct17 ?        00:00:00 [idle_inject/31]
+root         201       2  0 Oct17 ?        00:00:00 [migration/31]
+root         202       2  0 Oct17 ?        00:00:00 [ksoftirqd/31]
+root         204       2  0 Oct17 ?        00:00:00 [kworker/31:0H-events_highpri]
+root         205       2  0 Oct17 ?        00:00:00 [kdevtmpfs]
+root         206       2  0 Oct17 ?        00:00:00 [inet_frag_wq]
+root         207       2  0 Oct17 ?        00:00:18 [kauditd]
+root         211       2  0 Oct17 ?        00:00:00 [khungtaskd]
+root         212       2  0 Oct17 ?        00:00:00 [oom_reaper]
+root         213       2  0 Oct17 ?        00:00:00 [writeback]
+root         214       2  0 Oct17 ?        00:00:01 [kcompactd0]
+root         215       2  0 Oct17 ?        00:00:00 [ksmd]
+root         216       2  0 Oct17 ?        00:00:00 [khugepaged]
+root         263       2  0 Oct17 ?        00:00:00 [kintegrityd]
+root         264       2  0 Oct17 ?        00:00:00 [kblockd]
+root         265       2  0 Oct17 ?        00:00:00 [blkcg_punt_bio]
+root         266       2  0 Oct17 ?        00:00:00 [tpm_dev_wq]
+root         267       2  0 Oct17 ?        00:00:00 [ata_sff]
+root         268       2  0 Oct17 ?        00:00:00 [md]
+root         269       2  0 Oct17 ?        00:00:00 [edac-poller]
+root         270       2  0 Oct17 ?        00:00:00 [devfreq_wq]
+root         271       2  0 Oct17 ?        00:00:00 [watchdogd]
+root         274       2  0 Oct17 ?        00:00:00 [kworker/1:1H-events_highpri]
+root         276       2  0 Oct17 ?        00:00:00 [kswapd0]
+root         277       2  0 Oct17 ?        00:00:00 [ecryptfs-kthrea]
+root         279       2  0 Oct17 ?        00:00:00 [kthrotld]
+root         280       2  0 Oct17 ?        00:00:00 [acpi_thermal_pm]
+root         282       2  0 Oct17 ?        00:00:00 [vfio-irqfd-clea]
+root         284       2  0 Oct17 ?        00:00:00 [kworker/8:1H-events_highpri]
+root         285       2  0 Oct17 ?        00:00:00 [mld]
+root         286       2  0 Oct17 ?        00:00:00 [ipv6_addrconf]
+root         298       2  0 Oct17 ?        00:00:00 [kstrp]
+root         309       2  0 Oct17 ?        00:00:00 [zswap-shrink]
+root         350       2  0 Oct17 ?        00:00:00 [kworker/26:2-mm_percpu_wq]
+root         365       2  0 Oct17 ?        00:00:00 [charger_manager]
+root         413       2  0 Oct17 ?        00:00:00 [kworker/4:1H-kblockd]
+root         418       2  0 Oct17 ?        00:00:00 [nvme-wq]
+root         419       2  0 Oct17 ?        00:00:00 [nvme-reset-wq]
+root         420       2  0 Oct17 ?        00:00:00 [nvme-delete-wq]
+root         425       2  0 Oct17 ?        00:00:00 [kworker/9:1H-events_highpri]
+root         427       2  0 Oct17 ?        00:00:00 [kworker/30:1H-events_highpri]
+root         431       2  0 Oct17 ?        00:00:00 [kworker/14:1H-events_highpri]
+root         433       2  0 Oct17 ?        00:00:00 [scsi_eh_0]
+root         434       2  0 Oct17 ?        00:00:00 [scsi_tmf_0]
+root         435       2  0 Oct17 ?        00:00:00 [scsi_eh_1]
+root         436       2  0 Oct17 ?        00:00:00 [scsi_tmf_1]
+root         437       2  0 Oct17 ?        00:00:00 [scsi_eh_2]
+root         438       2  0 Oct17 ?        00:00:00 [scsi_tmf_2]
+root         439       2  0 Oct17 ?        00:00:00 [scsi_eh_3]
+root         440       2  0 Oct17 ?        00:00:00 [scsi_tmf_3]
+root         441       2  0 Oct17 ?        00:00:00 [scsi_eh_4]
+root         442       2  0 Oct17 ?        00:00:00 [scsi_tmf_4]
+root         443       2  0 Oct17 ?        00:00:00 [scsi_eh_5]
+root         444       2  0 Oct17 ?        00:00:00 [scsi_tmf_5]
+root         445       2  0 Oct17 ?        00:00:00 [scsi_eh_6]
+root         446       2  0 Oct17 ?        00:00:00 [scsi_tmf_6]
+root         447       2  0 Oct17 ?        00:00:00 [scsi_eh_7]
+root         448       2  0 Oct17 ?        00:00:00 [scsi_tmf_7]
+root         456       2  0 Oct17 ?        00:00:00 [kworker/10:1H-kblockd]
+root         458       2  0 Oct17 ?        00:00:00 [kworker/31:1H-kblockd]
+root         459       2  0 Oct17 ?        00:00:00 [kworker/22:1H-events_highpri]
+root         460       2  0 Oct17 ?        00:00:00 [kworker/28:1H-events_highpri]
+root         476       2  0 Oct17 ?        00:00:00 [kworker/12:1H-events_highpri]
+root         479       2  0 Oct17 ?        00:00:00 [kworker/5:1H-events_highpri]
+root         480       2  0 Oct17 ?        00:00:00 [kworker/3:1H-events_highpri]
+root         491       2  0 Oct17 ?        00:00:00 [kworker/29:1H-events_highpri]
+root         501       2  0 Oct17 ?        00:00:00 [kworker/27:1H-events_highpri]
+root         502       2  0 Oct17 ?        00:00:02 [jbd2/nvme0n1p1-]
+root         503       2  0 Oct17 ?        00:00:00 [ext4-rsv-conver]
+root         508       2  0 Oct17 ?        00:00:00 [kworker/25:1H-kblockd]
+root         509       2  0 Oct17 ?        00:00:00 [kworker/7:1H-events_highpri]
+root         511       2  0 Oct17 ?        00:00:01 [kworker/16:1H-kblockd]
+root         518       2  0 Oct17 ?        00:00:00 [kworker/18:1H-events_highpri]
+root         522       2  0 Oct17 ?        00:00:00 [kworker/24:1H-kblockd]
+root         533       2  0 Oct17 ?        00:00:00 [kworker/20:1H-events_highpri]
+root         535       2  0 Oct17 ?        00:00:00 [kworker/11:1H-events_highpri]
+root         538       2  0 Oct17 ?        00:00:00 [kworker/21:1H-events_highpri]
+root         545       2  0 Oct17 ?        00:00:00 [kworker/19:1H-kblockd]
+root         549       2  0 Oct17 ?        00:00:00 [kworker/6:1H-events_highpri]
+root         551       2  0 Oct17 ?        00:00:00 [kworker/2:1H-kblockd]
+root         555       1  0 Oct17 ?        00:05:03 /lib/systemd/systemd-journald
+root         563       2  0 Oct17 ?        00:00:00 [kworker/15:1H-events_highpri]
+root         578       2  0 Oct17 ?        00:00:00 [kworker/13:1H-events_highpri]
+root         585       2  0 Oct17 ?        00:00:00 [ipmi-msghandler]
+root         590       1  0 Oct17 ?        00:00:00 /lib/systemd/systemd-udevd
+root         591       2  0 Oct17 ?        00:00:00 [kworker/26:1H-events_highpri]
+root         593       2  0 Oct17 ?        00:00:00 [kworker/17:1H-kblockd]
+root         651       2  0 Oct17 ?        00:00:00 [kworker/23:1H-events_highpri]
+root         723       2  0 Oct17 ?        00:00:00 [irq/91-mei_me]
+root         777       2  0 Oct17 ?        00:00:00 [cfg80211]
+root         802       2  0 Oct17 ?        00:00:25 [irq/99-iwlwifi]
+root         810       2  0 Oct17 ?        00:00:00 [cryptd]
+root         884       2  0 Oct17 ?        00:00:00 [irq/36-1-0008]
+root         899       2  0 Oct17 ?        00:00:00 [1-0008-con0]
+root         910       1  0 Oct17 ?        00:00:00 /sbin/mount.ntfs /dev/sdb2 /mnt/0EACA18AACA16D41 -o rw,nosuid,nodev
+root         912       2  0 Oct17 ?        00:00:26 [gfx_0.0.0]
+root         913       2  0 Oct17 ?        00:00:00 [comp_1.0.0]
+root         914       2  0 Oct17 ?        00:00:00 [comp_1.1.0]
+root         915       2  0 Oct17 ?        00:00:00 [comp_1.2.0]
+root         916       2  0 Oct17 ?        00:00:00 [comp_1.3.0]
+root         917       2  0 Oct17 ?        00:00:00 [comp_1.0.1]
+root         918       2  0 Oct17 ?        00:00:00 [comp_1.1.1]
+root         919       2  0 Oct17 ?        00:00:00 [comp_1.2.1]
+root         920       2  0 Oct17 ?        00:00:00 [comp_1.3.1]
+root         921       2  0 Oct17 ?        00:00:00 [nfit]
+root         922       2  0 Oct17 ?        00:00:00 [sdma0]
+root         923       2  0 Oct17 ?        00:00:00 [sdma1]
+root         924       2  0 Oct17 ?        00:00:00 [sdma2]
+root         925       2  0 Oct17 ?        00:00:00 [sdma3]
+root         926       2  0 Oct17 ?        00:00:00 [vcn_dec_0]
+root         927       2  0 Oct17 ?        00:00:00 [vcn_enc_0.0]
+root         928       2  0 Oct17 ?        00:00:00 [vcn_enc_0.1]
+root         929       2  0 Oct17 ?        00:00:00 [vcn_dec_1]
+root         930       2  0 Oct17 ?        00:00:00 [vcn_enc_1.0]
+root         931       2  0 Oct17 ?        00:00:00 [vcn_enc_1.1]
+root         932       2  0 Oct17 ?        00:00:00 [jpeg_dec]
+systemd+     969       1  0 Oct17 ?        00:01:39 /lib/systemd/systemd-oomd
+systemd+     970       1  0 Oct17 ?        00:00:01 /lib/systemd/systemd-resolved
+systemd+     971       1  0 Oct17 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root         975       1  0 Oct17 ?        00:00:01 /usr/sbin/haveged --Foreground --verbose=1
+root        1029       2  0 Oct17 ?        00:00:00 [dm_vblank_contr]
+root        1032       1  0 Oct17 ?        00:00:03 /usr/libexec/accounts-daemon
+root        1033       1  0 Oct17 ?        00:00:00 /usr/sbin/acpid
+avahi       1036       1  0 Oct17 ?        00:00:43 avahi-daemon: running [modernslicer.local]
+root        1039       1  0 Oct17 ?        00:00:00 /usr/lib/bluetooth/bluetoothd
+root        1041       1  0 Oct17 ?        00:00:00 /usr/sbin/cron -f -P
+message+    1042       1  0 Oct17 ?        00:00:08 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        1043       1  0 Oct17 ?        00:00:12 /usr/sbin/NetworkManager --no-daemon
+root        1049       1  0 Oct17 ?        00:00:19 /usr/sbin/irqbalance --foreground
+root        1050       1  0 Oct17 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root        1051       1  0 Oct17 ?        00:00:01 /usr/libexec/polkitd --no-debug
+root        1052       1  0 Oct17 ?        00:00:00 /usr/libexec/power-profiles-daemon
+syslog      1053       1  0 Oct17 ?        00:00:04 /usr/sbin/rsyslogd -n -iNONE
+root        1056       1  0 Oct17 ?        00:00:19 /usr/lib/snapd/snapd
+root        1057       1  0 Oct17 ?        00:00:00 /usr/libexec/switcheroo-control
+root        1058       1  0 Oct17 ?        00:00:00 /lib/systemd/systemd-logind
+root        1060       1  0 Oct17 ?        00:00:17 /usr/libexec/udisks2/udisksd
+root        1061       1  0 Oct17 ?        00:00:01 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi       1069    1036  0 Oct17 ?        00:00:00 avahi-daemon: chroot helper
+root        1095       1  0 Oct17 ?        00:00:00 /usr/sbin/ModemManager
+root        1184       1  0 Oct17 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1197       1  0 Oct17 ?        00:01:26 /usr/bin/containerd
+root        1211       2  0 Oct17 ?        00:00:00 [card0-crtc0]
+root        1212       2  0 Oct17 ?        00:00:00 [card0-crtc1]
+root        1213       2  0 Oct17 ?        00:00:00 [card0-crtc2]
+root        1214       2  0 Oct17 ?        00:00:00 [card0-crtc3]
+root        1215       2  0 Oct17 ?        00:00:00 [card0-crtc4]
+root        1216       2  0 Oct17 ?        00:00:00 [card0-crtc5]
+root        1217       1  0 Oct17 ?        00:00:00 /usr/bin/sddm
+root        1337    1217  1 Oct17 tty1     00:15:29 /usr/lib/xorg/Xorg -nolisten tcp -auth /var/run/sddm/{47c99a8c-ef3c-496f-aee9-ed8f08f73534} -background none -noreset -displayfd 17 -seat seat0 vt1
+rtkit       1512       1  0 Oct17 ?        00:00:00 /usr/libexec/rtkit-daemon
+root        1836       2  0 Oct17 ?        00:00:00 [krfcommd]
+root        2036       1  0 Oct17 ?        00:00:00 /usr/libexec/upowerd
+root        2069    1217  0 Oct17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/sddm/sddm-helper --socket /tmp/sddm-auth978a81fa-8b24-49f9-8ad3-de7f68c7af93 --id 1 --start startxfce4 --user morin
+morin       2071       1  0 Oct17 ?        00:00:00 /lib/systemd/systemd --user
+morin       2072    2071  0 Oct17 ?        00:00:00 (sd-pam)
+morin       2079    2071  0 Oct17 ?        00:00:00 /usr/bin/pipewire
+morin       2080    2071  0 Oct17 ?        00:00:00 /usr/bin/pipewire-media-session
+morin       2081    2071  0 Oct17 ?        00:04:22 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+morin       2091    2071  0 Oct17 ?        00:00:22 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        2092       1  0 Oct17 ?        00:00:57 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+kernoops    2115       1  0 Oct17 ?        00:00:00 /usr/sbin/kerneloops --test
+morin       2122    2071  0 Oct17 ?        00:00:00 /usr/libexec/gvfsd
+morin       2129    2071  0 Oct17 ?        00:00:00 /usr/libexec/xdg-document-portal
+kernoops    2130       1  0 Oct17 ?        00:00:00 /usr/sbin/kerneloops
+morin       2139    2071  0 Oct17 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+morin       2140       1  0 Oct17 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+morin       2141    2071  0 Oct17 ?        00:00:00 /usr/libexec/xdg-permission-store
+morin       2147    2069  0 Oct17 ?        00:00:02 xfce4-session
+root        2159    2129  0 Oct17 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+morin       2340    2071  0 Oct17 ?        00:00:01 /usr/libexec/tracker-miner-fs-3
+morin       2357    2147  0 Oct17 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/im-launch startxfce4
+morin       2374       1  0 Oct17 ?        00:00:10 /usr/bin/ibus-daemon --daemonize --xim
+morin       2381    2071  0 Oct17 ?        00:00:06 /usr/libexec/gvfs-udisks2-volume-monitor
+morin       2391    2374  0 Oct17 ?        00:00:00 /usr/libexec/ibus-dconf
+morin       2392    2374  0 Oct17 ?        00:00:03 /usr/libexec/ibus-ui-gtk3
+morin       2393    2374  0 Oct17 ?        00:00:03 /usr/libexec/ibus-extension-gtk3
+morin       2396       1  0 Oct17 ?        00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+morin       2406    2071  0 Oct17 ?        00:00:00 /usr/libexec/ibus-portal
+morin       2416    2071  0 Oct17 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+morin       2426    2071  0 Oct17 ?        00:00:01 /usr/libexec/gvfs-afc-volume-monitor
+morin       2544    2071  0 Oct17 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+morin       2551    2071  0 Oct17 ?        00:00:00 /usr/libexec/goa-daemon
+morin       2608    2071  0 Oct17 ?        00:00:00 /usr/libexec/goa-identity-service
+morin       2620    2071  0 Oct17 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+morin       2632    2071  0 Oct17 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+morin       2643    2632  0 Oct17 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+morin       2652    2071  0 Oct17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+morin       2657    2071  0 Oct17 ?        00:00:01 /usr/libexec/at-spi2-registryd --use-gnome-session
+morin       2662    2071  0 Oct17 ?        00:00:01 /usr/libexec/xdg-desktop-portal
+morin       2666    2071  0 Oct17 ?        00:00:00 /usr/bin/xfce4-screensaver
+morin       2675    2071  0 Oct17 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gnome
+morin       2780    2071  0 Oct17 ?        00:00:00 /usr/bin/gpg-agent --supervised
+morin       2787    2147  0 Oct17 ?        00:02:19 xfwm4 --display :0.0 --sm-client-id 22a04d5b0-b663-446a-aed9-fdd8949b7797
+morin       2822    2374  0 Oct17 ?        00:00:02 /usr/libexec/ibus-engine-simple
+morin       2979    2071  0 Oct17 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+morin       3000    2071  0 Oct17 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+morin       3083    2147  0 Oct17 ?        00:00:00 xfsettingsd --display :0.0 --sm-client-id 29138039e-a3f3-4a48-ada7-061ec7885b06
+morin       3093    2147  0 Oct17 ?        00:00:13 xfce4-panel --display :0.0 --sm-client-id 2d64a1457-f7a2-40d4-bcb0-0d23a1437f8a
+morin       3098    2147  0 Oct17 ?        00:00:17 Thunar --sm-client-id 2f39f1761-d726-4db4-8e10-e45212cf97fd --daemon
+morin       3104    2147  0 Oct17 ?        00:00:07 xfdesktop --display :0.0 --sm-client-id 2c751b650-6af9-45b2-8735-07f4c0fa3829
+morin       3107    2071  0 Oct17 ?        00:00:00 /snap/snapd-desktop-integration/14/bin/snapd-desktop-integration
+morin       3145    3093  0 Oct17 ?        00:00:09 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 7 25165831 whiskermenu Whisker Menu Show a menu to easily access installed applications
+morin       3181    2147  0 Oct17 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+morin       3188    2147  0 Oct17 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-applet
+morin       3193    2147  0 Oct17 ?        00:00:01 update-notifier
+morin       3205    2147  0 Oct17 ?        00:00:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+morin       3209    2147  0 Oct17 ?        00:00:00 xiccd
+morin       3210    3093  0 Oct17 ?        00:00:57 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 6 25165833 systray Status Tray Plugin Provides status notifier items (application indicators) and legacy systray items
+morin       3215    3093  0 Oct17 ?        00:01:12 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 8 25165834 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+morin       3216    3093  0 Oct17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 10 25165835 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+morin       3217    2147  0 Oct17 ?        00:00:31 nm-applet
+morin       3238    2147  0 Oct17 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+morin       3239    2147  0 Oct17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+morin       3242    2147  0 Oct17 ?        00:00:00 /usr/libexec/geoclue-2.0/demos/agent
+colord      3326       1  0 Oct17 ?        00:00:00 /usr/libexec/colord
+morin       3345    2071  0 Oct17 ?        00:00:00 /usr/libexec/evolution-source-registry
+morin       3398    2071  0 Oct17 ?        00:00:00 /usr/libexec/gvfsd-metadata
+morin       3403    2122  0 Oct17 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+morin       3416    2071  0 Oct17 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+morin       3425    3093  0 Oct17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 14 25165836 actions Action Buttons Log out, lock or other system actions
+morin       3440    2071  0 Oct17 ?        00:00:00 /usr/libexec/dconf-service
+morin       3444    2071  0 Oct17 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+morin       3474    2071  0 Oct17 ?        00:00:00 /usr/lib/bluetooth/obexd
+morin       3476       1  0 Oct17 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-tray
+morin       3721       1  0 Oct17 ?        00:00:42 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+morin       4367    2071  0 Oct17 ?        00:00:05 /usr/bin/snap userd
+root        4656       2  0 Oct17 ?        00:00:00 [kworker/28:0-events]
+morin       4987       1  0 Oct17 ?        00:00:00 /usr/bin/python3 /usr/bin/gnome-terminal --wait
+morin       4988    4987  0 Oct17 ?        00:00:00 /usr/bin/gnome-terminal.real --wait
+morin       4991    2071  0 Oct17 ?        00:00:11 /usr/libexec/gnome-terminal-server
+morin       5021    4991  0 Oct17 pts/0    00:00:00 bash
+root        5258       2  0 Oct17 ?        00:00:00 [kworker/22:0-events]
+root        5489       1  0 Oct17 ?        00:00:00 /usr/libexec/packagekitd
+root        6312       1  0 00:00 ?        00:00:00 /usr/sbin/cupsd -l
+root        6314       1  0 00:00 ?        00:00:00 /usr/sbin/cups-browsed
+root        6575       2  0 00:01 ?        00:00:00 [kworker/27:2-events]
+root        6576       2  0 00:01 ?        00:00:00 [kworker/13:1-mm_percpu_wq]
+morin       6798    3145  0 00:04 ?        00:07:35 /snap/discord/143/usr/share/discord/Discord --use-tray-icon --no-sandbox --disable-seccomp-filter-sandbox
+morin       6891    6798  0 00:04 ?        00:00:00 /snap/discord/143/usr/share/discord/Discord --type=zygote --no-zygote-sandbox --disable-seccomp-filter-sandbox --no-sandbox
+morin       6892    6798  0 00:04 ?        00:00:00 /snap/discord/143/usr/share/discord/Discord --type=zygote --disable-seccomp-filter-sandbox --no-sandbox
+morin       6914    6891  0 00:04 ?        00:02:52 /snap/discord/143/usr/share/discord/Discord --type=gpu-process --field-trial-handle=3903139386562967804,15049973077152375032,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --disable-seccomp-filter-sandbox --no-sandbox --enable-crash-reporter=4abab89e-9332-4544-ac36-a8633eb00f5c,no_channel --global-crash-keys=4abab89e-9332-4544-ac36-a8633eb00f5c,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.20 --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files
+morin       6926    6798  0 00:04 ?        00:00:16 /snap/discord/143/usr/share/discord/Discord --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=3903139386562967804,15049973077152375032,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --lang=en-US --service-sandbox-type=none --no-sandbox --enable-crash-reporter=4abab89e-9332-4544-ac36-a8633eb00f5c,no_channel --global-crash-keys=4abab89e-9332-4544-ac36-a8633eb00f5c,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.20 --shared-files=v8_context_snapshot_data:100
+morin       7003    6798  5 00:04 ?        01:08:42 /snap/discord/143/usr/share/discord/Discord --type=renderer --disable-seccomp-filter-sandbox --no-sandbox --autoplay-policy=no-user-gesture-required --field-trial-handle=3903139386562967804,15049973077152375032,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --lang=en-US --enable-crash-reporter=4abab89e-9332-4544-ac36-a8633eb00f5c,no_channel --global-crash-keys=4abab89e-9332-4544-ac36-a8633eb00f5c,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.20 --app-path=/snap/discord/143/usr/share/discord/resources/app.asar --no-sandbox --no-zygote --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --enable-node-leakage-in-renderers
+morin       7045    6798  0 00:04 ?        00:00:01 /snap/discord/143/usr/share/discord/Discord --type=utility --utility-sub-type=audio.mojom.AudioService --field-trial-handle=3903139386562967804,15049973077152375032,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --lang=en-US --service-sandbox-type=none --no-sandbox --enable-crash-reporter=4abab89e-9332-4544-ac36-a8633eb00f5c,no_channel --global-crash-keys=4abab89e-9332-4544-ac36-a8633eb00f5c,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.20 --shared-files=v8_context_snapshot_data:100
+root        7947       2  0 00:18 ?        00:00:00 [kworker/u65:0-rb_allocator]
+root        9499       2  0 00:37 ?        00:00:00 [kworker/25:2-mm_percpu_wq]
+root        9839       2  0 00:43 ?        00:00:00 [kworker/29:1-events]
+root        9840       2  0 00:43 ?        00:00:00 [kworker/3:3-events]
+root        9876       2  0 00:44 ?        00:00:00 [kworker/8:2-mm_percpu_wq]
+root        9904       2  0 00:45 ?        00:00:00 [kworker/u65:1-rb_allocator]
+root       10011       2  0 00:46 ?        00:00:00 [kworker/7:0-events]
+root       10148       2  0 00:49 ?        00:00:00 [kworker/24:2-events]
+root       11195       2  0 01:44 ?        00:00:00 [kworker/15:0-mm_percpu_wq]
+root       13512       2  0 05:08 ?        00:00:00 [kworker/18:1-events]
+root       13920       2  0 06:14 ?        00:00:00 [kworker/2:1-mm_percpu_wq]
+root       16943       2  0 10:46 ?        00:00:00 [kworker/5:0-mm_percpu_wq]
+root       17834       2  0 12:38 ?        00:00:00 [kworker/19:0-mm_percpu_wq]
+root       17906       2  0 12:47 ?        00:00:00 [kworker/23:0-events]
+root       19156       2  0 15:23 ?        00:00:00 [kworker/6:1-mm_percpu_wq]
+root       20038       2  0 17:19 ?        00:00:00 [kworker/31:2-events]
+root       20047       2  0 17:22 ?        00:00:00 [kworker/17:0-mm_percpu_wq]
+root       20657       2  0 18:37 ?        00:00:00 [kworker/10:1-events]
+root       20833       2  0 18:57 ?        00:00:00 [kworker/13:2-events]
+root       20912       2  0 19:05 ?        00:00:00 [kworker/27:1-mm_percpu_wq]
+root       21557       2  0 20:28 ?        00:00:02 [kworker/u64:4-flush-259:0]
+root       21594       2  0 20:32 ?        00:00:00 [kworker/11:1-events]
+root       21669       2  0 20:32 ?        00:00:00 [kworker/9:2-rcu_gp]
+root       21670       2  0 20:32 ?        00:00:00 [kworker/9:2H]
+root       21726       2  0 20:33 ?        00:00:00 [kworker/20:2-events]
+root       21743       2  0 20:33 ?        00:00:02 [kworker/u64:7-dm_vblank_control_workq]
+root       21779       2  0 20:34 ?        00:00:00 [kworker/23:2-mm_percpu_wq]
+root       21780       2  0 20:34 ?        00:00:00 [kworker/4:0-rcu_par_gp]
+root       21792       2  0 20:34 ?        00:00:00 [kworker/14:2-mm_percpu_wq]
+morin      21807       1  0 20:34 ?        00:00:00 /usr/bin/python3 /usr/bin/gnome-terminal --wait
+morin      21808   21807  0 20:34 ?        00:00:00 /usr/bin/gnome-terminal.real --wait
+morin      21812    4991  0 20:34 pts/1    00:00:00 bash
+morin      21838    3145  0 20:34 ?        00:00:07 /usr/share/code/code --unity-launch --enable-crashpad
+morin      21841   21838  0 20:34 ?        00:00:00 /usr/share/code/code --type=zygote --no-zygote-sandbox --enable-crashpad --enable-crashpad
+morin      21842   21838  0 20:34 ?        00:00:00 /usr/share/code/code --type=zygote --enable-crashpad --enable-crashpad
+morin      21844   21842  0 20:34 ?        00:00:00 /usr/share/code/code --type=zygote --enable-crashpad --enable-crashpad
+morin      21858       1  0 20:34 ?        00:00:00 /usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/morin/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=aa55b790-0a2e-4415-8d62-f8a0aca1f50a&iid=aa55b790-0a2e-4415-8d62-f8a0aca1f50a&sid=aa55b790-0a2e-4415-8d62-f8a0aca1f50a --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.71.0 --annotation=lsb-release=Ubuntu 22.04.1 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=19.0.12 --initial-client-fd=41 --shared-client-connection
+morin      21871   21841  0 20:34 ?        00:00:12 /usr/share/code/code --type=gpu-process --enable-crashpad --crashpad-handler-pid=21858 --enable-crash-reporter=3ec416d6-5afb-4dc3-8301-ab6eca1645b3,no_channel --user-data-dir=/home/morin/.config/Code --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,6416182853391815067,16631297479145189664,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+morin      21917   21838  0 20:34 ?        00:00:00 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=21858 --enable-crash-reporter=3ec416d6-5afb-4dc3-8301-ab6eca1645b3,no_channel --user-data-dir=/home/morin/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6416182853391815067,16631297479145189664,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --enable-crashpad
+morin      22009   21838  2 20:34 ?        00:00:57 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=21858 --enable-crash-reporter=3ec416d6-5afb-4dc3-8301-ab6eca1645b3,no_channel --user-data-dir=/home/morin/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --enable-blink-features=HighlightAPI --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --launch-time-ticks=75421319608 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6416182853391815067,16631297479145189664,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:40e3d67a-04f6-42b4-8c37-a9e21cd8038f --enable-crashpad
+morin      22064   21838  0 20:34 ?        00:00:07 /usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+morin      22094   21844  0 20:34 ?        00:00:02 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=21858 --enable-crash-reporter=3ec416d6-5afb-4dc3-8301-ab6eca1645b3,no_channel --user-data-dir=/home/morin/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=75423050385 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6416182853391815067,16631297479145189664,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:40e3d67a-04f6-42b4-8c37-a9e21cd8038f
+morin      22120   21838  0 20:34 ?        00:00:17 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=21858 --enable-crash-reporter=3ec416d6-5afb-4dc3-8301-ab6eca1645b3,no_channel --user-data-dir=/home/morin/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --launch-time-ticks=75423586220 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6416182853391815067,16631297479145189664,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:d8dd4d33-eaaa-4633-82f5-f0727bf11942 --vscode-window-kind=shared-process --enable-crashpad
+morin      22142   22120  0 20:34 ?        00:00:02 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost --logsPath /home/morin/.config/Code/logs/20221018T203444
+morin      22189   22120  0 20:34 ?        00:00:00 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+morin      22199   22064  0 20:34 ?        00:00:00 /bin/python3 -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"7d4d6f87-2694-4fd1-b543-9f0ce0b521a1" --shell=9002 --transport="tcp" --iopub=9004 --f=/home/morin/.local/share/jupyter/runtime/kernel-v2-220640yQ63fW1kOFe.json
+morin      22204   22064  0 20:34 ?        00:00:00 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=22064
+morin      22220   22064  1 20:34 ?        00:00:33 /usr/share/code/code --ms-enable-electron-run-as-node /home/morin/.vscode/extensions/ms-python.vscode-pylance-2022.9.20/dist/server.bundle.js --cancellationReceive=file:8567767e6ec406ebdbd4b822f37102c2a51c3cfadb --node-ipc --clientProcessId=22064
+morin      22268   22142  0 20:34 pts/2    00:00:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+morin      22285   22142  0 20:34 pts/3    00:00:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+morin      22339   21844  0 20:34 ?        00:00:02 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=21858 --enable-crash-reporter=3ec416d6-5afb-4dc3-8301-ab6eca1645b3,no_channel --user-data-dir=/home/morin/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --launch-time-ticks=75433797049 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6416182853391815067,16631297479145189664,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:40e3d67a-04f6-42b4-8c37-a9e21cd8038f
+morin      22362   22064  0 20:34 ?        00:00:00 /bin/python3 -m ipykernel_launcher --ip=127.0.0.1 --stdin=9008 --control=9006 --hb=9005 --Session.signature_scheme="hmac-sha256" --Session.key=b"b78bca0e-7bac-43a0-9a38-4433bda2c2e5" --shell=9007 --transport="tcp" --iopub=9009 --f=/home/morin/.local/share/jupyter/runtime/kernel-v2-22064IofWgz1hdHyD.json
+morin      22441    2071  6 20:35 ?        00:02:52 /snap/firefox/1943/usr/lib/firefox/firefox https://cdn.discordapp.com/attachments/884190721723215942/1032089465503625326/SSHConsole.ipynb
+morin      22800   22441  0 20:35 ?        00:00:00 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -parentBuildID 20221007191409 -prefsLen 27231 -prefMapSize 228560 -appDir /snap/firefox/1943/usr/lib/firefox/browser {dd485e4f-aedb-4484-a6a0-89652340db5c} 22441 true socket
+morin      22827   22441  0 20:35 ?        00:00:00 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 27372 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {d8bc06e6-9287-43bb-822a-ec01e3e4d665} 22441 true tab
+morin      22880   22441  0 20:35 ?        00:00:01 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 31864 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {d369c58c-6439-49ca-a195-ebae2a58649c} 22441 true tab
+morin      22944   22441  0 20:35 ?        00:00:13 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 31999 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {b8bcaef2-0b0c-4859-9da6-b95ef055d74e} 22441 true tab
+morin      22980   22441  0 20:35 ?        00:00:00 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 31999 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {76e654e9-2d42-4f33-b536-1531b5be51a6} 22441 true tab
+morin      22984   22441  0 20:35 ?        00:00:09 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 31999 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {110deaef-315e-497c-8d4f-44ed1b34cd6a} 22441 true tab
+morin      22989   22441  0 20:35 ?        00:00:14 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 31999 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {f00118bd-93b8-4c36-b309-b60ae6e7020d} 22441 true tab
+morin      23434   21844  0 20:35 ?        00:00:03 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=21858 --enable-crash-reporter=3ec416d6-5afb-4dc3-8301-ab6eca1645b3,no_channel --user-data-dir=/home/morin/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9 --launch-time-ticks=75468303633 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6416182853391815067,16631297479145189664,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:40e3d67a-04f6-42b4-8c37-a9e21cd8038f
+root       23649       2  0 20:40 ?        00:00:00 [kworker/16:0-mm_percpu_wq]
+root       23651       2  0 20:40 ?        00:00:00 [kworker/17:2-mm_percpu_wq]
+morin      23699       1  0 20:42 ?        00:00:00 /usr/bin/python3 /usr/bin/gnome-terminal --wait
+morin      23700   23699  0 20:42 ?        00:00:00 /usr/bin/gnome-terminal.real --wait
+morin      23704    4991  0 20:42 pts/4    00:00:00 bash
+morin      23790   22064  0 20:43 ?        00:00:02 /bin/python3 -m ipykernel_launcher --ip=127.0.0.1 --stdin=9013 --control=9011 --hb=9010 --Session.signature_scheme="hmac-sha256" --Session.key=b"364406e2-9286-4c5d-8c9d-ca6b059eb67c" --shell=9012 --transport="tcp" --iopub=9014 --f=/home/morin/.local/share/jupyter/runtime/kernel-v2-22064nS34mhDxiIKF.json
+root       23948       2  0 20:46 ?        00:00:01 [kworker/u64:0-flush-259:0]
+root       24078       2  0 20:52 ?        00:00:00 [kworker/0:0-events_freezable]
+root       24104       2  0 20:54 ?        00:00:01 [kworker/u64:1-flush-259:0]
+root       24176       2  0 20:56 ?        00:00:00 [kworker/30:0-events]
+root       24412       2  0 20:57 ?        00:00:00 [kworker/29:2]
+root       24493       2  0 20:59 ?        00:00:00 [kworker/1:1-mm_percpu_wq]
+root       24653       2  0 21:00 ?        00:00:00 [kworker/2:0-events]
+root       24654       2  0 21:00 ?        00:00:00 [kworker/12:0-events]
+root       24882       2  0 21:00 ?        00:00:00 [kworker/20:1-mm_percpu_wq]
+morin      24891   22441  0 21:01 ?        00:00:03 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -parentBuildID 20221007191409 -prefsLen 32517 -prefMapSize 228560 -appDir /snap/firefox/1943/usr/lib/firefox/browser {475e0aef-8fb9-43f6-81dd-73b443ea9579} 22441 true rdd
+morin      24968   22441  0 21:01 ?        00:00:00 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -parentBuildID 20221007191409 -sandboxingKind 1 -prefsLen 32517 -prefMapSize 228560 -appDir /snap/firefox/1943/usr/lib/firefox/browser {ad0330d5-5a1b-46eb-a711-568dc1990319} 22441 true utility
+morin      25302   22441  0 21:01 ?        00:00:04 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 30 -isForBrowser -prefsLen 32517 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {25a5395c-eac2-4613-819f-eb75b7490c67} 22441 true tab
+root       25350       2  0 21:01 ?        00:00:00 [kworker/21:1-cgroup_destroy]
+morin      25415   22441  0 21:01 ?        00:00:04 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 32 -isForBrowser -prefsLen 32517 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {f6c13a07-b82d-47ca-98ba-d5c1fc531ff5} 22441 true tab
+root       25443       2  0 21:01 ?        00:00:00 [kworker/6:2-events]
+root       25464       2  0 21:03 ?        00:00:00 [kworker/8:0-events]
+root       25509       2  0 21:04 ?        00:00:00 [kworker/28:2-events]
+root       25540       2  0 21:04 ?        00:00:00 [kworker/3:1-mm_percpu_wq]
+root       26041       2  0 21:05 ?        00:00:00 [kworker/1:0-events]
+root       26139       2  0 21:05 ?        00:00:00 [kworker/5:1-cgroup_destroy]
+root       26224       2  0 21:05 ?        00:00:00 [kworker/19:1-rcu_par_gp]
+root       26592       2  0 21:05 ?        00:00:00 [kworker/24:0-events]
+root       26603       2  0 21:05 ?        00:00:00 [kworker/18:2-mm_percpu_wq]
+root       26676       2  0 21:05 ?        00:00:00 [kworker/10:0-mm_percpu_wq]
+root       26690       2  0 21:06 ?        00:00:00 [kworker/25:0-mm_percpu_wq]
+morin      26890   22441  3 21:06 ?        00:00:23 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 34 -isForBrowser -prefsLen 32629 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {776af164-83c8-4f5c-911c-7005ca78518a} 22441 true tab
+root       26912       2  0 21:06 ?        00:00:00 [kworker/9:1-mm_percpu_wq]
+root       26937       2  0 21:06 ?        00:00:00 [kworker/30:1-pm]
+root       27043       2  0 21:06 ?        00:00:00 [kworker/7:2-mm_percpu_wq]
+root       27141       2  0 21:06 ?        00:00:00 [kworker/12:2-events]
+root       27496       2  0 21:06 ?        00:00:00 [kworker/16:2-events]
+root       27594       2  0 21:06 ?        00:00:00 [kworker/26:0]
+morin      27706   22441  0 21:06 ?        00:00:00 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 35 -isForBrowser -prefsLen 32685 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {f8f454b5-5bcc-40c9-935b-aa3c811e1dad} 22441 true tab
+morin      27771   22441  0 21:08 ?        00:00:01 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 36 -isForBrowser -prefsLen 32741 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {eeb4ec57-78eb-419d-996c-128212c7a6ee} 22441 true tab
+root       27793       2  0 21:08 ?        00:00:00 [kworker/0:1]
+morin      27869   22441  0 21:08 ?        00:00:03 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 38 -isForBrowser -prefsLen 32741 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {bfd25c46-1bf3-43f3-89ea-835376073364} 22441 true tab
+morin      27915   22441  0 21:08 ?        00:00:04 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 40 -isForBrowser -prefsLen 32741 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {5b1e24df-4296-4f2b-ada3-3e8df80e16ab} 22441 true tab
+morin      27925   22441  0 21:08 ?        00:00:01 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 41 -isForBrowser -prefsLen 32741 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {06c72f66-5b3b-4bc8-8d2c-90eab11d3d02} 22441 true tab
+root       27983       2  0 21:08 ?        00:00:00 [kworker/21:2-events]
+root       28011       2  0 21:09 ?        00:00:00 [kworker/14:0-mm_percpu_wq]
+root       28357       2  0 21:09 ?        00:00:00 [kworker/22:1-events]
+root       28416       1  0 21:09 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root       28454       2  0 21:09 ?        00:00:00 [kworker/5:3-events]
+root       28739       2  0 21:10 ?        00:00:00 [kworker/31:0-events]
+root       28746   28416  0 21:10 ?        00:00:00 sshd: morin [priv]
+morin      28783   28746  0 21:10 ?        00:00:00 sshd: morin
+root       28900   28416  0 21:11 ?        00:00:00 sshd: morin [priv]
+morin      28936   28900  0 21:11 ?        00:00:00 sshd: morin
+morin      28970   22441  0 21:11 ?        00:00:00 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 42 -isForBrowser -prefsLen 32797 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {5fbec977-4c69-4ef3-a8f9-a0e217528882} 22441 true tab
+root       28996       2  0 21:11 ?        00:00:00 [kworker/4:2-events]
+root       28997       2  0 21:11 ?        00:00:00 [kworker/11:0-events]
+morin      29011   22441  0 21:11 ?        00:00:00 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 43 -isForBrowser -prefsLen 32797 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {812bfe60-31ba-49f8-aa1c-40bacf48a937} 22441 true tab
+morin      29045   22441  0 21:11 ?        00:00:00 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 44 -isForBrowser -prefsLen 32797 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {4625b53d-251c-450f-834f-0b80101fc443} 22441 true tab
+root       29068       2  0 21:11 ?        00:00:00 [kworker/15:1]
+root       29071   28416  0 21:12 ?        00:00:00 sshd: morin [priv]
+morin      29107   29071  0 21:12 ?        00:00:00 sshd: morin@notty
+root       29120   28416  0 21:13 ?        00:00:00 sshd: morin [priv]
+morin      29156   29120  0 21:13 ?        00:00:00 sshd: morin@notty
+root       29177       2  0 21:14 ?        00:00:00 [kworker/u64:2-dm_vblank_control_workq]
+root       29196       2  0 21:14 ?        00:00:00 [kworker/14:1-usb_hub_wq]
+root       29224   28416  1 21:17 ?        00:00:00 sshd: morin [priv]
+morin      29260   29224  0 21:17 ?        00:00:00 sshd: morin@notty
+morin      29261   29260  0 21:17 ?        00:00:00 ps -ef
+### End ps -ef###
+
+### BEGIN netstat -an --inet###
+
+### End netstat -an --inet###
+
+### BEGIN last -adx###
+
+morin    pts/5        Tue Oct 18 21:10 - 21:10  (00:00)     192.168.0.213
+runlevel (to lvl 5)   Mon Oct 17 18:37   still running      0.0.0.0
+morin    tty1         Mon Oct 17 18:37    gone - no logout  0.0.0.0
+reboot   system boot  Mon Oct 17 18:37   still running      0.0.0.0
+shutdown system down  Mon Oct 17 00:56 - 18:37  (17:41)     0.0.0.0
+morin    tty1         Sun Oct 16 02:56 - 00:56  (22:00)     0.0.0.0
+runlevel (to lvl 5)   Sun Oct 16 02:56 - 00:56  (22:00)     0.0.0.0
+reboot   system boot  Sun Oct 16 02:56 - 00:56  (22:00)     0.0.0.0
+morin    tty1         Tue Oct 11 01:46 - crash (5+01:09)    0.0.0.0
+runlevel (to lvl 5)   Mon Oct 10 20:51 - 02:56 (5+06:04)    0.0.0.0
+reboot   system boot  Mon Oct 10 20:51 - 00:56 (6+04:05)    0.0.0.0
+morin    tty1         Sat Oct  8 14:32 - crash (2+06:18)    0.0.0.0
+runlevel (to lvl 5)   Sat Oct  8 14:30 - 20:51 (2+06:20)    0.0.0.0
+reboot   system boot  Sat Oct  8 14:30 - 00:56 (8+10:25)    0.0.0.0
+shutdown system down  Sat Oct  8 00:15 - 14:30  (14:15)     0.0.0.0
+morin    tty1         Sun Oct  2 20:59 - down  (5+03:15)    0.0.0.0
+runlevel (to lvl 5)   Sun Oct  2 20:56 - 00:15 (5+03:18)    0.0.0.0
+reboot   system boot  Sun Oct  2 20:56 - 00:15 (5+03:19)    0.0.0.0
+shutdown system down  Sun Oct  2 20:55 - 20:56  (00:00)     0.0.0.0
+runlevel (to lvl 5)   Sun Oct  2 20:55 - 20:55  (00:00)     0.0.0.0
+reboot   system boot  Sun Oct  2 20:55 - 20:55  (00:00)     0.0.0.0
+shutdown system down  Tue Sep 20 03:47 - 20:55 (12+17:07)   0.0.0.0
+runlevel (to lvl 5)   Sun Sep 18 22:46 - 03:47 (1+05:00)    0.0.0.0
+morin    tty1         Sun Sep 18 22:46 - 03:47 (1+05:00)    0.0.0.0
+reboot   system boot  Sun Sep 18 22:46 - 03:47 (1+05:00)    0.0.0.0
+shutdown system down  Sun Sep 18 17:28 - 22:46  (05:17)     0.0.0.0
+morin    tty1         Sun Sep 18 17:28 - 17:28  (00:00)     0.0.0.0
+runlevel (to lvl 5)   Sun Sep 18 17:28 - 17:28  (00:00)     0.0.0.0
+reboot   system boot  Sun Sep 18 17:27 - 17:28  (00:00)     0.0.0.0
+morin    tty1         Sun Sep 11 23:54 - 14:59 (5+15:04)    0.0.0.0
+runlevel (to lvl 5)   Sun Sep 11 23:34 - 17:28 (6+17:53)    0.0.0.0
+reboot   system boot  Sun Sep 11 23:34 - 17:28 (6+17:54)    0.0.0.0
+shutdown system down  Sun Sep 11 23:33 - 23:34  (00:00)     0.0.0.0
+morin    tty1         Thu Sep  8 16:31 - down  (3+07:01)    0.0.0.0
+runlevel (to lvl 5)   Thu Sep  8 16:31 - 23:33 (3+07:02)    0.0.0.0
+reboot   system boot  Thu Sep  8 16:31 - 23:33 (3+07:02)    0.0.0.0
+shutdown system down  Wed Sep  7 05:24 - 16:31 (1+11:06)    0.0.0.0
+morin    tty1         Tue Sep  6 22:46 - down   (06:38)     0.0.0.0
+runlevel (to lvl 5)   Tue Sep  6 22:46 - 05:24  (06:38)     0.0.0.0
+reboot   system boot  Tue Sep  6 22:46 - 05:24  (06:38)     0.0.0.0
+shutdown system down  Tue Sep  6 03:29 - 22:46  (19:16)     0.0.0.0
+morin    tty1         Tue Sep  6 02:32 - down   (00:56)     0.0.0.0
+runlevel (to lvl 5)   Tue Sep  6 02:32 - 03:29  (00:56)     0.0.0.0
+reboot   system boot  Tue Sep  6 02:32 - 03:29  (00:57)     0.0.0.0
+shutdown system down  Sun Sep  4 04:21 - 02:32 (1+22:10)    0.0.0.0
+morin    tty1         Sat Sep  3 23:32 - 04:21  (04:49)     0.0.0.0
+runlevel (to lvl 5)   Sat Sep  3 23:32 - 04:21  (04:49)     0.0.0.0
+reboot   system boot  Sat Sep  3 23:32 - 04:21  (04:49)     0.0.0.0
+shutdown system down  Sat Sep  3 23:31 - 23:32  (00:00)     0.0.0.0
+morin    tty1         Sat Sep  3 23:29 - down   (00:02)     0.0.0.0
+runlevel (to lvl 5)   Sat Sep  3 23:29 - 23:31  (00:02)     0.0.0.0
+reboot   system boot  Sat Sep  3 23:29 - 23:31  (00:02)     0.0.0.0
+shutdown system down  Sat Sep  3 23:28 - 23:29  (00:00)     0.0.0.0
+morin    tty2         Sat Sep  3 23:26 - 23:28  (00:01)     0.0.0.0
+morin    :0           Sat Sep  3 23:26 - 23:26  (00:00)     0.0.0.0
+morin    tty2         Sat Sep  3 23:25 - 23:26  (00:00)     0.0.0.0
+morin    :0           Sat Sep  3 23:25 - 23:25  (00:00)     0.0.0.0
+morin    :0           Sat Sep  3 23:25 - 23:25  (00:00)     0.0.0.0
+morin    tty1         Sat Sep  3 23:21 - down   (00:07)     0.0.0.0
+runlevel (to lvl 5)   Sat Sep  3 23:20 - 23:28  (00:07)     0.0.0.0
+reboot   system boot  Sat Sep  3 23:20 - 23:28  (00:07)     0.0.0.0
+morin    :0           Sat Sep  3 23:06 - 23:19  (00:12)     0.0.0.0
+morin    tty2         Sat Sep  3 22:49 - 23:05  (00:16)     0.0.0.0
+runlevel (to lvl 5)   Sat Sep  3 22:49 - 23:20  (00:31)     0.0.0.0
+reboot   system boot  Sat Sep  3 22:49 - 23:28  (00:39)     0.0.0.0
+morin    tty2         Sat Sep  3 14:12 - crash  (08:36)     0.0.0.0
+runlevel (to lvl 5)   Sat Sep  3 14:12 - 22:49  (08:36)     0.0.0.0
+reboot   system boot  Sat Sep  3 14:12 - 23:28  (09:15)     0.0.0.0
+morin    tty2         Sat Sep  3 01:37 - crash  (12:35)     0.0.0.0
+runlevel (to lvl 5)   Sat Sep  3 01:37 - 14:12  (12:35)     0.0.0.0
+reboot   system boot  Sat Sep  3 01:37 - 23:28  (21:51)     0.0.0.0
+shutdown system down  Sat Sep  3 01:34 - 01:37  (00:02)     0.0.0.0
+runlevel (to lvl 5)   Sat Sep  3 01:31 - 01:34  (00:03)     0.0.0.0
+morin    tty2         Sat Sep  3 01:31 - down   (00:03)     0.0.0.0
+reboot   system boot  Sat Sep  3 01:31 - 01:34  (00:03)     0.0.0.0
+
+wtmp begins Sat Sep  3 01:31:19 2022
+### End last -adx###
+
+### BEGIN cut -d: -f1 /etc/passwd###
+
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+systemd-network
+systemd-resolve
+messagebus
+systemd-timesync
+syslog
+_apt
+tss
+uuidd
+systemd-oom
+tcpdump
+avahi-autoipd
+usbmux
+dnsmasq
+kernoops
+avahi
+cups-pk-helper
+rtkit
+whoopsie
+sssd
+speech-dispatcher
+nm-openvpn
+saned
+colord
+geoclue
+pulse
+gnome-initial-setup
+hplip
+morin
+_flatpak
+sddm
+sshd
+### End cut -d: -f1 /etc/passwd###
+
+### BEGIN ps -ef###
+
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 Oct17 ?        00:00:04 /sbin/init splash
+root           2       0  0 Oct17 ?        00:00:00 [kthreadd]
+root           3       2  0 Oct17 ?        00:00:00 [rcu_gp]
+root           4       2  0 Oct17 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 Oct17 ?        00:00:00 [netns]
+root           7       2  0 Oct17 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           9       2  0 Oct17 ?        00:00:00 [kworker/0:1H-events_highpri]
+root          10       2  0 Oct17 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 Oct17 ?        00:00:00 [rcu_tasks_rude_]
+root          12       2  0 Oct17 ?        00:00:00 [rcu_tasks_trace]
+root          13       2  0 Oct17 ?        00:00:00 [ksoftirqd/0]
+root          14       2  0 Oct17 ?        00:00:16 [rcu_sched]
+root          15       2  0 Oct17 ?        00:00:00 [migration/0]
+root          16       2  0 Oct17 ?        00:00:00 [idle_inject/0]
+root          18       2  0 Oct17 ?        00:00:00 [cpuhp/0]
+root          19       2  0 Oct17 ?        00:00:00 [cpuhp/1]
+root          20       2  0 Oct17 ?        00:00:00 [idle_inject/1]
+root          21       2  0 Oct17 ?        00:00:00 [migration/1]
+root          22       2  0 Oct17 ?        00:00:00 [ksoftirqd/1]
+root          24       2  0 Oct17 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          25       2  0 Oct17 ?        00:00:00 [cpuhp/2]
+root          26       2  0 Oct17 ?        00:00:00 [idle_inject/2]
+root          27       2  0 Oct17 ?        00:00:00 [migration/2]
+root          28       2  0 Oct17 ?        00:00:00 [ksoftirqd/2]
+root          30       2  0 Oct17 ?        00:00:00 [kworker/2:0H-events_highpri]
+root          31       2  0 Oct17 ?        00:00:00 [cpuhp/3]
+root          32       2  0 Oct17 ?        00:00:00 [idle_inject/3]
+root          33       2  0 Oct17 ?        00:00:00 [migration/3]
+root          34       2  0 Oct17 ?        00:00:00 [ksoftirqd/3]
+root          36       2  0 Oct17 ?        00:00:00 [kworker/3:0H-events_highpri]
+root          37       2  0 Oct17 ?        00:00:00 [cpuhp/4]
+root          38       2  0 Oct17 ?        00:00:00 [idle_inject/4]
+root          39       2  0 Oct17 ?        00:00:00 [migration/4]
+root          40       2  0 Oct17 ?        00:00:00 [ksoftirqd/4]
+root          42       2  0 Oct17 ?        00:00:00 [kworker/4:0H-events_highpri]
+root          43       2  0 Oct17 ?        00:00:00 [cpuhp/5]
+root          44       2  0 Oct17 ?        00:00:00 [idle_inject/5]
+root          45       2  0 Oct17 ?        00:00:00 [migration/5]
+root          46       2  0 Oct17 ?        00:00:00 [ksoftirqd/5]
+root          48       2  0 Oct17 ?        00:00:00 [kworker/5:0H-events_highpri]
+root          49       2  0 Oct17 ?        00:00:00 [cpuhp/6]
+root          50       2  0 Oct17 ?        00:00:00 [idle_inject/6]
+root          51       2  0 Oct17 ?        00:00:00 [migration/6]
+root          52       2  0 Oct17 ?        00:00:00 [ksoftirqd/6]
+root          54       2  0 Oct17 ?        00:00:00 [kworker/6:0H-events_highpri]
+root          55       2  0 Oct17 ?        00:00:00 [cpuhp/7]
+root          56       2  0 Oct17 ?        00:00:00 [idle_inject/7]
+root          57       2  0 Oct17 ?        00:00:00 [migration/7]
+root          58       2  0 Oct17 ?        00:00:00 [ksoftirqd/7]
+root          60       2  0 Oct17 ?        00:00:00 [kworker/7:0H-events_highpri]
+root          61       2  0 Oct17 ?        00:00:00 [cpuhp/8]
+root          62       2  0 Oct17 ?        00:00:00 [idle_inject/8]
+root          63       2  0 Oct17 ?        00:00:00 [migration/8]
+root          64       2  0 Oct17 ?        00:00:00 [ksoftirqd/8]
+root          66       2  0 Oct17 ?        00:00:00 [kworker/8:0H-events_highpri]
+root          67       2  0 Oct17 ?        00:00:00 [cpuhp/9]
+root          68       2  0 Oct17 ?        00:00:00 [idle_inject/9]
+root          69       2  0 Oct17 ?        00:00:00 [migration/9]
+root          70       2  0 Oct17 ?        00:00:00 [ksoftirqd/9]
+root          73       2  0 Oct17 ?        00:00:00 [cpuhp/10]
+root          74       2  0 Oct17 ?        00:00:00 [idle_inject/10]
+root          75       2  0 Oct17 ?        00:00:00 [migration/10]
+root          76       2  0 Oct17 ?        00:00:00 [ksoftirqd/10]
+root          78       2  0 Oct17 ?        00:00:00 [kworker/10:0H-events_highpri]
+root          79       2  0 Oct17 ?        00:00:00 [cpuhp/11]
+root          80       2  0 Oct17 ?        00:00:00 [idle_inject/11]
+root          81       2  0 Oct17 ?        00:00:00 [migration/11]
+root          82       2  0 Oct17 ?        00:00:00 [ksoftirqd/11]
+root          84       2  0 Oct17 ?        00:00:00 [kworker/11:0H-events_highpri]
+root          85       2  0 Oct17 ?        00:00:00 [cpuhp/12]
+root          86       2  0 Oct17 ?        00:00:00 [idle_inject/12]
+root          87       2  0 Oct17 ?        00:00:00 [migration/12]
+root          88       2  0 Oct17 ?        00:00:00 [ksoftirqd/12]
+root          90       2  0 Oct17 ?        00:00:00 [kworker/12:0H-events_highpri]
+root          91       2  0 Oct17 ?        00:00:00 [cpuhp/13]
+root          92       2  0 Oct17 ?        00:00:00 [idle_inject/13]
+root          93       2  0 Oct17 ?        00:00:00 [migration/13]
+root          94       2  0 Oct17 ?        00:00:00 [ksoftirqd/13]
+root          96       2  0 Oct17 ?        00:00:00 [kworker/13:0H-kblockd]
+root          97       2  0 Oct17 ?        00:00:00 [cpuhp/14]
+root          98       2  0 Oct17 ?        00:00:00 [idle_inject/14]
+root          99       2  0 Oct17 ?        00:00:00 [migration/14]
+root         100       2  0 Oct17 ?        00:00:00 [ksoftirqd/14]
+root         102       2  0 Oct17 ?        00:00:00 [kworker/14:0H-events_highpri]
+root         103       2  0 Oct17 ?        00:00:00 [cpuhp/15]
+root         104       2  0 Oct17 ?        00:00:00 [idle_inject/15]
+root         105       2  0 Oct17 ?        00:00:00 [migration/15]
+root         106       2  0 Oct17 ?        00:00:00 [ksoftirqd/15]
+root         108       2  0 Oct17 ?        00:00:00 [kworker/15:0H-events_highpri]
+root         109       2  0 Oct17 ?        00:00:00 [cpuhp/16]
+root         110       2  0 Oct17 ?        00:00:00 [idle_inject/16]
+root         111       2  0 Oct17 ?        00:00:00 [migration/16]
+root         112       2  0 Oct17 ?        00:00:00 [ksoftirqd/16]
+root         114       2  0 Oct17 ?        00:00:00 [kworker/16:0H-events_highpri]
+root         115       2  0 Oct17 ?        00:00:00 [cpuhp/17]
+root         116       2  0 Oct17 ?        00:00:00 [idle_inject/17]
+root         117       2  0 Oct17 ?        00:00:00 [migration/17]
+root         118       2  0 Oct17 ?        00:00:00 [ksoftirqd/17]
+root         120       2  0 Oct17 ?        00:00:00 [kworker/17:0H-events_highpri]
+root         121       2  0 Oct17 ?        00:00:00 [cpuhp/18]
+root         122       2  0 Oct17 ?        00:00:00 [idle_inject/18]
+root         123       2  0 Oct17 ?        00:00:00 [migration/18]
+root         124       2  0 Oct17 ?        00:00:00 [ksoftirqd/18]
+root         126       2  0 Oct17 ?        00:00:00 [kworker/18:0H-events_highpri]
+root         127       2  0 Oct17 ?        00:00:00 [cpuhp/19]
+root         128       2  0 Oct17 ?        00:00:00 [idle_inject/19]
+root         129       2  0 Oct17 ?        00:00:00 [migration/19]
+root         130       2  0 Oct17 ?        00:00:00 [ksoftirqd/19]
+root         132       2  0 Oct17 ?        00:00:00 [kworker/19:0H-events_highpri]
+root         133       2  0 Oct17 ?        00:00:00 [cpuhp/20]
+root         134       2  0 Oct17 ?        00:00:00 [idle_inject/20]
+root         135       2  0 Oct17 ?        00:00:00 [migration/20]
+root         136       2  0 Oct17 ?        00:00:00 [ksoftirqd/20]
+root         138       2  0 Oct17 ?        00:00:00 [kworker/20:0H-events_highpri]
+root         139       2  0 Oct17 ?        00:00:00 [cpuhp/21]
+root         140       2  0 Oct17 ?        00:00:00 [idle_inject/21]
+root         141       2  0 Oct17 ?        00:00:00 [migration/21]
+root         142       2  0 Oct17 ?        00:00:00 [ksoftirqd/21]
+root         144       2  0 Oct17 ?        00:00:00 [kworker/21:0H-events_highpri]
+root         145       2  0 Oct17 ?        00:00:00 [cpuhp/22]
+root         146       2  0 Oct17 ?        00:00:00 [idle_inject/22]
+root         147       2  0 Oct17 ?        00:00:00 [migration/22]
+root         148       2  0 Oct17 ?        00:00:00 [ksoftirqd/22]
+root         150       2  0 Oct17 ?        00:00:00 [kworker/22:0H-kblockd]
+root         151       2  0 Oct17 ?        00:00:00 [cpuhp/23]
+root         152       2  0 Oct17 ?        00:00:00 [idle_inject/23]
+root         153       2  0 Oct17 ?        00:00:00 [migration/23]
+root         154       2  0 Oct17 ?        00:00:00 [ksoftirqd/23]
+root         156       2  0 Oct17 ?        00:00:00 [kworker/23:0H-events_highpri]
+root         157       2  0 Oct17 ?        00:00:00 [cpuhp/24]
+root         158       2  0 Oct17 ?        00:00:00 [idle_inject/24]
+root         159       2  0 Oct17 ?        00:00:00 [migration/24]
+root         160       2  0 Oct17 ?        00:00:00 [ksoftirqd/24]
+root         162       2  0 Oct17 ?        00:00:00 [kworker/24:0H-events_highpri]
+root         163       2  0 Oct17 ?        00:00:00 [cpuhp/25]
+root         164       2  0 Oct17 ?        00:00:00 [idle_inject/25]
+root         165       2  0 Oct17 ?        00:00:00 [migration/25]
+root         166       2  0 Oct17 ?        00:00:00 [ksoftirqd/25]
+root         168       2  0 Oct17 ?        00:00:00 [kworker/25:0H-events_highpri]
+root         169       2  0 Oct17 ?        00:00:00 [cpuhp/26]
+root         170       2  0 Oct17 ?        00:00:00 [idle_inject/26]
+root         171       2  0 Oct17 ?        00:00:00 [migration/26]
+root         172       2  0 Oct17 ?        00:00:00 [ksoftirqd/26]
+root         174       2  0 Oct17 ?        00:00:00 [kworker/26:0H-events_highpri]
+root         175       2  0 Oct17 ?        00:00:00 [cpuhp/27]
+root         176       2  0 Oct17 ?        00:00:00 [idle_inject/27]
+root         177       2  0 Oct17 ?        00:00:00 [migration/27]
+root         178       2  0 Oct17 ?        00:00:00 [ksoftirqd/27]
+root         180       2  0 Oct17 ?        00:00:00 [kworker/27:0H-events_highpri]
+root         181       2  0 Oct17 ?        00:00:00 [cpuhp/28]
+root         182       2  0 Oct17 ?        00:00:00 [idle_inject/28]
+root         183       2  0 Oct17 ?        00:00:00 [migration/28]
+root         184       2  0 Oct17 ?        00:00:00 [ksoftirqd/28]
+root         186       2  0 Oct17 ?        00:00:00 [kworker/28:0H-kblockd]
+root         187       2  0 Oct17 ?        00:00:00 [cpuhp/29]
+root         188       2  0 Oct17 ?        00:00:00 [idle_inject/29]
+root         189       2  0 Oct17 ?        00:00:00 [migration/29]
+root         190       2  0 Oct17 ?        00:00:00 [ksoftirqd/29]
+root         192       2  0 Oct17 ?        00:00:00 [kworker/29:0H-events_highpri]
+root         193       2  0 Oct17 ?        00:00:00 [cpuhp/30]
+root         194       2  0 Oct17 ?        00:00:00 [idle_inject/30]
+root         195       2  0 Oct17 ?        00:00:00 [migration/30]
+root         196       2  0 Oct17 ?        00:00:00 [ksoftirqd/30]
+root         198       2  0 Oct17 ?        00:00:00 [kworker/30:0H-events_highpri]
+root         199       2  0 Oct17 ?        00:00:00 [cpuhp/31]
+root         200       2  0 Oct17 ?        00:00:00 [idle_inject/31]
+root         201       2  0 Oct17 ?        00:00:00 [migration/31]
+root         202       2  0 Oct17 ?        00:00:00 [ksoftirqd/31]
+root         204       2  0 Oct17 ?        00:00:00 [kworker/31:0H-events_highpri]
+root         205       2  0 Oct17 ?        00:00:00 [kdevtmpfs]
+root         206       2  0 Oct17 ?        00:00:00 [inet_frag_wq]
+root         207       2  0 Oct17 ?        00:00:18 [kauditd]
+root         211       2  0 Oct17 ?        00:00:00 [khungtaskd]
+root         212       2  0 Oct17 ?        00:00:00 [oom_reaper]
+root         213       2  0 Oct17 ?        00:00:00 [writeback]
+root         214       2  0 Oct17 ?        00:00:01 [kcompactd0]
+root         215       2  0 Oct17 ?        00:00:00 [ksmd]
+root         216       2  0 Oct17 ?        00:00:00 [khugepaged]
+root         263       2  0 Oct17 ?        00:00:00 [kintegrityd]
+root         264       2  0 Oct17 ?        00:00:00 [kblockd]
+root         265       2  0 Oct17 ?        00:00:00 [blkcg_punt_bio]
+root         266       2  0 Oct17 ?        00:00:00 [tpm_dev_wq]
+root         267       2  0 Oct17 ?        00:00:00 [ata_sff]
+root         268       2  0 Oct17 ?        00:00:00 [md]
+root         269       2  0 Oct17 ?        00:00:00 [edac-poller]
+root         270       2  0 Oct17 ?        00:00:00 [devfreq_wq]
+root         271       2  0 Oct17 ?        00:00:00 [watchdogd]
+root         274       2  0 Oct17 ?        00:00:00 [kworker/1:1H-events_highpri]
+root         276       2  0 Oct17 ?        00:00:00 [kswapd0]
+root         277       2  0 Oct17 ?        00:00:00 [ecryptfs-kthrea]
+root         279       2  0 Oct17 ?        00:00:00 [kthrotld]
+root         280       2  0 Oct17 ?        00:00:00 [acpi_thermal_pm]
+root         282       2  0 Oct17 ?        00:00:00 [vfio-irqfd-clea]
+root         284       2  0 Oct17 ?        00:00:00 [kworker/8:1H-events_highpri]
+root         285       2  0 Oct17 ?        00:00:00 [mld]
+root         286       2  0 Oct17 ?        00:00:00 [ipv6_addrconf]
+root         298       2  0 Oct17 ?        00:00:00 [kstrp]
+root         309       2  0 Oct17 ?        00:00:00 [zswap-shrink]
+root         350       2  0 Oct17 ?        00:00:00 [kworker/26:2-mm_percpu_wq]
+root         365       2  0 Oct17 ?        00:00:00 [charger_manager]
+root         413       2  0 Oct17 ?        00:00:00 [kworker/4:1H-kblockd]
+root         418       2  0 Oct17 ?        00:00:00 [nvme-wq]
+root         419       2  0 Oct17 ?        00:00:00 [nvme-reset-wq]
+root         420       2  0 Oct17 ?        00:00:00 [nvme-delete-wq]
+root         425       2  0 Oct17 ?        00:00:00 [kworker/9:1H-events_highpri]
+root         427       2  0 Oct17 ?        00:00:00 [kworker/30:1H-events_highpri]
+root         431       2  0 Oct17 ?        00:00:00 [kworker/14:1H-events_highpri]
+root         433       2  0 Oct17 ?        00:00:00 [scsi_eh_0]
+root         434       2  0 Oct17 ?        00:00:00 [scsi_tmf_0]
+root         435       2  0 Oct17 ?        00:00:00 [scsi_eh_1]
+root         436       2  0 Oct17 ?        00:00:00 [scsi_tmf_1]
+root         437       2  0 Oct17 ?        00:00:00 [scsi_eh_2]
+root         438       2  0 Oct17 ?        00:00:00 [scsi_tmf_2]
+root         439       2  0 Oct17 ?        00:00:00 [scsi_eh_3]
+root         440       2  0 Oct17 ?        00:00:00 [scsi_tmf_3]
+root         441       2  0 Oct17 ?        00:00:00 [scsi_eh_4]
+root         442       2  0 Oct17 ?        00:00:00 [scsi_tmf_4]
+root         443       2  0 Oct17 ?        00:00:00 [scsi_eh_5]
+root         444       2  0 Oct17 ?        00:00:00 [scsi_tmf_5]
+root         445       2  0 Oct17 ?        00:00:00 [scsi_eh_6]
+root         446       2  0 Oct17 ?        00:00:00 [scsi_tmf_6]
+root         447       2  0 Oct17 ?        00:00:00 [scsi_eh_7]
+root         448       2  0 Oct17 ?        00:00:00 [scsi_tmf_7]
+root         456       2  0 Oct17 ?        00:00:00 [kworker/10:1H-kblockd]
+root         458       2  0 Oct17 ?        00:00:00 [kworker/31:1H-kblockd]
+root         459       2  0 Oct17 ?        00:00:00 [kworker/22:1H-events_highpri]
+root         460       2  0 Oct17 ?        00:00:00 [kworker/28:1H-events_highpri]
+root         476       2  0 Oct17 ?        00:00:00 [kworker/12:1H-events_highpri]
+root         479       2  0 Oct17 ?        00:00:00 [kworker/5:1H-events_highpri]
+root         480       2  0 Oct17 ?        00:00:00 [kworker/3:1H-events_highpri]
+root         491       2  0 Oct17 ?        00:00:00 [kworker/29:1H-events_highpri]
+root         501       2  0 Oct17 ?        00:00:00 [kworker/27:1H-events_highpri]
+root         502       2  0 Oct17 ?        00:00:02 [jbd2/nvme0n1p1-]
+root         503       2  0 Oct17 ?        00:00:00 [ext4-rsv-conver]
+root         508       2  0 Oct17 ?        00:00:00 [kworker/25:1H-events_highpri]
+root         509       2  0 Oct17 ?        00:00:00 [kworker/7:1H-events_highpri]
+root         511       2  0 Oct17 ?        00:00:01 [kworker/16:1H-kblockd]
+root         518       2  0 Oct17 ?        00:00:00 [kworker/18:1H-kblockd]
+root         522       2  0 Oct17 ?        00:00:00 [kworker/24:1H-events_highpri]
+root         533       2  0 Oct17 ?        00:00:00 [kworker/20:1H-kblockd]
+root         535       2  0 Oct17 ?        00:00:00 [kworker/11:1H-events_highpri]
+root         538       2  0 Oct17 ?        00:00:00 [kworker/21:1H-events_highpri]
+root         545       2  0 Oct17 ?        00:00:00 [kworker/19:1H-kblockd]
+root         549       2  0 Oct17 ?        00:00:00 [kworker/6:1H-events_highpri]
+root         551       2  0 Oct17 ?        00:00:00 [kworker/2:1H-events_highpri]
+root         555       1  0 Oct17 ?        00:05:03 /lib/systemd/systemd-journald
+root         563       2  0 Oct17 ?        00:00:00 [kworker/15:1H-events_highpri]
+root         578       2  0 Oct17 ?        00:00:00 [kworker/13:1H-kblockd]
+root         585       2  0 Oct17 ?        00:00:00 [ipmi-msghandler]
+root         590       1  0 Oct17 ?        00:00:00 /lib/systemd/systemd-udevd
+root         591       2  0 Oct17 ?        00:00:00 [kworker/26:1H-kblockd]
+root         593       2  0 Oct17 ?        00:00:00 [kworker/17:1H-kblockd]
+root         651       2  0 Oct17 ?        00:00:00 [kworker/23:1H-events_highpri]
+root         723       2  0 Oct17 ?        00:00:00 [irq/91-mei_me]
+root         777       2  0 Oct17 ?        00:00:00 [cfg80211]
+root         802       2  0 Oct17 ?        00:00:25 [irq/99-iwlwifi]
+root         810       2  0 Oct17 ?        00:00:00 [cryptd]
+root         884       2  0 Oct17 ?        00:00:00 [irq/36-1-0008]
+root         899       2  0 Oct17 ?        00:00:00 [1-0008-con0]
+root         910       1  0 Oct17 ?        00:00:00 /sbin/mount.ntfs /dev/sdb2 /mnt/0EACA18AACA16D41 -o rw,nosuid,nodev
+root         912       2  0 Oct17 ?        00:00:26 [gfx_0.0.0]
+root         913       2  0 Oct17 ?        00:00:00 [comp_1.0.0]
+root         914       2  0 Oct17 ?        00:00:00 [comp_1.1.0]
+root         915       2  0 Oct17 ?        00:00:00 [comp_1.2.0]
+root         916       2  0 Oct17 ?        00:00:00 [comp_1.3.0]
+root         917       2  0 Oct17 ?        00:00:00 [comp_1.0.1]
+root         918       2  0 Oct17 ?        00:00:00 [comp_1.1.1]
+root         919       2  0 Oct17 ?        00:00:00 [comp_1.2.1]
+root         920       2  0 Oct17 ?        00:00:00 [comp_1.3.1]
+root         921       2  0 Oct17 ?        00:00:00 [nfit]
+root         922       2  0 Oct17 ?        00:00:00 [sdma0]
+root         923       2  0 Oct17 ?        00:00:00 [sdma1]
+root         924       2  0 Oct17 ?        00:00:00 [sdma2]
+root         925       2  0 Oct17 ?        00:00:00 [sdma3]
+root         926       2  0 Oct17 ?        00:00:00 [vcn_dec_0]
+root         927       2  0 Oct17 ?        00:00:00 [vcn_enc_0.0]
+root         928       2  0 Oct17 ?        00:00:00 [vcn_enc_0.1]
+root         929       2  0 Oct17 ?        00:00:00 [vcn_dec_1]
+root         930       2  0 Oct17 ?        00:00:00 [vcn_enc_1.0]
+root         931       2  0 Oct17 ?        00:00:00 [vcn_enc_1.1]
+root         932       2  0 Oct17 ?        00:00:00 [jpeg_dec]
+systemd+     969       1  0 Oct17 ?        00:01:39 /lib/systemd/systemd-oomd
+systemd+     970       1  0 Oct17 ?        00:00:01 /lib/systemd/systemd-resolved
+systemd+     971       1  0 Oct17 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root         975       1  0 Oct17 ?        00:00:01 /usr/sbin/haveged --Foreground --verbose=1
+root        1029       2  0 Oct17 ?        00:00:00 [dm_vblank_contr]
+root        1032       1  0 Oct17 ?        00:00:03 /usr/libexec/accounts-daemon
+root        1033       1  0 Oct17 ?        00:00:00 /usr/sbin/acpid
+avahi       1036       1  0 Oct17 ?        00:00:43 avahi-daemon: running [modernslicer.local]
+root        1039       1  0 Oct17 ?        00:00:00 /usr/lib/bluetooth/bluetoothd
+root        1041       1  0 Oct17 ?        00:00:00 /usr/sbin/cron -f -P
+message+    1042       1  0 Oct17 ?        00:00:09 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        1043       1  0 Oct17 ?        00:00:12 /usr/sbin/NetworkManager --no-daemon
+root        1049       1  0 Oct17 ?        00:00:19 /usr/sbin/irqbalance --foreground
+root        1050       1  0 Oct17 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root        1051       1  0 Oct17 ?        00:00:01 /usr/libexec/polkitd --no-debug
+root        1052       1  0 Oct17 ?        00:00:00 /usr/libexec/power-profiles-daemon
+syslog      1053       1  0 Oct17 ?        00:00:04 /usr/sbin/rsyslogd -n -iNONE
+root        1056       1  0 Oct17 ?        00:00:19 /usr/lib/snapd/snapd
+root        1057       1  0 Oct17 ?        00:00:00 /usr/libexec/switcheroo-control
+root        1058       1  0 Oct17 ?        00:00:00 /lib/systemd/systemd-logind
+root        1060       1  0 Oct17 ?        00:00:17 /usr/libexec/udisks2/udisksd
+root        1061       1  0 Oct17 ?        00:00:01 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi       1069    1036  0 Oct17 ?        00:00:00 avahi-daemon: chroot helper
+root        1095       1  0 Oct17 ?        00:00:00 /usr/sbin/ModemManager
+root        1184       1  0 Oct17 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1197       1  0 Oct17 ?        00:01:26 /usr/bin/containerd
+root        1211       2  0 Oct17 ?        00:00:00 [card0-crtc0]
+root        1212       2  0 Oct17 ?        00:00:00 [card0-crtc1]
+root        1213       2  0 Oct17 ?        00:00:00 [card0-crtc2]
+root        1214       2  0 Oct17 ?        00:00:00 [card0-crtc3]
+root        1215       2  0 Oct17 ?        00:00:00 [card0-crtc4]
+root        1216       2  0 Oct17 ?        00:00:00 [card0-crtc5]
+root        1217       1  0 Oct17 ?        00:00:00 /usr/bin/sddm
+root        1337    1217  1 Oct17 tty1     00:15:29 /usr/lib/xorg/Xorg -nolisten tcp -auth /var/run/sddm/{47c99a8c-ef3c-496f-aee9-ed8f08f73534} -background none -noreset -displayfd 17 -seat seat0 vt1
+rtkit       1512       1  0 Oct17 ?        00:00:00 /usr/libexec/rtkit-daemon
+root        1836       2  0 Oct17 ?        00:00:00 [krfcommd]
+root        2036       1  0 Oct17 ?        00:00:00 /usr/libexec/upowerd
+root        2069    1217  0 Oct17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/sddm/sddm-helper --socket /tmp/sddm-auth978a81fa-8b24-49f9-8ad3-de7f68c7af93 --id 1 --start startxfce4 --user morin
+morin       2071       1  0 Oct17 ?        00:00:00 /lib/systemd/systemd --user
+morin       2072    2071  0 Oct17 ?        00:00:00 (sd-pam)
+morin       2079    2071  0 Oct17 ?        00:00:00 /usr/bin/pipewire
+morin       2080    2071  0 Oct17 ?        00:00:00 /usr/bin/pipewire-media-session
+morin       2081    2071  0 Oct17 ?        00:04:28 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+morin       2091    2071  0 Oct17 ?        00:00:22 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        2092       1  0 Oct17 ?        00:00:57 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+kernoops    2115       1  0 Oct17 ?        00:00:00 /usr/sbin/kerneloops --test
+morin       2122    2071  0 Oct17 ?        00:00:00 /usr/libexec/gvfsd
+morin       2129    2071  0 Oct17 ?        00:00:00 /usr/libexec/xdg-document-portal
+kernoops    2130       1  0 Oct17 ?        00:00:00 /usr/sbin/kerneloops
+morin       2139    2071  0 Oct17 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+morin       2140       1  0 Oct17 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+morin       2141    2071  0 Oct17 ?        00:00:00 /usr/libexec/xdg-permission-store
+morin       2147    2069  0 Oct17 ?        00:00:02 xfce4-session
+root        2159    2129  0 Oct17 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+morin       2340    2071  0 Oct17 ?        00:00:01 /usr/libexec/tracker-miner-fs-3
+morin       2357    2147  0 Oct17 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/im-launch startxfce4
+morin       2374       1  0 Oct17 ?        00:00:10 /usr/bin/ibus-daemon --daemonize --xim
+morin       2381    2071  0 Oct17 ?        00:00:06 /usr/libexec/gvfs-udisks2-volume-monitor
+morin       2391    2374  0 Oct17 ?        00:00:00 /usr/libexec/ibus-dconf
+morin       2392    2374  0 Oct17 ?        00:00:03 /usr/libexec/ibus-ui-gtk3
+morin       2393    2374  0 Oct17 ?        00:00:03 /usr/libexec/ibus-extension-gtk3
+morin       2396       1  0 Oct17 ?        00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+morin       2406    2071  0 Oct17 ?        00:00:00 /usr/libexec/ibus-portal
+morin       2416    2071  0 Oct17 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+morin       2426    2071  0 Oct17 ?        00:00:01 /usr/libexec/gvfs-afc-volume-monitor
+morin       2544    2071  0 Oct17 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+morin       2551    2071  0 Oct17 ?        00:00:00 /usr/libexec/goa-daemon
+morin       2608    2071  0 Oct17 ?        00:00:00 /usr/libexec/goa-identity-service
+morin       2620    2071  0 Oct17 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+morin       2632    2071  0 Oct17 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+morin       2643    2632  0 Oct17 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+morin       2652    2071  0 Oct17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+morin       2657    2071  0 Oct17 ?        00:00:01 /usr/libexec/at-spi2-registryd --use-gnome-session
+morin       2662    2071  0 Oct17 ?        00:00:01 /usr/libexec/xdg-desktop-portal
+morin       2666    2071  0 Oct17 ?        00:00:00 /usr/bin/xfce4-screensaver
+morin       2675    2071  0 Oct17 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gnome
+morin       2780    2071  0 Oct17 ?        00:00:00 /usr/bin/gpg-agent --supervised
+morin       2787    2147  0 Oct17 ?        00:02:19 xfwm4 --display :0.0 --sm-client-id 22a04d5b0-b663-446a-aed9-fdd8949b7797
+morin       2822    2374  0 Oct17 ?        00:00:02 /usr/libexec/ibus-engine-simple
+morin       2979    2071  0 Oct17 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+morin       3000    2071  0 Oct17 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+morin       3083    2147  0 Oct17 ?        00:00:00 xfsettingsd --display :0.0 --sm-client-id 29138039e-a3f3-4a48-ada7-061ec7885b06
+morin       3093    2147  0 Oct17 ?        00:00:13 xfce4-panel --display :0.0 --sm-client-id 2d64a1457-f7a2-40d4-bcb0-0d23a1437f8a
+morin       3098    2147  0 Oct17 ?        00:00:17 Thunar --sm-client-id 2f39f1761-d726-4db4-8e10-e45212cf97fd --daemon
+morin       3104    2147  0 Oct17 ?        00:00:07 xfdesktop --display :0.0 --sm-client-id 2c751b650-6af9-45b2-8735-07f4c0fa3829
+morin       3107    2071  0 Oct17 ?        00:00:00 /snap/snapd-desktop-integration/14/bin/snapd-desktop-integration
+morin       3145    3093  0 Oct17 ?        00:00:09 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 7 25165831 whiskermenu Whisker Menu Show a menu to easily access installed applications
+morin       3181    2147  0 Oct17 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+morin       3188    2147  0 Oct17 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-applet
+morin       3193    2147  0 Oct17 ?        00:00:01 update-notifier
+morin       3205    2147  0 Oct17 ?        00:00:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+morin       3209    2147  0 Oct17 ?        00:00:00 xiccd
+morin       3210    3093  0 Oct17 ?        00:00:58 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 6 25165833 systray Status Tray Plugin Provides status notifier items (application indicators) and legacy systray items
+morin       3215    3093  0 Oct17 ?        00:01:12 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 8 25165834 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+morin       3216    3093  0 Oct17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 10 25165835 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+morin       3217    2147  0 Oct17 ?        00:00:31 nm-applet
+morin       3238    2147  0 Oct17 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+morin       3239    2147  0 Oct17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+morin       3242    2147  0 Oct17 ?        00:00:00 /usr/libexec/geoclue-2.0/demos/agent
+colord      3326       1  0 Oct17 ?        00:00:00 /usr/libexec/colord
+morin       3345    2071  0 Oct17 ?        00:00:00 /usr/libexec/evolution-source-registry
+morin       3398    2071  0 Oct17 ?        00:00:00 /usr/libexec/gvfsd-metadata
+morin       3403    2122  0 Oct17 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+morin       3416    2071  0 Oct17 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+morin       3425    3093  0 Oct17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 14 25165836 actions Action Buttons Log out, lock or other system actions
+morin       3440    2071  0 Oct17 ?        00:00:00 /usr/libexec/dconf-service
+morin       3444    2071  0 Oct17 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+morin       3474    2071  0 Oct17 ?        00:00:00 /usr/lib/bluetooth/obexd
+morin       3476       1  0 Oct17 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-tray
+morin       3721       1  0 Oct17 ?        00:00:42 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+morin       4367    2071  0 Oct17 ?        00:00:05 /usr/bin/snap userd
+root        4656       2  0 Oct17 ?        00:00:00 [kworker/28:0-events]
+morin       4987       1  0 Oct17 ?        00:00:00 /usr/bin/python3 /usr/bin/gnome-terminal --wait
+morin       4988    4987  0 Oct17 ?        00:00:00 /usr/bin/gnome-terminal.real --wait
+morin       4991    2071  0 Oct17 ?        00:00:11 /usr/libexec/gnome-terminal-server
+morin       5021    4991  0 Oct17 pts/0    00:00:00 bash
+root        5258       2  0 Oct17 ?        00:00:00 [kworker/22:0-mm_percpu_wq]
+root        5489       1  0 Oct17 ?        00:00:00 /usr/libexec/packagekitd
+root        6312       1  0 00:00 ?        00:00:00 /usr/sbin/cupsd -l
+root        6314       1  0 00:00 ?        00:00:00 /usr/sbin/cups-browsed
+root        6575       2  0 00:01 ?        00:00:00 [kworker/27:2-events]
+root        6576       2  0 00:01 ?        00:00:00 [kworker/13:1-mm_percpu_wq]
+morin       6798    3145  0 00:04 ?        00:07:36 /snap/discord/143/usr/share/discord/Discord --use-tray-icon --no-sandbox --disable-seccomp-filter-sandbox
+morin       6891    6798  0 00:04 ?        00:00:00 /snap/discord/143/usr/share/discord/Discord --type=zygote --no-zygote-sandbox --disable-seccomp-filter-sandbox --no-sandbox
+morin       6892    6798  0 00:04 ?        00:00:00 /snap/discord/143/usr/share/discord/Discord --type=zygote --disable-seccomp-filter-sandbox --no-sandbox
+morin       6914    6891  0 00:04 ?        00:02:53 /snap/discord/143/usr/share/discord/Discord --type=gpu-process --field-trial-handle=3903139386562967804,15049973077152375032,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --disable-seccomp-filter-sandbox --no-sandbox --enable-crash-reporter=4abab89e-9332-4544-ac36-a8633eb00f5c,no_channel --global-crash-keys=4abab89e-9332-4544-ac36-a8633eb00f5c,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.20 --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files
+morin       6926    6798  0 00:04 ?        00:00:16 /snap/discord/143/usr/share/discord/Discord --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=3903139386562967804,15049973077152375032,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --lang=en-US --service-sandbox-type=none --no-sandbox --enable-crash-reporter=4abab89e-9332-4544-ac36-a8633eb00f5c,no_channel --global-crash-keys=4abab89e-9332-4544-ac36-a8633eb00f5c,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.20 --shared-files=v8_context_snapshot_data:100
+morin       7003    6798  5 00:04 ?        01:10:06 /snap/discord/143/usr/share/discord/Discord --type=renderer --disable-seccomp-filter-sandbox --no-sandbox --autoplay-policy=no-user-gesture-required --field-trial-handle=3903139386562967804,15049973077152375032,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --lang=en-US --enable-crash-reporter=4abab89e-9332-4544-ac36-a8633eb00f5c,no_channel --global-crash-keys=4abab89e-9332-4544-ac36-a8633eb00f5c,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.20 --app-path=/snap/discord/143/usr/share/discord/resources/app.asar --no-sandbox --no-zygote --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --enable-node-leakage-in-renderers
+morin       7045    6798  0 00:04 ?        00:00:01 /snap/discord/143/usr/share/discord/Discord --type=utility --utility-sub-type=audio.mojom.AudioService --field-trial-handle=3903139386562967804,15049973077152375032,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --lang=en-US --service-sandbox-type=none --no-sandbox --enable-crash-reporter=4abab89e-9332-4544-ac36-a8633eb00f5c,no_channel --global-crash-keys=4abab89e-9332-4544-ac36-a8633eb00f5c,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.20 --shared-files=v8_context_snapshot_data:100
+root        7947       2  0 00:18 ?        00:00:00 [kworker/u65:0-rb_allocator]
+root        9499       2  0 00:37 ?        00:00:00 [kworker/25:2-events]
+root        9839       2  0 00:43 ?        00:00:00 [kworker/29:1-mm_percpu_wq]
+root        9840       2  0 00:43 ?        00:00:00 [kworker/3:3-events]
+root        9876       2  0 00:44 ?        00:00:00 [kworker/8:2-mm_percpu_wq]
+root        9904       2  0 00:45 ?        00:00:00 [kworker/u65:1-rb_allocator]
+root       10011       2  0 00:46 ?        00:00:00 [kworker/7:0-events]
+root       10148       2  0 00:49 ?        00:00:00 [kworker/24:2-mm_percpu_wq]
+root       11195       2  0 01:44 ?        00:00:00 [kworker/15:0-events]
+root       13512       2  0 05:08 ?        00:00:00 [kworker/18:1-events]
+root       13920       2  0 06:14 ?        00:00:00 [kworker/2:1-mm_percpu_wq]
+root       16943       2  0 10:46 ?        00:00:00 [kworker/5:0-events]
+root       17834       2  0 12:38 ?        00:00:00 [kworker/19:0-events]
+root       17906       2  0 12:47 ?        00:00:00 [kworker/23:0-events]
+root       19156       2  0 15:23 ?        00:00:00 [kworker/6:1-events]
+root       20038       2  0 17:19 ?        00:00:00 [kworker/31:2-mm_percpu_wq]
+root       20047       2  0 17:22 ?        00:00:00 [kworker/17:0-mm_percpu_wq]
+root       20657       2  0 18:37 ?        00:00:00 [kworker/10:1-events]
+root       20833       2  0 18:57 ?        00:00:00 [kworker/13:2-events]
+root       20912       2  0 19:05 ?        00:00:00 [kworker/27:1-mm_percpu_wq]
+root       21557       2  0 20:28 ?        00:00:02 [kworker/u64:4-flush-259:0]
+root       21594       2  0 20:32 ?        00:00:00 [kworker/11:1-events]
+root       21669       2  0 20:32 ?        00:00:00 [kworker/9:2-rcu_gp]
+root       21670       2  0 20:32 ?        00:00:00 [kworker/9:2H]
+root       21726       2  0 20:33 ?        00:00:00 [kworker/20:2-events]
+root       21743       2  0 20:33 ?        00:00:02 [kworker/u64:7-flush-259:0]
+root       21779       2  0 20:34 ?        00:00:00 [kworker/23:2-mm_percpu_wq]
+root       21780       2  0 20:34 ?        00:00:00 [kworker/4:0-rcu_par_gp]
+root       21792       2  0 20:34 ?        00:00:00 [kworker/14:2-mm_percpu_wq]
+morin      21807       1  0 20:34 ?        00:00:00 /usr/bin/python3 /usr/bin/gnome-terminal --wait
+morin      21808   21807  0 20:34 ?        00:00:00 /usr/bin/gnome-terminal.real --wait
+morin      21812    4991  0 20:34 pts/1    00:00:00 bash
+morin      21838    3145  0 20:34 ?        00:00:07 /usr/share/code/code --unity-launch --enable-crashpad
+morin      21841   21838  0 20:34 ?        00:00:00 /usr/share/code/code --type=zygote --no-zygote-sandbox --enable-crashpad --enable-crashpad
+morin      21842   21838  0 20:34 ?        00:00:00 /usr/share/code/code --type=zygote --enable-crashpad --enable-crashpad
+morin      21844   21842  0 20:34 ?        00:00:00 /usr/share/code/code --type=zygote --enable-crashpad --enable-crashpad
+morin      21858       1  0 20:34 ?        00:00:00 /usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/morin/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=aa55b790-0a2e-4415-8d62-f8a0aca1f50a&iid=aa55b790-0a2e-4415-8d62-f8a0aca1f50a&sid=aa55b790-0a2e-4415-8d62-f8a0aca1f50a --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.71.0 --annotation=lsb-release=Ubuntu 22.04.1 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=19.0.12 --initial-client-fd=41 --shared-client-connection
+morin      21871   21841  0 20:34 ?        00:00:12 /usr/share/code/code --type=gpu-process --enable-crashpad --crashpad-handler-pid=21858 --enable-crash-reporter=3ec416d6-5afb-4dc3-8301-ab6eca1645b3,no_channel --user-data-dir=/home/morin/.config/Code --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,6416182853391815067,16631297479145189664,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+morin      21917   21838  0 20:34 ?        00:00:00 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=21858 --enable-crash-reporter=3ec416d6-5afb-4dc3-8301-ab6eca1645b3,no_channel --user-data-dir=/home/morin/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6416182853391815067,16631297479145189664,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --enable-crashpad
+morin      22009   21838  2 20:34 ?        00:00:57 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=21858 --enable-crash-reporter=3ec416d6-5afb-4dc3-8301-ab6eca1645b3,no_channel --user-data-dir=/home/morin/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --enable-blink-features=HighlightAPI --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --launch-time-ticks=75421319608 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6416182853391815067,16631297479145189664,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:40e3d67a-04f6-42b4-8c37-a9e21cd8038f --enable-crashpad
+morin      22064   21838  0 20:34 ?        00:00:07 /usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+morin      22094   21844  0 20:34 ?        00:00:02 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=21858 --enable-crash-reporter=3ec416d6-5afb-4dc3-8301-ab6eca1645b3,no_channel --user-data-dir=/home/morin/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=75423050385 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6416182853391815067,16631297479145189664,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:40e3d67a-04f6-42b4-8c37-a9e21cd8038f
+morin      22120   21838  0 20:34 ?        00:00:18 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=21858 --enable-crash-reporter=3ec416d6-5afb-4dc3-8301-ab6eca1645b3,no_channel --user-data-dir=/home/morin/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --launch-time-ticks=75423586220 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6416182853391815067,16631297479145189664,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:d8dd4d33-eaaa-4633-82f5-f0727bf11942 --vscode-window-kind=shared-process --enable-crashpad
+morin      22142   22120  0 20:34 ?        00:00:02 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost --logsPath /home/morin/.config/Code/logs/20221018T203444
+morin      22189   22120  0 20:34 ?        00:00:00 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+morin      22199   22064  0 20:34 ?        00:00:00 /bin/python3 -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"7d4d6f87-2694-4fd1-b543-9f0ce0b521a1" --shell=9002 --transport="tcp" --iopub=9004 --f=/home/morin/.local/share/jupyter/runtime/kernel-v2-220640yQ63fW1kOFe.json
+morin      22204   22064  0 20:34 ?        00:00:00 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=22064
+morin      22220   22064  1 20:34 ?        00:00:33 /usr/share/code/code --ms-enable-electron-run-as-node /home/morin/.vscode/extensions/ms-python.vscode-pylance-2022.9.20/dist/server.bundle.js --cancellationReceive=file:8567767e6ec406ebdbd4b822f37102c2a51c3cfadb --node-ipc --clientProcessId=22064
+morin      22268   22142  0 20:34 pts/2    00:00:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+morin      22285   22142  0 20:34 pts/3    00:00:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+morin      22339   21844  0 20:34 ?        00:00:02 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=21858 --enable-crash-reporter=3ec416d6-5afb-4dc3-8301-ab6eca1645b3,no_channel --user-data-dir=/home/morin/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --launch-time-ticks=75433797049 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6416182853391815067,16631297479145189664,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:40e3d67a-04f6-42b4-8c37-a9e21cd8038f
+morin      22362   22064  0 20:34 ?        00:00:00 /bin/python3 -m ipykernel_launcher --ip=127.0.0.1 --stdin=9008 --control=9006 --hb=9005 --Session.signature_scheme="hmac-sha256" --Session.key=b"b78bca0e-7bac-43a0-9a38-4433bda2c2e5" --shell=9007 --transport="tcp" --iopub=9009 --f=/home/morin/.local/share/jupyter/runtime/kernel-v2-22064IofWgz1hdHyD.json
+morin      22441    2071  6 20:35 ?        00:02:56 /snap/firefox/1943/usr/lib/firefox/firefox https://cdn.discordapp.com/attachments/884190721723215942/1032089465503625326/SSHConsole.ipynb
+morin      22800   22441  0 20:35 ?        00:00:00 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -parentBuildID 20221007191409 -prefsLen 27231 -prefMapSize 228560 -appDir /snap/firefox/1943/usr/lib/firefox/browser {dd485e4f-aedb-4484-a6a0-89652340db5c} 22441 true socket
+morin      22827   22441  0 20:35 ?        00:00:00 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 27372 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {d8bc06e6-9287-43bb-822a-ec01e3e4d665} 22441 true tab
+morin      22880   22441  0 20:35 ?        00:00:01 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 31864 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {d369c58c-6439-49ca-a195-ebae2a58649c} 22441 true tab
+morin      22944   22441  0 20:35 ?        00:00:13 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 31999 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {b8bcaef2-0b0c-4859-9da6-b95ef055d74e} 22441 true tab
+morin      22980   22441  0 20:35 ?        00:00:00 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 31999 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {76e654e9-2d42-4f33-b536-1531b5be51a6} 22441 true tab
+morin      22984   22441  0 20:35 ?        00:00:09 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 31999 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {110deaef-315e-497c-8d4f-44ed1b34cd6a} 22441 true tab
+morin      22989   22441  0 20:35 ?        00:00:14 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 31999 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {f00118bd-93b8-4c36-b309-b60ae6e7020d} 22441 true tab
+morin      23434   21844  0 20:35 ?        00:00:04 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=21858 --enable-crash-reporter=3ec416d6-5afb-4dc3-8301-ab6eca1645b3,no_channel --user-data-dir=/home/morin/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9 --launch-time-ticks=75468303633 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6416182853391815067,16631297479145189664,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:40e3d67a-04f6-42b4-8c37-a9e21cd8038f
+root       23649       2  0 20:40 ?        00:00:00 [kworker/16:0-mm_percpu_wq]
+root       23651       2  0 20:40 ?        00:00:00 [kworker/17:2-mm_percpu_wq]
+morin      23699       1  0 20:42 ?        00:00:00 /usr/bin/python3 /usr/bin/gnome-terminal --wait
+morin      23700   23699  0 20:42 ?        00:00:00 /usr/bin/gnome-terminal.real --wait
+morin      23704    4991  0 20:42 pts/4    00:00:00 bash
+morin      23790   22064  0 20:43 ?        00:00:02 /bin/python3 -m ipykernel_launcher --ip=127.0.0.1 --stdin=9013 --control=9011 --hb=9010 --Session.signature_scheme="hmac-sha256" --Session.key=b"364406e2-9286-4c5d-8c9d-ca6b059eb67c" --shell=9012 --transport="tcp" --iopub=9014 --f=/home/morin/.local/share/jupyter/runtime/kernel-v2-22064nS34mhDxiIKF.json
+root       23948       2  0 20:46 ?        00:00:01 [kworker/u64:0-dm_vblank_control_workq]
+root       24078       2  0 20:52 ?        00:00:00 [kworker/0:0-events]
+root       24104       2  0 20:54 ?        00:00:01 [kworker/u64:1-phy0]
+root       24176       2  0 20:56 ?        00:00:00 [kworker/30:0-mm_percpu_wq]
+root       24412       2  0 20:57 ?        00:00:00 [kworker/29:2]
+root       24493       2  0 20:59 ?        00:00:00 [kworker/1:1-mm_percpu_wq]
+root       24653       2  0 21:00 ?        00:00:00 [kworker/2:0-mm_percpu_wq]
+root       24654       2  0 21:00 ?        00:00:00 [kworker/12:0-mm_percpu_wq]
+root       24882       2  0 21:00 ?        00:00:00 [kworker/20:1-mm_percpu_wq]
+morin      24891   22441  0 21:01 ?        00:00:03 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -parentBuildID 20221007191409 -prefsLen 32517 -prefMapSize 228560 -appDir /snap/firefox/1943/usr/lib/firefox/browser {475e0aef-8fb9-43f6-81dd-73b443ea9579} 22441 true rdd
+morin      24968   22441  0 21:01 ?        00:00:00 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -parentBuildID 20221007191409 -sandboxingKind 1 -prefsLen 32517 -prefMapSize 228560 -appDir /snap/firefox/1943/usr/lib/firefox/browser {ad0330d5-5a1b-46eb-a711-568dc1990319} 22441 true utility
+morin      25302   22441  0 21:01 ?        00:00:04 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 30 -isForBrowser -prefsLen 32517 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {25a5395c-eac2-4613-819f-eb75b7490c67} 22441 true tab
+root       25350       2  0 21:01 ?        00:00:00 [kworker/21:1-cgroup_destroy]
+morin      25415   22441  0 21:01 ?        00:00:05 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 32 -isForBrowser -prefsLen 32517 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {f6c13a07-b82d-47ca-98ba-d5c1fc531ff5} 22441 true tab
+root       25443       2  0 21:01 ?        00:00:00 [kworker/6:2-events]
+root       25464       2  0 21:03 ?        00:00:00 [kworker/8:0-events]
+root       25509       2  0 21:04 ?        00:00:00 [kworker/28:2-mm_percpu_wq]
+root       25540       2  0 21:04 ?        00:00:00 [kworker/3:1-mm_percpu_wq]
+root       26041       2  0 21:05 ?        00:00:00 [kworker/1:0-events]
+root       26139       2  0 21:05 ?        00:00:00 [kworker/5:1-cgroup_destroy]
+root       26224       2  0 21:05 ?        00:00:00 [kworker/19:1-rcu_par_gp]
+root       26592       2  0 21:05 ?        00:00:00 [kworker/24:0-events]
+root       26603       2  0 21:05 ?        00:00:00 [kworker/18:2-mm_percpu_wq]
+root       26676       2  0 21:05 ?        00:00:00 [kworker/10:0-events]
+root       26690       2  0 21:06 ?        00:00:00 [kworker/25:0-mm_percpu_wq]
+morin      26890   22441  3 21:06 ?        00:00:28 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 34 -isForBrowser -prefsLen 32629 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {776af164-83c8-4f5c-911c-7005ca78518a} 22441 true tab
+root       26912       2  0 21:06 ?        00:00:00 [kworker/9:1-mm_percpu_wq]
+root       26937       2  0 21:06 ?        00:00:00 [kworker/30:1-pm]
+root       27043       2  0 21:06 ?        00:00:00 [kworker/7:2-events]
+root       27141       2  0 21:06 ?        00:00:00 [kworker/12:2-events]
+root       27496       2  0 21:06 ?        00:00:00 [kworker/16:2-events]
+root       27594       2  0 21:06 ?        00:00:00 [kworker/26:0]
+morin      27706   22441  0 21:06 ?        00:00:00 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 35 -isForBrowser -prefsLen 32685 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {f8f454b5-5bcc-40c9-935b-aa3c811e1dad} 22441 true tab
+morin      27771   22441  0 21:08 ?        00:00:01 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 36 -isForBrowser -prefsLen 32741 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {eeb4ec57-78eb-419d-996c-128212c7a6ee} 22441 true tab
+root       27793       2  0 21:08 ?        00:00:00 [kworker/0:1]
+morin      27869   22441  0 21:08 ?        00:00:03 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 38 -isForBrowser -prefsLen 32741 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {bfd25c46-1bf3-43f3-89ea-835376073364} 22441 true tab
+morin      27915   22441  0 21:08 ?        00:00:04 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 40 -isForBrowser -prefsLen 32741 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {5b1e24df-4296-4f2b-ada3-3e8df80e16ab} 22441 true tab
+morin      27925   22441  0 21:08 ?        00:00:01 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 41 -isForBrowser -prefsLen 32741 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {06c72f66-5b3b-4bc8-8d2c-90eab11d3d02} 22441 true tab
+root       27983       2  0 21:08 ?        00:00:00 [kworker/21:2-mm_percpu_wq]
+root       28011       2  0 21:09 ?        00:00:00 [kworker/14:0-mm_percpu_wq]
+root       28357       2  0 21:09 ?        00:00:00 [kworker/22:1-events]
+root       28416       1  0 21:09 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root       28454       2  0 21:09 ?        00:00:00 [kworker/5:3-events]
+root       28739       2  0 21:10 ?        00:00:00 [kworker/31:0-events]
+root       28746   28416  0 21:10 ?        00:00:00 sshd: morin [priv]
+morin      28783   28746  0 21:10 ?        00:00:00 sshd: morin
+root       28900   28416  0 21:11 ?        00:00:00 sshd: morin [priv]
+morin      28936   28900  0 21:11 ?        00:00:00 sshd: morin
+morin      28970   22441  0 21:11 ?        00:00:00 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 42 -isForBrowser -prefsLen 32797 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {5fbec977-4c69-4ef3-a8f9-a0e217528882} 22441 true tab
+root       28996       2  0 21:11 ?        00:00:00 [kworker/4:2-events]
+root       28997       2  0 21:11 ?        00:00:00 [kworker/11:0-events]
+morin      29011   22441  0 21:11 ?        00:00:00 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 43 -isForBrowser -prefsLen 32797 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {812bfe60-31ba-49f8-aa1c-40bacf48a937} 22441 true tab
+morin      29045   22441  0 21:11 ?        00:00:00 /snap/firefox/1943/usr/lib/firefox/firefox -contentproc -childID 44 -isForBrowser -prefsLen 32797 -prefMapSize 228560 -jsInitLen 246848 -parentBuildID 20221007191409 -appDir /snap/firefox/1943/usr/lib/firefox/browser {4625b53d-251c-450f-834f-0b80101fc443} 22441 true tab
+root       29068       2  0 21:11 ?        00:00:00 [kworker/15:1-mm_percpu_wq]
+root       29071   28416  0 21:12 ?        00:00:00 sshd: morin [priv]
+morin      29107   29071  0 21:12 ?        00:00:00 sshd: morin@notty
+root       29120   28416  0 21:13 ?        00:00:00 sshd: morin [priv]
+morin      29156   29120  0 21:13 ?        00:00:00 sshd: morin@notty
+root       29177       2  0 21:14 ?        00:00:00 [kworker/u64:2-writeback]
+root       29196       2  0 21:14 ?        00:00:00 [kworker/14:1-mm_percpu_wq]
+root       29285       2  0 21:18 ?        00:00:00 [kworker/15:2-mm_percpu_wq]
+root       29291       2  0 21:19 ?        00:00:00 [kworker/30:2]
+root       29300   28416  3 21:19 ?        00:00:00 sshd: morin [priv]
+morin      29336   29300  0 21:19 ?        00:00:00 sshd: morin@notty
+morin      29337   29336  0 21:19 ?        00:00:00 ps -ef
+### End ps -ef###
+
+### BEGIN netstat -an --inet###
+
+### End netstat -an --inet###
+
+### BEGIN last -adx###
+
+morin    pts/5        Tue Oct 18 21:10 - 21:10  (00:00)     192.168.0.213
+runlevel (to lvl 5)   Mon Oct 17 18:37   still running      0.0.0.0
+morin    tty1         Mon Oct 17 18:37    gone - no logout  0.0.0.0
+reboot   system boot  Mon Oct 17 18:37   still running      0.0.0.0
+shutdown system down  Mon Oct 17 00:56 - 18:37  (17:41)     0.0.0.0
+morin    tty1         Sun Oct 16 02:56 - 00:56  (22:00)     0.0.0.0
+runlevel (to lvl 5)   Sun Oct 16 02:56 - 00:56  (22:00)     0.0.0.0
+reboot   system boot  Sun Oct 16 02:56 - 00:56  (22:00)     0.0.0.0
+morin    tty1         Tue Oct 11 01:46 - crash (5+01:09)    0.0.0.0
+runlevel (to lvl 5)   Mon Oct 10 20:51 - 02:56 (5+06:04)    0.0.0.0
+reboot   system boot  Mon Oct 10 20:51 - 00:56 (6+04:05)    0.0.0.0
+morin    tty1         Sat Oct  8 14:32 - crash (2+06:18)    0.0.0.0
+runlevel (to lvl 5)   Sat Oct  8 14:30 - 20:51 (2+06:20)    0.0.0.0
+reboot   system boot  Sat Oct  8 14:30 - 00:56 (8+10:25)    0.0.0.0
+shutdown system down  Sat Oct  8 00:15 - 14:30  (14:15)     0.0.0.0
+morin    tty1         Sun Oct  2 20:59 - down  (5+03:15)    0.0.0.0
+runlevel (to lvl 5)   Sun Oct  2 20:56 - 00:15 (5+03:18)    0.0.0.0
+reboot   system boot  Sun Oct  2 20:56 - 00:15 (5+03:19)    0.0.0.0
+shutdown system down  Sun Oct  2 20:55 - 20:56  (00:00)     0.0.0.0
+runlevel (to lvl 5)   Sun Oct  2 20:55 - 20:55  (00:00)     0.0.0.0
+reboot   system boot  Sun Oct  2 20:55 - 20:55  (00:00)     0.0.0.0
+shutdown system down  Tue Sep 20 03:47 - 20:55 (12+17:07)   0.0.0.0
+runlevel (to lvl 5)   Sun Sep 18 22:46 - 03:47 (1+05:00)    0.0.0.0
+morin    tty1         Sun Sep 18 22:46 - 03:47 (1+05:00)    0.0.0.0
+reboot   system boot  Sun Sep 18 22:46 - 03:47 (1+05:00)    0.0.0.0
+shutdown system down  Sun Sep 18 17:28 - 22:46  (05:17)     0.0.0.0
+morin    tty1         Sun Sep 18 17:28 - 17:28  (00:00)     0.0.0.0
+runlevel (to lvl 5)   Sun Sep 18 17:28 - 17:28  (00:00)     0.0.0.0
+reboot   system boot  Sun Sep 18 17:27 - 17:28  (00:00)     0.0.0.0
+morin    tty1         Sun Sep 11 23:54 - 14:59 (5+15:04)    0.0.0.0
+runlevel (to lvl 5)   Sun Sep 11 23:34 - 17:28 (6+17:53)    0.0.0.0
+reboot   system boot  Sun Sep 11 23:34 - 17:28 (6+17:54)    0.0.0.0
+shutdown system down  Sun Sep 11 23:33 - 23:34  (00:00)     0.0.0.0
+morin    tty1         Thu Sep  8 16:31 - down  (3+07:01)    0.0.0.0
+runlevel (to lvl 5)   Thu Sep  8 16:31 - 23:33 (3+07:02)    0.0.0.0
+reboot   system boot  Thu Sep  8 16:31 - 23:33 (3+07:02)    0.0.0.0
+shutdown system down  Wed Sep  7 05:24 - 16:31 (1+11:06)    0.0.0.0
+morin    tty1         Tue Sep  6 22:46 - down   (06:38)     0.0.0.0
+runlevel (to lvl 5)   Tue Sep  6 22:46 - 05:24  (06:38)     0.0.0.0
+reboot   system boot  Tue Sep  6 22:46 - 05:24  (06:38)     0.0.0.0
+shutdown system down  Tue Sep  6 03:29 - 22:46  (19:16)     0.0.0.0
+morin    tty1         Tue Sep  6 02:32 - down   (00:56)     0.0.0.0
+runlevel (to lvl 5)   Tue Sep  6 02:32 - 03:29  (00:56)     0.0.0.0
+reboot   system boot  Tue Sep  6 02:32 - 03:29  (00:57)     0.0.0.0
+shutdown system down  Sun Sep  4 04:21 - 02:32 (1+22:10)    0.0.0.0
+morin    tty1         Sat Sep  3 23:32 - 04:21  (04:49)     0.0.0.0
+runlevel (to lvl 5)   Sat Sep  3 23:32 - 04:21  (04:49)     0.0.0.0
+reboot   system boot  Sat Sep  3 23:32 - 04:21  (04:49)     0.0.0.0
+shutdown system down  Sat Sep  3 23:31 - 23:32  (00:00)     0.0.0.0
+morin    tty1         Sat Sep  3 23:29 - down   (00:02)     0.0.0.0
+runlevel (to lvl 5)   Sat Sep  3 23:29 - 23:31  (00:02)     0.0.0.0
+reboot   system boot  Sat Sep  3 23:29 - 23:31  (00:02)     0.0.0.0
+shutdown system down  Sat Sep  3 23:28 - 23:29  (00:00)     0.0.0.0
+morin    tty2         Sat Sep  3 23:26 - 23:28  (00:01)     0.0.0.0
+morin    :0           Sat Sep  3 23:26 - 23:26  (00:00)     0.0.0.0
+morin    tty2         Sat Sep  3 23:25 - 23:26  (00:00)     0.0.0.0
+morin    :0           Sat Sep  3 23:25 - 23:25  (00:00)     0.0.0.0
+morin    :0           Sat Sep  3 23:25 - 23:25  (00:00)     0.0.0.0
+morin    tty1         Sat Sep  3 23:21 - down   (00:07)     0.0.0.0
+runlevel (to lvl 5)   Sat Sep  3 23:20 - 23:28  (00:07)     0.0.0.0
+reboot   system boot  Sat Sep  3 23:20 - 23:28  (00:07)     0.0.0.0
+morin    :0           Sat Sep  3 23:06 - 23:19  (00:12)     0.0.0.0
+morin    tty2         Sat Sep  3 22:49 - 23:05  (00:16)     0.0.0.0
+runlevel (to lvl 5)   Sat Sep  3 22:49 - 23:20  (00:31)     0.0.0.0
+reboot   system boot  Sat Sep  3 22:49 - 23:28  (00:39)     0.0.0.0
+morin    tty2         Sat Sep  3 14:12 - crash  (08:36)     0.0.0.0
+runlevel (to lvl 5)   Sat Sep  3 14:12 - 22:49  (08:36)     0.0.0.0
+reboot   system boot  Sat Sep  3 14:12 - 23:28  (09:15)     0.0.0.0
+morin    tty2         Sat Sep  3 01:37 - crash  (12:35)     0.0.0.0
+runlevel (to lvl 5)   Sat Sep  3 01:37 - 14:12  (12:35)     0.0.0.0
+reboot   system boot  Sat Sep  3 01:37 - 23:28  (21:51)     0.0.0.0
+shutdown system down  Sat Sep  3 01:34 - 01:37  (00:02)     0.0.0.0
+runlevel (to lvl 5)   Sat Sep  3 01:31 - 01:34  (00:03)     0.0.0.0
+morin    tty2         Sat Sep  3 01:31 - down   (00:03)     0.0.0.0
+reboot   system boot  Sat Sep  3 01:31 - 01:34  (00:03)     0.0.0.0
+
+wtmp begins Sat Sep  3 01:31:19 2022
+### End last -adx###
+
+### BEGIN cut -d: -f1 /etc/passwd###
+
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+systemd-network
+systemd-resolve
+messagebus
+systemd-timesync
+syslog
+_apt
+tss
+uuidd
+systemd-oom
+tcpdump
+avahi-autoipd
+usbmux
+dnsmasq
+kernoops
+avahi
+cups-pk-helper
+rtkit
+whoopsie
+sssd
+speech-dispatcher
+nm-openvpn
+saned
+colord
+geoclue
+pulse
+gnome-initial-setup
+hplip
+morin
+_flatpak
+sddm
+sshd
+### End cut -d: -f1 /etc/passwd###
+

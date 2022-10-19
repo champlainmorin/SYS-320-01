@@ -3,6 +3,7 @@ import os
 import yaml
 import re
 from sre_constants import FAILURE
+
 class C:
     """
     A class that defines the ASCII control characters to color the terminal
