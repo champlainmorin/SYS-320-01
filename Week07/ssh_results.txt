@@ -1,0 +1,414 @@
+### BEGIN ps -ef###
+
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 Jul11 ?        00:03:21 /sbin/init
+root           2       0  0 Jul11 ?        00:00:00 [kthreadd]
+root           3       2  0 Jul11 ?        00:00:00 [rcu_gp]
+root           4       2  0 Jul11 ?        00:00:00 [rcu_par_gp]
+root           6       2  0 Jul11 ?        00:00:00 [kworker/0:0H-kblockd]
+root           8       2  0 Jul11 ?        00:00:00 [mm_percpu_wq]
+root           9       2  0 Jul11 ?        00:00:07 [ksoftirqd/0]
+root          10       2  0 Jul11 ?        00:00:47 [rcu_sched]
+root          11       2  0 Jul11 ?        00:01:25 [migration/0]
+root          12       2  0 Jul11 ?        00:00:00 [idle_inject/0]
+root          14       2  0 Jul11 ?        00:00:00 [cpuhp/0]
+root          15       2  0 Jul11 ?        00:00:00 [kdevtmpfs]
+root          16       2  0 Jul11 ?        00:00:00 [netns]
+root          17       2  0 Jul11 ?        00:00:00 [rcu_tasks_kthre]
+root          18       2  0 Jul11 ?        00:00:00 [kauditd]
+root          19       2  0 Jul11 ?        00:00:05 [khungtaskd]
+root          20       2  0 Jul11 ?        00:00:00 [oom_reaper]
+root          21       2  0 Jul11 ?        00:00:00 [writeback]
+root          22       2  0 Jul11 ?        00:00:00 [kcompactd0]
+root          23       2  0 Jul11 ?        00:00:00 [ksmd]
+root          24       2  0 Jul11 ?        00:00:27 [khugepaged]
+root          70       2  0 Jul11 ?        00:00:00 [kintegrityd]
+root          71       2  0 Jul11 ?        00:00:00 [kblockd]
+root          72       2  0 Jul11 ?        00:00:00 [blkcg_punt_bio]
+root          73       2  0 Jul11 ?        00:00:00 [tpm_dev_wq]
+root          74       2  0 Jul11 ?        00:00:00 [ata_sff]
+root          75       2  0 Jul11 ?        00:00:00 [md]
+root          76       2  0 Jul11 ?        00:00:00 [edac-poller]
+root          77       2  0 Jul11 ?        00:00:00 [devfreq_wq]
+root          78       2  0 Jul11 ?        00:00:00 [watchdogd]
+root          81       2  0 Jul11 ?        00:00:02 [kswapd0]
+root          82       2  0 Jul11 ?        00:00:00 [ecryptfs-kthrea]
+root          84       2  0 Jul11 ?        00:00:00 [kthrotld]
+root          85       2  0 Jul11 ?        00:00:00 [acpi_thermal_pm]
+root          86       2  0 Jul11 ?        00:00:00 [scsi_eh_0]
+root          87       2  0 Jul11 ?        00:00:00 [scsi_tmf_0]
+root          88       2  0 Jul11 ?        00:00:00 [scsi_eh_1]
+root          89       2  0 Jul11 ?        00:00:00 [scsi_tmf_1]
+root          91       2  0 Jul11 ?        00:00:00 [vfio-irqfd-clea]
+root          92       2  0 Jul11 ?        00:00:00 [ipv6_addrconf]
+root         102       2  0 Jul11 ?        00:00:00 [kstrp]
+root         105       2  0 Jul11 ?        00:00:00 [kworker/u3:0]
+root         118       2  0 Jul11 ?        00:00:00 [charger_manager]
+root         160       2  0 Jul11 ?        00:00:00 [scsi_eh_2]
+root         161       2  0 Jul11 ?        00:00:00 [scsi_tmf_2]
+root         162       2  0 Jul11 ?        00:00:51 [kworker/0:1H-kblockd]
+root         165       2  0 Jul11 ?        00:00:00 [cryptd]
+root         183       2  0 Jul11 ?        00:00:00 [ttm_swap]
+root         229       2  0 Jul11 ?        00:00:00 [raid5wq]
+root         272       2  0 Jul11 ?        00:00:12 [jbd2/sda1-8]
+root         273       2  0 Jul11 ?        00:00:00 [ext4-rsv-conver]
+root         347       1  0 Jul11 ?        00:00:28 /lib/systemd/systemd-journald
+root         373       1  0 Jul11 ?        00:00:55 /lib/systemd/systemd-udevd
+root         488       2  0 Jul11 ?        00:00:00 [kaluad]
+root         489       2  0 Jul11 ?        00:00:00 [kmpath_rdacd]
+root         490       2  0 Jul11 ?        00:00:00 [kmpathd]
+root         491       2  0 Jul11 ?        00:00:00 [kmpath_handlerd]
+root         492       1  0 Jul11 ?        00:15:48 /sbin/multipathd -d -s
+root         502       2  0 Jul11 ?        00:00:00 [loop1]
+root         504       2  0 Jul11 ?        00:00:00 [loop2]
+root         506       2  0 Jul11 ?        00:00:00 [loop3]
+root         511       2  0 Jul11 ?        00:00:00 [loop5]
+systemd+     536       1  0 Jul11 ?        00:00:30 /lib/systemd/systemd-timesyncd
+systemd+     593       1  0 Jul11 ?        00:01:49 /lib/systemd/systemd-networkd
+systemd+     603       1  0 Jul11 ?        00:00:29 /lib/systemd/systemd-resolved
+message+     643       1  0 Jul11 ?        00:00:15 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         652       1  0 Jul11 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         653       1  0 Jul11 ?        00:00:00 /usr/sbin/oddjobd -n -p /var/run/oddjobd.pid -t 300
+root         663       1  0 Jul11 ?        00:04:39 /usr/lib/accountsservice/accounts-daemon
+root         665       1  0 Jul11 ?        00:00:25 /usr/sbin/cron -f
+root         666       1  0 Jul11 ?        00:00:28 /lib/systemd/systemd-logind
+root         668       1  0 Jul11 ?        00:00:14 /usr/lib/udisks2/udisksd
+daemon       674       1  0 Jul11 ?        00:00:00 /usr/sbin/atd -f
+root         675       1  0 Jul11 ttyS0    00:00:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 vt220
+root         678       1  0 Jul11 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         724       1  0 Jul11 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         735       1  0 Jul11 ?        00:00:01 /usr/lib/policykit-1/polkitd --no-debug
+root         774       1  0 Jul11 ?        00:00:00 /opt/pbis/sbin/lwsmd --start-as-daemon
+root         782     774  0 Jul11 ?        00:01:45 lw-container lwreg
+root         809     774  0 Jul11 ?        00:00:15 lw-container eventlog
+root         820     774  0 Jul11 ?        00:02:56 lw-container netlogon
+root         830     774  0 Jul11 ?        00:00:00 lw-container lwio
+root         855     774  0 Jul11 ?        00:14:18 lw-container lsass
+root         891     774  0 Jul11 ?        00:00:00 lw-container reapsysl
+root         935       1  0 Jul11 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+syslog     15381       1  0 Jul12 ?        00:00:05 /usr/sbin/rsyslogd -n -iNONE
+root       22018       2  0 Jul12 ?        00:00:00 [xfsalloc]
+root       22019       2  0 Jul12 ?        00:00:00 [xfs_mru_cache]
+root      320680       2  0 Sep08 ?        00:00:00 [loop7]
+root      415883       2  0 Sep27 ?        00:00:00 [loop8]
+root      519325       2  0 Oct18 ?        00:00:00 [loop0]
+root      519423       1  0 Oct18 ?        00:02:12 /usr/lib/snapd/snapd
+p.dalton  560582       1  0 Oct25 ?        00:00:00 /lib/systemd/systemd --user
+p.dalton  560590  560582  0 Oct25 ?        00:00:00 (sd-pam)
+p.dalton  561559       1  0 Oct25 ?        00:00:01 [go-daemon sample]
+root      600020     935  0 Oct30 ?        00:00:00 sshd: dylan.navarro@cyber.local [priv]
+dylan.n+  600051       1  0 Oct30 ?        00:00:00 /lib/systemd/systemd --user
+dylan.n+  600054  600051  0 Oct30 ?        00:00:00 (sd-pam)
+dylan.n+  600170  600020  0 Oct30 ?        00:00:00 sshd: dylan.navarro@pts/0
+dylan.n+  600171  600170  0 Oct30 pts/0    00:00:00 -bash
+root      628544       2  0 Oct31 ?        00:00:00 [loop6]
+root      628747       2  0 Oct31 ?        00:00:00 [loop9]
+root      639239       2  0 Oct31 ?        00:00:00 [spl_system_task]
+root      639240       2  0 Oct31 ?        00:00:00 [spl_delay_taskq]
+root      639241       2  0 Oct31 ?        00:00:00 [spl_dynamic_tas]
+root      639243       2  0 Oct31 ?        00:00:00 [spl_kmem_cache]
+root      639263       2  0 Oct31 ?        00:00:00 [zvol]
+root      639265       2  0 Oct31 ?        00:00:00 [arc_prune]
+root      639266       2  0 Oct31 ?        00:00:00 [zthr_procedure]
+root      639267       2  0 Oct31 ?        00:00:06 [zthr_procedure]
+root      639268       2  0 Oct31 ?        00:00:00 [dbu_evict]
+root      639269       2  0 Oct31 ?        00:00:06 [dbuf_evict]
+root      639271       2  0 Oct31 ?        00:00:00 [z_vdev_file]
+root      639272       2  0 Oct31 ?        00:00:03 [l2arc_feed]
+root      657306       2  0 10:27 ?        00:00:00 [loop10]
+root      660522     935  0 16:44 ?        00:00:00 sshd: jacob.mayotte [priv]
+jacob.m+  660541       1  0 16:44 ?        00:00:00 /lib/systemd/systemd --user
+jacob.m+  660546  660541  0 16:44 ?        00:00:00 (sd-pam)
+jacob.m+  660632  660522  0 16:44 ?        00:00:02 sshd: jacob.mayotte@notty
+root      661256       2  0 19:07 ?        00:00:02 [kworker/0:1-events]
+root      661423       2  0 19:16 ?        00:00:01 [kworker/u2:0-events_power_efficient]
+root      661748     935  0 19:58 ?        00:00:00 sshd: zachary.morin [priv]
+zachary+  661761       1  0 19:58 ?        00:00:00 /lib/systemd/systemd --user
+zachary+  661764  661761  0 19:58 ?        00:00:00 (sd-pam)
+zachary+  661855  661748  0 19:58 ?        00:00:00 sshd: zachary.morin
+root      661864     935  0 20:02 ?        00:00:00 sshd: zachary.morin [priv]
+zachary+  661966  661864  0 20:02 ?        00:00:00 sshd: zachary.morin
+root      662241     935  0 20:09 ?        00:00:00 sshd: zachary.morin [priv]
+zachary+  662337  662241  0 20:09 ?        00:00:00 sshd: zachary.morin@pts/1
+zachary+  662338  662337  0 20:09 pts/1    00:00:00 -bash
+root      662769     935  0 20:16 ?        00:00:00 sshd: zachary.morin [priv]
+zachary+  662859  662769  0 20:16 ?        00:00:03 sshd: zachary.morin@notty
+zachary+  662944  662859  0 20:21 ?        00:00:00 /usr/lib/openssh/sftp-server
+root      662982       2  0 20:24 ?        00:00:00 [kworker/u2:2-flush-8:0]
+root      662988     935  0 20:26 ?        00:00:00 sshd: jacob.mayotte [priv]
+jacob.m+  663086  662988  0 20:26 ?        00:00:00 sshd: jacob.mayotte@notty
+root      663135       1  0 20:28 ?        00:00:00 /usr/libexec/fwupd/fwupd
+root      663179       2  0 20:28 ?        00:00:00 [kworker/0:0-events]
+root      663195       2  0 20:29 ?        00:00:00 [kworker/u2:1-events_power_efficient]
+zachary+  663360  662859  0 20:33 ?        00:00:00 /usr/lib/openssh/sftp-server
+zachary+  663379  662859  0 20:33 ?        00:00:00 ps -ef
+### End ps -ef###
+
+### BEGIN netstat -an --inet###
+
+### End netstat -an --inet###
+
+### BEGIN last -adx###
+
+zachary. pts/2        Wed Nov  2 20:33 - 20:33  (00:00)     FOSTER202-16.cyber.local
+zachary. pts/2        Wed Nov  2 20:31 - 20:31  (00:00)     FOSTER202-16.cyber.local
+zachary. pts/2        Wed Nov  2 20:29 - 20:30  (00:00)     FOSTER202-16.cyber.local
+zachary. pts/2        Wed Nov  2 20:27 - 20:27  (00:00)     FOSTER202-16.cyber.local
+zachary. pts/2        Wed Nov  2 20:27 - 20:27  (00:00)     FOSTER202-16.cyber.local
+zachary. pts/2        Wed Nov  2 20:26 - 20:26  (00:00)     FOSTER202-16.cyber.local
+zachary. pts/2        Wed Nov  2 20:24 - 20:24  (00:00)     FOSTER202-16.cyber.local
+zachary. pts/2        Wed Nov  2 20:15 - 20:16  (00:00)     FOSTER202-16.cyber.local
+zachary. pts/1        Wed Nov  2 20:09   still logged in    FOSTER202-16.cyber.local
+zachary. pts/1        Wed Nov  2 20:08 - 20:09  (00:01)     FOSTER202-16.cyber.local
+zachary. pts/1        Wed Nov  2 19:07 - 19:38  (00:30)     150-148.champlain.edu
+cole.dav pts/2        Mon Oct 31 22:23 - 22:34  (00:10)     stu-14-149-171-184.champlain.edu
+cole.dav pts/5        Mon Oct 31 20:56 - 22:23  (01:27)     stu-14-149-171-184.champlain.edu
+paul.gle pts/2        Mon Oct 31 20:49 - 20:57  (00:08)     stu-168-146-171-184.champlain.edu
+paul.gle pts/2        Mon Oct 31 20:46 - 20:46  (00:00)     stu-168-146-171-184.champlain.edu
+sarah.fo pts/5        Mon Oct 31 20:22 - 20:25  (00:03)     JOYCE310-06.cyber.local
+miles.ca pts/4        Mon Oct 31 20:22 - 21:20  (00:58)     JOYCE310-05.cyber.local
+miles.ca pts/4        Mon Oct 31 20:13 - 20:21  (00:08)     JOYCE310-05.cyber.local
+paul.gle pts/7        Mon Oct 31 19:29 - 19:56  (00:26)     JOYCE310-03.cyber.local
+sarah.fo pts/6        Mon Oct 31 19:25 - 20:03  (00:38)     JOYCE310-06.cyber.local
+miles.ca pts/5        Mon Oct 31 19:25 - 20:10  (00:45)     JOYCE310-05.cyber.local
+jacob.ma pts/1        Mon Oct 31 19:17 - 00:29  (05:11)     stu-62-155-171-184.champlain.edu
+cole.dav pts/4        Mon Oct 31 19:09 - 20:08  (00:59)     stu-14-149-171-184.champlain.edu
+dylan.na pts/3        Mon Oct 31 18:32 - 22:17  (03:45)     192.168.5.102
+miles.ca pts/1        Mon Oct 31 18:27 - 19:15  (00:48)     stu-82-154-171-184.champlain.edu
+dylan.na pts/2        Mon Oct 31 18:18 - 20:31  (02:12)     192.168.5.101
+miles.ca pts/1        Mon Oct 31 17:17 - 18:26  (01:08)     stu-82-154-171-184.champlain.edu
+miles.ca pts/1        Mon Oct 31 16:49 - 17:16  (00:27)     stu-82-154-171-184.champlain.edu
+miles.ca pts/1        Mon Oct 31 10:28 - 10:28  (00:00)     stu-130-158-171-184.champlain.edu
+paul.gle pts/2        Sun Oct 30 21:23 - 22:20  (00:56)     JOYCE310-03.cyber.local
+abijah.b pts/4        Sun Oct 30 21:08 - 21:23  (00:14)     JOYCE310-02.cyber.local
+paul.gle pts/3        Sun Oct 30 20:49 - 21:13  (00:23)     JOYCE310-03.cyber.local
+miles.ca pts/2        Sun Oct 30 20:10 - 21:10  (01:00)     JOYCE310-04.cyber.local
+miles.ca pts/2        Sun Oct 30 20:02 - 20:03  (00:00)     JOYCE310-04.cyber.local
+alexande pts/1        Sun Oct 30 17:15 - 22:05  (04:49)     stu-11-155-171-184.champlain.edu
+alexande pts/1        Sun Oct 30 15:56 - 17:14  (01:18)     stu-11-155-171-184.champlain.edu
+dylan.na pts/0        Sun Oct 30 15:31   still logged in    GW-SEC335.cyber.local
+alexande pts/0        Sat Oct 29 13:10 - 21:28  (08:17)     stu-11-155-171-184.champlain.edu
+alexande pts/0        Fri Oct 28 19:57 - 20:58  (01:01)     stu-11-155-171-184.champlain.edu
+alexande pts/0        Fri Oct 28 19:51 - 19:56  (00:05)     stu-11-155-171-184.champlain.edu
+ubuntu   pts/0        Wed Oct 26 10:28 - 11:46  (01:17)     _gateway
+ubuntu   pts/1        Tue Oct 25 23:31 - 08:33 (1+09:02)    _gateway
+ubuntu   pts/1        Tue Oct 25 23:27 - 23:29  (00:02)     _gateway
+p.dalton pts/0        Tue Oct 25 23:23 - 23:32  (00:09)     115-152.champlain.edu
+ubuntu   pts/0        Tue Oct 25 23:16 - 23:16  (00:00)     _gateway
+ubuntu   pts/0        Tue Oct 25 23:13 - 23:14  (00:00)     _gateway
+ubuntu   pts/0        Tue Oct 25 22:52 - 23:10  (00:17)     _gateway
+runlevel (to lvl 5)   Mon Jul 11 17:47   still running      5.4.0-109-generic
+reboot   system boot  Mon Jul 11 17:39   still running      5.4.0-109-generic
+jahseem. pts/0        Fri May  6 19:00 - 17:27 (2+22:26)    GW-SYS140-01.cyber.local
+jahseem. pts/0        Fri May  6 18:13 - 18:41  (00:28)     GW-SYS140-01.cyber.local
+eli.mink pts/0        Tue Apr 26 23:44 - 23:45  (00:00)     stu-156-144-171-184.champlain.edu
+asani.ve pts/0        Tue Apr 26 23:01 - 23:01  (00:00)     192.168.6.73
+reed.sim pts/0        Tue Apr 26 22:36 - 22:47  (00:11)     192.168.6.73
+runlevel (to lvl 5)   Tue Apr 26 16:55 - 17:47 (76+00:51)   5.4.0-109-generic
+reboot   system boot  Tue Apr 26 16:55   still running      5.4.0-109-generic
+ubuntu   pts/1        Mon Apr 18 11:12 - crash (8+05:43)    _gateway
+jack.leo pts/1        Tue Apr 12 23:56 - 00:15  (00:18)     192.168.6.73
+jack.leo pts/1        Tue Apr 12 23:54 - 23:54  (00:00)     192.168.6.73
+jack.leo pts/1        Tue Apr 12 22:17 - 22:18  (00:00)     192.168.6.73
+jahseem. pts/2        Tue Apr 12 21:04 - 21:05  (00:00)     GW-SYS140-01.cyber.local
+jahseem. pts/2        Tue Apr 12 20:49 - 20:57  (00:07)     GW-SYS140-01.cyber.local
+jahseem. pts/2        Tue Apr 12 20:48 - 20:48  (00:00)     GW-SYS140-01.cyber.local
+eli.mink pts/2        Tue Apr 12 20:44 - 20:45  (00:00)     stu-79-144-171-184.champlain.edu
+jahseem. pts/2        Tue Apr 12 20:38 - 20:41  (00:03)     GW-SYS140-01.cyber.local
+eli.mink pts/2        Tue Apr 12 20:37 - 20:37  (00:00)     stu-79-144-171-184.champlain.edu
+jahseem. pts/2        Tue Apr 12 20:17 - 20:36  (00:19)     GW-SYS140-01.cyber.local
+jahseem. pts/2        Tue Apr 12 20:13 - 20:13  (00:00)     GW-SYS140-01.cyber.local
+jahseem. pts/2        Tue Apr 12 20:02 - 20:09  (00:07)     GW-SYS140-01.cyber.local
+jahseem. pts/2        Tue Apr 12 19:58 - 19:58  (00:00)     GW-SYS140-01.cyber.local
+jahseem. pts/2        Tue Apr 12 19:49 - 19:57  (00:08)     GW-SYS140-01.cyber.local
+jahseem. pts/1        Tue Apr 12 19:30 - 21:10  (01:40)     192.168.6.72
+reed.sim pts/1        Tue Apr 12 18:28 - 18:29  (00:01)     192.168.6.73
+blaise.n pts/1        Thu Apr  7 14:27 - 14:28  (00:00)     stu-105-157-171-184.champlain.edu
+emily.cr pts/1        Thu Apr  7 13:39 - 13:40  (00:00)     stu-245-147-171-184.champlain.edu
+ubuntu   pts/0        Wed Apr  6 22:28 - 08:38 (13+10:10)   _gateway
+asani.ve pts/1        Fri Mar 11 10:55 - 11:25  (00:30)     192.168.6.73
+asani.ve pts/1        Fri Mar 11 09:23 - 10:00  (00:37)     192.168.6.73
+asani.ve pts/1        Thu Mar 10 14:41 - 15:14  (00:32)     192.168.6.73
+asani.ve pts/1        Thu Mar 10 10:13 - 10:26  (00:13)     192.168.6.73
+asani.ve pts/1        Thu Mar 10 10:11 - 10:13  (00:01)     192.168.6.73
+ubuntu   pts/0        Thu Mar 10 08:21 - 20:08 (1+11:47)    _gateway
+asani.ve pts/0        Thu Mar 10 01:52 - 02:15  (00:22)     192.168.6.73
+asani.ve pts/0        Thu Mar 10 01:44 - 01:52  (00:08)     192.168.6.73
+asani.ve pts/1        Thu Mar 10 00:47 - 01:43  (00:56)     192.168.6.73
+asani.ve pts/1        Thu Mar 10 00:10 - 00:46  (00:36)     192.168.6.73
+asani.ve pts/1        Thu Mar 10 00:09 - 00:09  (00:00)     192.168.6.73
+asani.ve pts/2        Wed Mar  9 22:35 - 23:48  (01:13)     192.168.6.73
+asani.ve pts/1        Wed Mar  9 21:59 - 22:38  (00:39)     192.168.6.73
+asani.ve pts/1        Wed Mar  9 20:35 - 20:55  (00:20)     192.168.6.73
+asani.ve pts/1        Wed Mar  9 19:30 - 20:24  (00:53)     192.168.6.73
+jahseem. pts/0        Wed Mar  9 16:05 - 01:18  (09:12)     192.168.6.72
+jahseem. pts/0        Wed Mar  9 15:42 - 16:03  (00:21)     192.168.6.72
+jahseem. pts/0        Wed Mar  9 14:00 - 14:32  (00:31)     192.168.6.72
+eli.mink pts/0        Tue Mar  8 23:41 - 23:41  (00:00)     stu-168-144-171-184.champlain.edu
+eli.mink pts/0        Tue Mar  8 23:41 - 23:41  (00:00)     stu-168-144-171-184.champlain.edu
+eli.mink pts/0        Tue Mar  8 23:37 - 23:37  (00:00)     stu-168-144-171-184.champlain.edu
+eli.mink pts/0        Tue Mar  8 23:37 - 23:37  (00:00)     stu-168-144-171-184.champlain.edu
+eli.mink pts/0        Tue Mar  8 23:37 - 23:37  (00:00)     stu-168-144-171-184.champlain.edu
+ciaran.b pts/0        Tue Mar  8 22:23 - 23:17  (00:54)     stu-210-149-171-184.champlain.edu
+john.tis pts/0        Tue Mar  8 22:19 - 22:20  (00:01)     stu-151-150-171-184.champlain.edu
+eli.mink pts/2        Tue Mar  8 21:18 - 21:19  (00:00)     stu-168-144-171-184.champlain.edu
+samuel.b pts/2        Tue Mar  8 20:25 - 20:25  (00:00)     stu-18-155-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 19:51 - 19:51  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 19:50 - 19:50  (00:00)     stu-210-149-171-184.champlain.edu
+samuel.b pts/2        Tue Mar  8 19:44 - 19:44  (00:00)     stu-18-155-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 19:41 - 19:41  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 19:41 - 19:41  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 19:41 - 19:41  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/3        Tue Mar  8 19:38 - 19:38  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/3        Tue Mar  8 19:37 - 19:37  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/4        Tue Mar  8 19:36 - 19:37  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/3        Tue Mar  8 19:36 - 19:36  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/3        Tue Mar  8 19:35 - 19:35  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/4        Tue Mar  8 19:33 - 19:33  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/3        Tue Mar  8 19:33 - 19:33  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/3        Tue Mar  8 19:33 - 19:33  (00:00)     stu-210-149-171-184.champlain.edu
+samuel.b pts/2        Tue Mar  8 19:31 - 19:40  (00:09)     stu-18-155-171-184.champlain.edu
+ciaran.b pts/3        Tue Mar  8 19:28 - 19:28  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 19:28 - 19:28  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 19:27 - 19:27  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 19:27 - 19:27  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 19:26 - 19:26  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 19:24 - 19:24  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 19:23 - 19:23  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 19:22 - 19:22  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 19:20 - 19:21  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 19:20 - 19:20  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/3        Tue Mar  8 19:08 - 19:08  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 19:08 - 19:08  (00:00)     stu-210-149-171-184.champlain.edu
+samuel.b pts/2        Tue Mar  8 19:07 - 19:07  (00:00)     stu-18-155-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 19:06 - 19:07  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 19:06 - 19:06  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/3        Tue Mar  8 19:03 - 19:03  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 19:03 - 19:03  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/3        Tue Mar  8 18:56 - 18:56  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 18:56 - 18:56  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/3        Tue Mar  8 18:55 - 18:56  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 18:55 - 18:55  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 18:52 - 18:52  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 18:52 - 18:52  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/3        Tue Mar  8 18:47 - 18:47  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 18:47 - 18:47  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/3        Tue Mar  8 18:42 - 18:43  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/2        Tue Mar  8 18:42 - 18:42  (00:00)     stu-210-149-171-184.champlain.edu
+ciaran.b pts/0        Tue Mar  8 18:14 - 22:10  (03:56)     stu-210-149-171-184.champlain.edu
+john.tis pts/0        Tue Mar  8 18:03 - 18:03  (00:00)     stu-151-150-171-184.champlain.edu
+eli.mink pts/3        Tue Mar  8 17:22 - 17:22  (00:00)     tmux(108647).%1
+eli.mink pts/2        Tue Mar  8 17:22 - 17:22  (00:00)     tmux(108647).%0
+eli.mink pts/0        Tue Mar  8 17:21 - 17:22  (00:00)     stu-168-144-171-184.champlain.edu
+ubuntu   pts/2        Tue Mar  8 14:07 - 14:08  (00:01)     _gateway
+ubuntu   pts/0        Tue Mar  8 10:36 - 15:34  (04:57)     _gateway
+noah.sti pts/0        Mon Mar  7 18:59 - 23:14  (04:14)     192.168.6.72
+noah.sti pts/2        Mon Mar  7 10:53 - 11:07  (00:14)     192.168.6.72
+ubuntu   pts/1        Sat Mar  5 22:22 - 13:25 (3+15:02)    _gateway
+thomas.a pts/2        Thu Mar  3 19:11 - 20:17  (01:05)     stu-61-154-171-184.champlain.edu
+samuel.j pts/4        Thu Mar  3 15:18 - 15:19  (00:00)     stu-103-155-171-184.champlain.edu
+ubuntu   pts/3        Thu Mar  3 15:10 - 15:49  (00:39)     _gateway
+ubuntu   pts/3        Thu Mar  3 14:37 - 14:53  (00:16)     _gateway
+eli.mink pts/5        Thu Mar  3 14:30 - 14:30  (00:00)     tmux(55045).%1
+eli.mink pts/4        Thu Mar  3 14:30 - 14:30  (00:00)     tmux(55045).%0
+eli.mink pts/3        Thu Mar  3 14:23 - 14:34  (00:11)     stu-150-144-171-184.champlain.edu
+ubuntu   pts/4        Thu Mar  3 13:40 - 13:55  (00:14)     _gateway
+christop pts/3        Thu Mar  3 13:29 - 14:18  (00:49)     192.168.6.73
+samuel.j pts/3        Thu Mar  3 13:11 - 13:21  (00:10)     stu-103-155-171-184.champlain.edu
+samuel.j pts/3        Thu Mar  3 13:08 - 13:08  (00:00)     stu-103-155-171-184.champlain.edu
+samuel.j pts/3        Thu Mar  3 12:55 - 12:57  (00:01)     stu-103-155-171-184.champlain.edu
+thomas.a pts/2        Thu Mar  3 12:55 - 15:49  (02:53)     stu-61-154-171-184.champlain.edu
+duane.du pts/2        Wed Mar  2 20:55 - 20:55  (00:00)     192.168.6.72
+duane.du pts/2        Wed Mar  2 20:54 - 20:55  (00:00)     192.168.6.72
+duane.du pts/2        Wed Mar  2 20:50 - 20:50  (00:00)     192.168.6.72
+duane.du pts/2        Wed Mar  2 20:47 - 20:47  (00:00)     192.168.6.72
+duane.du pts/2        Wed Mar  2 20:44 - 20:47  (00:02)     192.168.6.72
+duane.du pts/2        Wed Mar  2 20:30 - 20:30  (00:00)     192.168.6.72
+duane.du pts/2        Wed Mar  2 20:30 - 20:30  (00:00)     192.168.6.72
+ubuntu   pts/2        Mon Feb 28 11:56 - 11:56  (00:00)     115-152.champlain.edu
+ubuntu   pts/0        Mon Feb 28 11:52 - 11:41 (6+23:49)    _gateway
+ubuntu   pts/0        Mon Feb 28 11:52 - 11:52  (00:00)     _gateway
+ubuntu   pts/0        Mon Feb 28 11:51 - 11:52  (00:00)     _gateway
+ubuntu   pts/0        Mon Feb 28 10:11 - 11:51  (01:39)     _gateway
+ubuntu   pts/1        Sun Feb 27 00:58 - 11:52 (6+10:53)    _gateway
+p.dalton pts/0        Sun Feb 27 00:52 - 01:17  (00:24)     192.168.6.72
+ubuntu   pts/0        Sun Feb 27 00:27 - 00:29  (00:02)     _gateway
+ubuntu   pts/0        Sun Feb 27 00:07 - 00:07  (00:00)     _gateway
+ubuntu   pts/0        Sat Feb 26 23:58 - 00:07  (00:09)     _gateway
+p.dalton pts/1        Sat Feb 26 23:50 - 00:27  (00:36)     10.223.0.132
+p.dalton pts/1        Sat Feb 26 23:44 - 23:44  (00:00)     10.223.0.132
+ubuntu   pts/0        Sat Feb 26 23:39 - 23:56  (00:16)     _gateway
+runlevel (to lvl 5)   Sat Feb 26 23:27 - 16:55 (58+16:28)   5.4.0-99-generic
+reboot   system boot  Sat Feb 26 23:26   still running      5.4.0-99-generic
+
+wtmp begins Sat Feb 26 23:26:55 2022
+### End last -adx###
+
+### BEGIN cut -d: -f1 /etc/passwd###
+
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+systemd-network
+systemd-resolve
+systemd-timesync
+messagebus
+syslog
+_apt
+tss
+uuidd
+tcpdump
+sshd
+landscape
+pollinate
+systemd-coredump
+ubuntu
+lxd
+p.dalton
+Denestomed
+Peding
+Minat1995
+Droutich1970
+Hanceek
+Houred
+Gulay1979
+Holow1939
+Husires
+Saidess
+Acese1965
+Estion59
+Andoged
+Whitu1992
+Swout1992
+Trae1989
+Asereardscon
+Andneas
+Wagood71
+Theame
+Nowers
+Weirche
+Enten1988
+Haremanse84
+Scouned
+Whishatim
+Obbire
+Unat1986
+Madve1942
+sssd
+### End cut -d: -f1 /etc/passwd###
+
