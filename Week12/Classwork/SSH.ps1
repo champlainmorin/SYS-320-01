@@ -1,3 +1,4 @@
+Install-Module -Name Posh-SSH # In case Posh-SSH is not installed.
 
 # Login to a remote SSH server
 # New-SSHSession -ComputerName '192.168.6.71' -Credential (Get-Credential zachary.morin)
