@@ -25,3 +25,12 @@ if ( Test-Path "C:\Users\zachary.morin\Desktop\Readme.READ" ){
 } else {
     Write-Host "Error"
 }
+
+# Reflection
+# What did you like the most and least about this assignment?
+
+# I liked messing with the user and creating ransomware, that is
+# SUPER fun!
+
+# What additional questions do you have?
+# None!
