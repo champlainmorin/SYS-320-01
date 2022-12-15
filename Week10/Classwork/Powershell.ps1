@@ -1,10 +1,13 @@
 # Get a list of running processes
+Write-Host -BackgroundColor "Green" -foregroundcolor "White" "Get-Process Output:"
 Get-Process
 
 # Get a list of members
+Write-Host -BackgroundColor "Green" -foregroundcolor "White" "Get-Process | Get-Member Output:"
 Get-Process | Get-Member
 
 # Get a list of processes: namw, id, path
+Write-Host -BackgroundColor "Green" -foregroundcolor "White" "Get-Process | Select-Object ProcessName, id, Path Output:"
 Get-Process | Select-Object ProcessName, id, Path
 
 # Save the Output to a CSV File
