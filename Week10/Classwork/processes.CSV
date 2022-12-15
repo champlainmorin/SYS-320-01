@@ -1,242 +1,213 @@
 #TYPE Selected.System.Diagnostics.Process
 "ProcessName","Id","Path"
-"Adobe Desktop Service","9248","C:\Program Files (x86)\Common Files\Adobe\Adobe Desktop Common\ADS\Adobe Desktop Service.exe"
-"AdobeIPCBroker","7380","C:\Program Files (x86)\Common Files\Adobe\Adobe Desktop Common\IPCBox\AdobeIPCBroker.exe"
-"AdobeUpdateService","4212",
-"amdfendrsr","2884",
-"ApplicationFrameHost","15940","C:\WINDOWS\system32\ApplicationFrameHost.exe"
-"armsvc","4228",
-"bash","2668","C:\Program Files\Git\usr\bin\bash.exe"
-"CCLibrary","13764","C:\Program Files\Common Files\Adobe\Creative Cloud Libraries\CCLibrary.exe"
-"CcmExec","8308",
-"CCXProcess","4916","C:\Program Files\Adobe\Adobe Creative Cloud Experience\CCXProcess.exe"
-"Code","2512","C:\Program Files\vscode\Code.exe"
-"Code","8800","C:\Program Files\vscode\Code.exe"
-"Code","13576","C:\Program Files\vscode\Code.exe"
-"Code","14012","C:\Program Files\vscode\Code.exe"
-"Code","14192","C:\Program Files\vscode\Code.exe"
-"Code","14656","C:\Program Files\vscode\Code.exe"
-"Code","15568","C:\Program Files\vscode\Code.exe"
-"Code","15752","C:\Program Files\vscode\Code.exe"
-"conhost","5208","C:\WINDOWS\system32\conhost.exe"
-"conhost","6232","C:\WINDOWS\system32\conhost.exe"
-"conhost","9832","C:\WINDOWS\system32\conhost.exe"
-"conhost","12584","C:\WINDOWS\system32\conhost.exe"
-"conhost","14352","C:\WINDOWS\system32\conhost.exe"
-"CoreSync","14028","C:\Program Files (x86)\Adobe\Adobe Sync\CoreSync\CoreSync.exe"
-"CptService","4488",
-"Creative Cloud","8804","C:\Program Files\Adobe\Adobe Creative Cloud\ACC\Creative Cloud.exe"
-"Creative Cloud Helper","10984","C:\Program Files\Adobe\Adobe Creative Cloud\ACC\Creative Cloud Helper.exe"
-"Creative Cloud Helper","13336","C:\Program Files\Adobe\Adobe Creative Cloud\ACC\Creative Cloud Helper.exe"
-"Creative Cloud UI Helper","9480","C:\Program Files\Common Files\Adobe\Adobe Desktop Common\HEX\Creative Cloud UI Helper.exe"
-"Creative Cloud UI Helper","10252","C:\Program Files\Common Files\Adobe\Adobe Desktop Common\HEX\Creative Cloud UI Helper.exe"
-"Creative Cloud UI Helper","14008","C:\Program Files\Common Files\Adobe\Adobe Desktop Common\HEX\Creative Cloud UI Helper.exe"
-"csrss","788",
-"csrss","912",
-"ctfmon","8476",
-"dllhost","2720","C:\WINDOWS\system32\DllHost.exe"
-"dllhost","4084",
-"dwm","1620",
-"eguiProxy","10016","C:\Program Files\ESET\ESET Security\eguiproxy.exe"
-"ekrn","2392",
-"ERAAgent","4156",
-"esif_uf","4256",
-"explorer","8616","C:\WINDOWS\Explorer.EXE"
-"fontdrvhost","1204",
-"fontdrvhost","1208",
-"ftnlsv","4164",
-"ftscanmgrhv","4104",
-"git-bash","6920","C:\Program Files\Git\git-bash.exe"
-"horizon_client_service","4136",
+"Adobe CEF Helper","516","C:\Program Files\Common Files\Adobe\Adobe Desktop Common\HEX\Adobe CEF Helper.exe"
+"Adobe CEF Helper","15084","C:\Program Files\Common Files\Adobe\Adobe Desktop Common\HEX\Adobe CEF Helper.exe"
+"Adobe CEF Helper","35808","C:\Program Files\Common Files\Adobe\Adobe Desktop Common\HEX\Adobe CEF Helper.exe"
+"Adobe Desktop Service","38904","C:\Program Files (x86)\Common Files\Adobe\Adobe Desktop Common\ADS\Adobe Desktop Service.exe"
+"AdobeIPCBroker","35364","C:\Program Files (x86)\Common Files\Adobe\Adobe Desktop Common\IPCBox\AdobeIPCBroker.exe"
+"AdobeUpdateService","3944",
+"aeagent","5224",
+"agentmonitor","4052",
+"AGMService","3144",
+"AGSService","3056",
+"ApplicationFrameHost","35784","C:\WINDOWS\system32\ApplicationFrameHost.exe"
+"armsvc","3936",
+"audiodg","30276",
+"bash","42132","C:\Program Files\Git for Windows\usr\bin\bash.exe"
+"CCLibrary","4680","C:\Program Files\Common Files\Adobe\Creative Cloud Libraries\CCLibrary.exe"
+"CcmExec","3580",
+"CCXProcess","36288","C:\Program Files\Adobe\Adobe Creative Cloud Experience\CCXProcess.exe"
+"Code","4720","C:\Program Files\vscode\Code.exe"
+"Code","10424","C:\Program Files\vscode\Code.exe"
+"Code","13732","C:\Program Files\vscode\Code.exe"
+"Code","30196","C:\Program Files\vscode\Code.exe"
+"Code","32604","C:\Program Files\vscode\Code.exe"
+"Code","34080","C:\Program Files\vscode\Code.exe"
+"Code","37568","C:\Program Files\vscode\Code.exe"
+"Code","38212","C:\Program Files\vscode\Code.exe"
+"conhost","5260",
+"conhost","16436","C:\WINDOWS\system32\conhost.exe"
+"conhost","22568","C:\WINDOWS\system32\conhost.exe"
+"conhost","26236","C:\WINDOWS\system32\conhost.exe"
+"conhost","35360","C:\WINDOWS\system32\conhost.exe"
+"conhost","42168","C:\WINDOWS\system32\conhost.exe"
+"CoreSync","41092","C:\Program Files (x86)\Adobe\Adobe Sync\CoreSync\CoreSync.exe"
+"CptService","4332",
+"Creative Cloud","11200","C:\Program Files\Adobe\Adobe Creative Cloud\ACC\Creative Cloud.exe"
+"Creative Cloud Helper","16352","C:\Program Files\Adobe\Adobe Creative Cloud\ACC\Creative Cloud Helper.exe"
+"Creative Cloud Helper","41472","C:\Program Files\Adobe\Adobe Creative Cloud\ACC\Creative Cloud Helper.exe"
+"csrss","684",
+"csrss","20640",
+"ctfmon","38924",
+"dllhost","7636",
+"dllhost","25236","C:\WINDOWS\system32\DllHost.exe"
+"dwm","33872",
+"eguiProxy","40464","C:\Program Files\ESET\ESET Security\eguiproxy.exe"
+"ekrn","2292",
+"ERAAgent","12036",
+"explorer","36024","C:\WINDOWS\Explorer.EXE"
+"fontdrvhost","772",
+"fontdrvhost","34316",
+"ftnlsv","4020",
+"ftscanmgrhv","4068",
+"git-bash","41044","C:\Program Files\Git for Windows\git-bash.exe"
+"horizon_client_service","3924",
 "Idle","0",
-"igfxCUIServiceN","3132",
-"igfxEMN","8744","C:\WINDOWS\System32\DriverStore\FileRepository\cui_dch.inf_amd64_eaf2229d3baf8a09\igfxEMN.exe"
-"IntelCpHDCPSvc","2004",
-"jhi_service","4244",
-"jucheck","15848","C:\Program Files (x86)\Common Files\Java\Java Update\jucheck.exe"
-"jusched","5052","C:\Program Files (x86)\Common Files\Java\Java Update\jusched.exe"
-"kass","3204","C:\WINDOWS\kass.exe"
-"keyacc32","4148",
-"LMS","4372",
-"lsass","984",
-"Memory Compression","2952",
-"Microsoft.Photos","12888","C:\Program Files\WindowsApps\Microsoft.Windows.Photos_2022.30100.19004.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe"
-"mintty","4952","C:\Program Files\Git\usr\bin\mintty.exe"
-"msedge","1472","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","2168","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","2892","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","3016","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","3120","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","3244","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","3756","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","4752","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","5212","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","5332","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","5428","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","7220","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","7620","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","8512","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","8584","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","9292","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","9296","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","9320","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","9424","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","9464","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","9576","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","9836","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","9980","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","10040","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","10288","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","10880","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","10888","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","11336","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","11588","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","11604","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","12272","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","12348","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","13452","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","13812","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","13820","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","14284","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","14820","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","15088","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","15460","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","15660","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","15924","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","16100","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","16172","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","16472","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","16704","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","16924","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","17308","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"msedge","17364","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-"node","5048","C:\Program Files\Adobe\Adobe Creative Cloud Experience\libs\node.exe"
-"node","9952","C:\Program Files\Common Files\Adobe\Creative Cloud Libraries\libs\node.exe"
-"NVDisplay.Container","2684",
-"NVDisplay.Container","3372",
-"nvWmi64","4180",
-"nvWmi64","8492",
-"OfficeClickToRun","4304",
-"OneApp.IGCC.WinService","4120",
-"OneDrive","9756","C:\Users\zachary.morin\AppData\Local\Microsoft\OneDrive\OneDrive.exe"
-"powershell","7796","C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
-"powershell","15304","C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe"
-"PresentationFontCache","2508",
-"Registry","172",
-"RstMwService","4272",
-"RtkAudUService64","4288",
-"RtkAudUService64","10524","C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_7877117e1f34d098\RtkAudUService64.exe"
-"RuntimeBroker","3404","C:\Windows\System32\RuntimeBroker.exe"
-"RuntimeBroker","9568","C:\Windows\System32\RuntimeBroker.exe"
-"RuntimeBroker","11356","C:\Windows\System32\RuntimeBroker.exe"
-"RuntimeBroker","12428","C:\Windows\System32\RuntimeBroker.exe"
-"RuntimeBroker","14100","C:\Windows\System32\RuntimeBroker.exe"
-"SCNotification","12816","C:\WINDOWS\CCM\SCNotification.exe"
-"SearchApp","11316","C:\WINDOWS\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe"
-"SearchIndexer","2068",
-"SecurityHealthService","10540",
-"SecurityHealthSystray","10456","C:\Windows\System32\SecurityHealthSystray.exe"
-"services","976",
-"SgrmBroker","16720",
-"ShellExperienceHost","9652","C:\WINDOWS\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe"
-"sihost","1224","C:\WINDOWS\system32\sihost.exe"
-"smartscreen","15648","C:\Windows\System32\smartscreen.exe"
-"smss","568",
-"spoolsv","3748",
-"sqlwriter","4264",
-"StartMenuExperienceHost","10812","C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe"
-"svchost","972","C:\WINDOWS\system32\svchost.exe"
-"svchost","996",
-"svchost","1140",
-"svchost","1300",
-"svchost","1348",
-"svchost","1540",
-"svchost","1548",
-"svchost","1556",
-"svchost","1640",
-"svchost","1668",
-"svchost","1724",
-"svchost","1752",
-"svchost","1828",
-"svchost","1836",
-"svchost","1852",
-"svchost","1900",
-"svchost","2016",
-"svchost","2044",
-"svchost","2092",
-"svchost","2164",
-"svchost","2192",
-"svchost","2232",
-"svchost","2384",
-"svchost","2452",
-"svchost","2460",
-"svchost","2468",
-"svchost","2548",
-"svchost","2592","C:\WINDOWS\system32\svchost.exe"
-"svchost","2604",
-"svchost","2692",
-"svchost","2764",
-"svchost","2772",
-"svchost","2856",
-"svchost","3060",
-"svchost","3068",
-"svchost","3084",
-"svchost","3168",
-"svchost","3176",
-"svchost","3448",
-"svchost","3468",
-"svchost","3560",
-"svchost","3568",
-"svchost","3616",
-"svchost","3888",
-"svchost","4008",
-"svchost","4028",
-"svchost","4112",
-"svchost","4204",
-"svchost","4220",
-"svchost","4352",
-"svchost","4520",
-"svchost","4652","C:\WINDOWS\system32\svchost.exe"
-"svchost","4732",
-"svchost","4844",
-"svchost","5084",
-"svchost","5432",
-"svchost","5632",
-"svchost","5924",
-"svchost","6976",
-"svchost","7492",
-"svchost","7764",
-"svchost","8368",
-"svchost","8380",
-"svchost","9240",
-"svchost","11012","C:\WINDOWS\system32\svchost.exe"
-"svchost","11676",
-"svchost","12608",
-"svchost","12716",
-"svchost","12820",
-"svchost","12996",
-"svchost","15912",
-"svchost","16664",
-"svchost","16932",
+"igfxCUIService","2068",
+"igfxEM","11352","C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_2cec8fd58a80e6ea\igfxEM.exe"
+"IntelCpHDCPSvc","1540",
+"IntelCpHeciSvc","1904",
+"jhi_service","4084",
+"kass","40824","C:\WINDOWS\kass.exe"
+"keyacc32","4044",
+"lsass","912",
+"Memory Compression","2868",
+"Microsoft.Photos","38900","C:\Program Files\WindowsApps\Microsoft.Windows.Photos_2022.30100.19004.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe"
+"mintty","38916","C:\Program Files\Git for Windows\usr\bin\mintty.exe"
+"MoUsoCoreWorker","8116",
+"msedge","7044","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","11844","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","23832","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","28468","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","30528","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","30664","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","30712","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","33900","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","39604","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","39864","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","40644","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","41672","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","42776","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"node","29864","C:\Program Files\Common Files\Adobe\Creative Cloud Libraries\libs\node.exe"
+"node","34276","C:\Program Files\Adobe\Adobe Creative Cloud Experience\libs\node.exe"
+"obs64","27104","C:\Program Files\obs-studio\bin\64bit\obs64.exe"
+"obs-ffmpeg-mux","42696","C:\Program Files\obs-studio\bin\64bit\obs-ffmpeg-mux.exe"
+"OfficeClickToRun","4036",
+"OneDrive","39200","C:\Users\zachary.morin\AppData\Local\Microsoft\OneDrive\OneDrive.exe"
+"powershell","26844","C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe"
+"PresentationFontCache","8772",
+"Registry","124",
+"RtkNGUI64","11268","C:\Program Files\Realtek\Audio\HDA\RtkNGUI64.exe"
+"RuntimeBroker","22424","C:\Windows\System32\RuntimeBroker.exe"
+"RuntimeBroker","31860","C:\Windows\System32\RuntimeBroker.exe"
+"RuntimeBroker","33296","C:\Windows\System32\RuntimeBroker.exe"
+"RuntimeBroker","38288","C:\Windows\System32\RuntimeBroker.exe"
+"SCNotification","28972","C:\WINDOWS\CCM\SCNotification.exe"
+"SearchApp","15488","C:\WINDOWS\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe"
+"SearchIndexer","7840",
+"SearchProtocolHost","33332",
+"SecurityHealthService","9284",
+"SecurityHealthSystray","41604","C:\Windows\System32\SecurityHealthSystray.exe"
+"services","852",
+"SgrmBroker","548",
+"ShellExperienceHost","37756","C:\WINDOWS\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe"
+"sihost","31916","C:\WINDOWS\system32\sihost.exe"
+"smartscreen","37924","C:\Windows\System32\smartscreen.exe"
+"smss","472",
+"spoolsv","3796",
+"sqlwriter","3352",
+"StartMenuExperienceHost","42440","C:\WINDOWS\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe"
+"svchost","280",
+"svchost","692",
+"svchost","1060",
+"svchost","1108",
+"svchost","1224",
+"svchost","1240",
+"svchost","1340",
+"svchost","1380",
+"svchost","1388",
+"svchost","1396",
+"svchost","1472",
+"svchost","1504",
+"svchost","1520",
+"svchost","1532",
+"svchost","1572",
+"svchost","1592",
+"svchost","1616",
+"svchost","1868",
+"svchost","1984",
+"svchost","2032",
+"svchost","2284",
+"svchost","2328",
+"svchost","2512",
+"svchost","2560",
+"svchost","2568",
+"svchost","2576",
+"svchost","2616",
+"svchost","2624",
+"svchost","2732",
+"svchost","2740",
+"svchost","2920",
+"svchost","2936",
+"svchost","3020",
+"svchost","3112",
+"svchost","3220",
+"svchost","3252",
+"svchost","3272",
+"svchost","3456",
+"svchost","3516",
+"svchost","3596",
+"svchost","3620",
+"svchost","3628",
+"svchost","3672",
+"svchost","3704",
+"svchost","3884",
+"svchost","3896",
+"svchost","3908",
+"svchost","3980",
+"svchost","4060",
+"svchost","4124",
+"svchost","4296",
+"svchost","4548",
+"svchost","4736",
+"svchost","4772",
+"svchost","4780",
+"svchost","5272",
+"svchost","6140",
+"svchost","7108",
+"svchost","7276",
+"svchost","7672",
+"svchost","7956",
+"svchost","8060",
+"svchost","8796",
+"svchost","8896",
+"svchost","9588",
+"svchost","10496",
+"svchost","10604",
+"svchost","10840",
+"svchost","10848",
+"svchost","12952",
+"svchost","14896",
+"svchost","16780",
+"svchost","17896",
+"svchost","26192",
+"svchost","28220","C:\WINDOWS\system32\svchost.exe"
+"svchost","29176",
+"svchost","29960",
+"svchost","29972",
+"svchost","30372","C:\WINDOWS\system32\svchost.exe"
+"svchost","30472","C:\WINDOWS\system32\svchost.exe"
+"svchost","35888",
+"svchost","37088","C:\WINDOWS\system32\svchost.exe"
+"svchost","37352",
 "System","4",
-"taskhostw","7748","C:\WINDOWS\system32\taskhostw.exe"
-"TbtP2pShortcutService","4324",
-"TextInputHost","10768","C:\WINDOWS\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe"
-"uhssvc","15480",
-"unsecapp","5616",
-"vmnat","4408",
-"vmnetdhcp","4384",
-"vmware-authd","4364",
-"vmware-tray","13788","C:\Program Files (x86)\VMware\VMware Workstation\vmware-tray.exe"
-"vmware-usbarbitrator64","4400",
-"vmwsprrdpwks","4420",
-"wininit","904",
-"winlogon","796",
-"WmiPrvSE","3792",
-"WmiPrvSE","4856",
-"WmiPrvSE","9496",
-"WmiPrvSE","12956",
-"WmiPrvSE","16116",
-"WmiPrvSE","16156",
-"WMIRegistrationService","4456",
-"WUDFHost","1168",
+"taskhostw","39212","C:\WINDOWS\system32\taskhostw.exe"
+"TextInputHost","31548","C:\WINDOWS\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe"
+"TiWorker","31520",
+"TrustedInstaller","17824",
+"unsecapp","5576",
+"vmnat","4236",
+"vmnetdhcp","4188",
+"vmware-authd","3848",
+"vmware-hostd","5984",
+"vmware-tray","18952","C:\Program Files (x86)\VMware\VMware Workstation\vmware-tray.exe"
+"vmware-usbarbitrator64","4252",
+"vmwsprrdpwks","4348",
+"wininit","780",
+"winlogon","32528",
+"WmiPrvSE","1568",
+"WmiPrvSE","2784",
+"WmiPrvSE","3332",
+"WmiPrvSE","5628",
+"WmiPrvSE","5728",
+"WmiPrvSE","26620",

@@ -27,14 +27,14 @@ while ($true) {
 '@
 
 # Directory to write the bot
-$sbDir = 'C:\Users\zach\Python Code\'
+$sbDir = 'C:\Users\zachary.morin\test\'
 
 # Create a random number to add to the file.
 $sbRand = Get-Random -Minimum 1000 -Maximum 1999
 
 $sbRand
 
-# C:\Users\zach\Python Code\1045winevent.ps1
+# C:\Users\zachary.morin\test\1045winevent.ps1
 # Create the file and location to save the bot
 $file = $sbDir + $sbRand + "winevent.ps1"
 

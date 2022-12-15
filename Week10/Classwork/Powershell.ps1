@@ -11,6 +11,7 @@ Write-Host -BackgroundColor "Green" -foregroundcolor "White" "Get-Process | Sele
 Get-Process | Select-Object ProcessName, id, Path
 
 # Save the Output to a CSV File
+Write-Host -BackgroundColor "Green" -foregroundcolor "White" "Get-Process | Select-Object ProcessName, id, Path | Export-Csv Output:"
 Get-Process | Select-Object ProcessName, id, Path | Export-Csv -Path C:\Users\zachary.morin\Desktop\SYS-320-01\Week10\Classwork\processes.CSV
 
 # System Services
@@ -18,9 +19,9 @@ Get-Service | Get-Member
 Get-Service | Select-Object Status, Name, DisplayName, BinaryPathName | Export-Csv -Path $OutputName
 $outputName
 
-$outputName = "C:\Users\zachary.morin\Desktop\SYS-320-01\Week10\services.csv"
+$outputName = "C:\Users\zachary.morin\Desktop\SYS-320-01\Week10\Classwork\processes.csv"
 
-# $outputName = "C:\Users\zachary.morin\Desktop\RunningServices.csv"
+$outputName2 = "C:\Users\zachary.morin\Desktop\SYS-320-01\Week10\Classwork\RunningServices.csv"
 
 # Get a list of running services
 Get-Service | Where-Object { $_.Status -eq "Running" }
@@ -29,10 +30,19 @@ Get-Service | Select-Object Status, Name, DisplayName, BinaryPathName | Export-C
 # Check to see if the file exists
  if ( Test-Path $outputName ) {
 
-    Write-Host -BackgroundColor "Green" -foregroundcolor "White" "Services File was created!"
+    Write-Host -BackgroundColor "Green" -foregroundcolor "White" "Processes File was created!"
 
 }else {
 
-   Write-Host -BackgroundColor "Green" -foregroundcolor "White" "Services File was not created!"
+   Write-Host -BackgroundColor "Green" -foregroundcolor "White" "Processes File was not created!"
+
+}
+
+if ( Test-Path $outputName2 ){
+   Write-Host -BackgroundColor "Green" -foregroundcolor "White" "RunningServices File was created!"
+
+
+} else {
+   Write-Host -BackgroundColor "Green" -foregroundcolor "White" "RunningServices File was not created!"
 
 }
